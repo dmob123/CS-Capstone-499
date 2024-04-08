@@ -95,7 +95,9 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS moves
 
 # List of usernames to fetch games for
 usernames = ["ck14gt9","Jkingnificent","kapilnathan","Avanziii","Orbiform","Turboautist69","nihalsarin","HansOnTwitch",
-"Polish_fighter3000","NikoTheodorou","Bigfish1995","viditchess","LyonBeast","Konavets","GMWSO","BogdanDeac"]
+"Polish_fighter3000","NikoTheodorou","Bigfish1995","viditchess","LyonBeast","Konavets","GMWSO","BogdanDeac","DanielNaroditsky",
+"DenLaz","RaunakSadhwani2005","LOVEVAE","jefferyx","GABUZYAN_CHESSMOOD","AntonSmirnov","lachesisQ","Duhless","vi_pranav"]
+
 
 # Fetch and print games for each user in the list
 fetch_and_print_user_games(usernames, conn, cursor)
