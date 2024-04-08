@@ -14,7 +14,6 @@ import numpy as np
 
 class ChessGUI:
     def __init__(self, master):
-        # Existing initialization code...
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
@@ -64,7 +63,7 @@ class ChessGUI:
         self.cluster_labels = self.kmeans_model.labels_
         self.classifier = self.train_classifier(self.features_pca, self.cluster_labels)
 
-    # Existing code...
+    #fetch games
     def fetch_game_moves_from_database(self, database_path):
         conn = sqlite3.connect(database_path)
         cursor = conn.cursor()
@@ -134,7 +133,7 @@ class ChessGUI:
             print(f"Error occurred during classifier training: {e}")
             return None
 
-    # Existing code...
+
     
     def prompt_for_name(self):
         white_name = simpledialog.askstring("White Chess.com Username", "Enter White player's Username:", parent=self.master)
