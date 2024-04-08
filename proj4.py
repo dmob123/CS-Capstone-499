@@ -342,12 +342,28 @@ class ChessGUI:
         else:
             delta_evaluation = pre_move_evaluation - post_move_evaluation
 
-        if delta_evaluation > 0:
+        if self.board.fullmove_number <= 10:  # Considers opening phase adjustments first 10 moves
+            if evaluation_change > 20:
+                return "Strategically sound move"
+            elif evaluation_change > -10:
+                return "Decent move"
+            else:
+                return "Dubious move"
+             # Original thresholds with slight adjustments    
+        if delta_evaluation > 100:
+            return "Excellent move"
+        elif delta_evaluation > 50:
+            return "Great move"
+        elif delta_evaluation > 20:
             return "Good Move!"
-        elif delta_evaluation < 0:
+        if delta_evaluation > -20:
+            return "Decent move"
+        elif delta_evaluation >-50:
+            return "Questionable move"
+        elif delta_evaluation < -100:
             return "Bad Move!"
         else:
-            return "Neutral Move"
+            return "Blunder"
 
     def update_evaluation(self):
         if not self.board.is_game_over():
