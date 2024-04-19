@@ -4,6 +4,7 @@ import tkinter.messagebox as messagebox
 import chess
 import chess.engine
 import math
+import os
 
 class ChessGUI:
     def __init__(self, master):
@@ -11,7 +12,7 @@ class ChessGUI:
         self.master.title("Chess")
         self.board = chess.Board()
         #self.engine_path = r"C:\Users\lkirk\OneDrive\Desktop\stockfish\stockfish\stockfish-windows-x86-64.exe"  # Update this path
-        self.engine_path = r"C:\Users\drmob\Downloads\stockfish\stockfish\stockfish-windows-x86-64.exe"  # Update this path
+        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe')  # Update this path
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
