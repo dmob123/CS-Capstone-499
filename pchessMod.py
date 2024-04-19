@@ -7,6 +7,9 @@ import chess.engine
 import math
 from PIL import Image, ImageTk
 import os
+import pickle
+import numpy as np
+import pandas as pd
 
 class ChessGUI:
     def __init__(self, master):
@@ -23,6 +26,17 @@ class ChessGUI:
         self.display_elo_scores()  # Display ELO scores
         self.button_width = 32  # Initial width of the images
         self.button_height = 32  # Initial height of the images
+        self.piece_values = {
+            chess.PAWN: 1,
+            chess.KNIGHT: 3,
+            chess.BISHOP: 3,
+            chess.ROOK: 5,
+            chess.QUEEN: 9,
+            chess.KING: 0
+        }
+        with open('RF_model.pkl', 'rb') as file:
+            self.model = pickle.load(file)
+
         for s in self.color_blind:
             if 'OFF' in self.color_blind:
                 self.create_board()
@@ -524,16 +538,45 @@ class ChessGUI:
         if not legal_moves:
             return 0  # No legal moves implies a stalemate or checkmate scenario
         total_evaluation = 0
+
+
+        evals = []
+
+        column_names = ['IsCapture', 'IsPromotion', 'MaterialCaptured', 'Capturable',
+                'Sacrifice', 'MaterialSacrificed', 'TEval', 'WhiteElo', 'BlackElo']
+        df = pd.DataFrame(columns=column_names)
+        #####
+        probabilities = np.array(CG.model.predict_proba(x_train[150:250]))*scaling_factor 
+        print("Probabilities on the training data:")
+        pVec = np.array(self.softmax(probabilities[:,1]))
+        #####
         for move in legal_moves:
             # Simulate the move
             self.board.push(move)
             move_evaluation = self.engine.analyse(self.board, chess.engine.Limit(time=0.1))["score"].white().score(mate_score=10000)
             # Undo the move to restore the board
             self.board.pop()
+
+
             # probability for each move 
-            p_mi = 1 / len(legal_moves)
-            total_evaluation += p_mi * move_evaluation
-        return total_evaluation
+            # p_mi = 1 / len(legal_moves)
+
+            features = self.features(move)
+                    
+            # move_played = 1 if legal_move == considered_moves[i+1] else 0
+            row = features + [self.white_elo, self.black_elo]
+            df.loc[len(df)] = row
+
+
+
+
+            evals.append(move_evaluation)
+
+        scaling_factor = 5
+        probabilities = np.array(self.model.predict_proba(df))*scaling_factor 
+        pVec = np.array(self.softmax(probabilities[:,1])) 
+        npEvals = np.array(evals)
+        return np.dot(pVec, npEvals)
     
     def analyze_move_quality(self, pre_move_evaluation, post_move_evaluation):
         evaluation_change = post_move_evaluation - pre_move_evaluation
@@ -591,6 +634,44 @@ class ChessGUI:
 
     def is_windows(self):
         return os.name == 'nt'
+    
+    
+    def close_engine(self):
+        self.engine.quit()
+
+
+    def whose_turn(self):
+        return chess.WHITE if self.board.turn else chess.BLACK
+
+
+    def switchp(self, player):
+        return chess.WHITE if player == chess.BLACK else chess.BLACK
+
+
+    def features(self, move):
+        player = self.whose_turn()
+        moves = list(self.board.legal_moves)
+        piece = self.board.piece_at(move.from_square).piece_type
+        piece_moves = len([mi for mi in moves if mi.from_square == move.from_square])
+        target_square = move.to_square
+        isCapture = self.board.is_capture(move)
+        isPromotion = move.promotion is not None
+        material_captured = 0
+        attackers = self.board.attackers(self.switchp(player), target_square)
+        defenders = self.board.attackers(player, target_square)
+        if isCapture:
+            captured_piece = self.board.piece_at(target_square)
+            material_captured = self.piece_values[captured_piece.piece_type]
+        capturable = len(attackers) > 0
+        sacrifice = len(attackers) > len(defenders)
+        material_sacrificed = self.piece_values[piece] if capturable else 0
+
+        self.board.push(move)
+        teval = self.engine.analyse(self.board, chess.engine.Limit(time=0.1))["score"].white().score(mate_score=10000)
+        self.board.pop()
+
+        return [isCapture, isPromotion, material_captured, capturable, sacrifice, material_sacrificed, teval]
+
 
 def main():
     root = tk.Tk()
