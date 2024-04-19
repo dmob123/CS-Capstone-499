@@ -3,9 +3,17 @@
 
 
 Random Forest Model
-features:
-    move distance, material captured, material sacrifice, stockfish rating delta, is check, allows check, delta space controlled, delta material attacked,
-    potentially more if they come to mind.
+features to implement:
+     delta material attacked,
+
+features already implemented:
+    stockfish rating delta, material captured, material sacrifice, is sacrifice, is capturable, is check, delta activity, delta piece activity
+    capture opportunity cost, eval opporunity cost
+    ispromotion
+
+    -the max values will require probabilities to be evaluated in batches, not individually 
     
+    potentially more if they come to mind.
+
 
 Run PCA to determine which to use 

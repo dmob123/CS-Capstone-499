@@ -589,7 +589,7 @@ class ChessGUI:
         elif self.board.can_claim_fifty_moves():
             tk.messagebox.showinfo("Game Over", "Draw due to fifty-move rule.")
 
-    def is_windows():
+    def is_windows(self):
         return os.name == 'nt'
 
 def main():

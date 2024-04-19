@@ -1,0 +1,2754 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Sj83ND8N"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "James369"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:00:08"]
+[WhiteElo "2517"]
+[BlackElo "2458"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 c5 4. O-O Nc6 5. c4 e5 6. cxd5 Nxd5 7. d3 Nf6 8.
+Nbd2 Bd6 9. Nc4 O-O 10. Nxd6 Qxd6 11. b3 Re8 12. Ba3 e4 13. dxe4 Nxe4 14. Qxd6
+Nxd6 15. Bxc5 Ne4 16. Be3 Nc3 17. Rfe1 Bf5 18. Nd4 Nxd4 19. Bxd4 Nxe2+ 20. Rxe2
+Rxe2 21. Bxb7 Rd8 22. Be3 Rc2 23. Bf3 Rc3 24. Bxa7 Rxf3 25. Be3 Be4 26. a4 h6
+27. a5 Ra8 28. a6 Rf6 29. a7 Rc6 30. b4 Rcc8 31. b5 Bb7 32. b6 Kf8 33. Rd1 Ke7
+34. Re1 Kd7 35. Rd1+ Kc6 36. Rc1+ Kb5 37. Rd1 Ka6 38. Rd7 Rc6 39. h3 Rxb6 40.
+Bxb6 Kxb6 41. Rxf7 Rxa7 42. Re7 Ra1+ 43. Kh2 Rh1# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dBf3sbn5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "James369"]
+[Black "Charlie-Waffles"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:01:14"]
+[WhiteElo "2472"]
+[BlackElo "2504"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[BlackTitle "LM"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queenside Fianchetto Variation"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 Nf6 4. O-O e6 5. Ne1 Be7 6. Bxb7 c6 7. Bxa8 O-O 8.
+Bb7 Qc7 9. Bxc6 Nxc6 10. d4 d5 11. e3 h5 12. Nc3 h4 13. e4 h3 14. Bf4 Bd6 15.
+e5 Ne4 16. Nxe4 Qd8 17. exd6 dxe4 18. Qe2 g5 19. Be5 f5 20. Qc4 Kf7 21. Qxc6 g4
+22. Qc7+ Qxc7 23. dxc7 Rc8 24. c3 f4 25. gxf4 Kg6 26. Nc2 Kf5 27. Ne3+ Kg6 28.
+f3 Kh5 29. fxg4+ Kh4 30. Kf2 Rxc7 31. Bf6# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/g6nxZMKB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "James369"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:02:03"]
+[WhiteElo "2492"]
+[BlackElo "2484"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. g3 d5 2. Bg2 Bh3 3. Nf3 Bxg2 4. Rg1 Bxf3 5. exf3 Nf6 6. Qe2 e6 7. d3 Bc5 8.
+Nc3 Bb6 9. Na4 c5 10. Nc3 d4 11. Nd1 Bc7 12. b3 O-O 13. a4 Nc6 14. Bg5 Nb4 15.
+h4 h6 16. Bc1 Nbd5 17. g4 Nc3 18. Nxc3 dxc3 19. g5 Nh5 20. gxh6 g6 21. Bg5 Qd5
+22. f4 Bxf4 23. Qxh5 gxh5 24. Bxf4+ Kh7 25. Rg7+ Kh8 26. Ke2 Rg8 27. Rag1 Rxg7
+28. Rxg7 Rg8 29. Rxf7 e5 30. Bg5 Qxf7 31. h7 Kxh7 32. Be3 Kg6 33. f4 Kf5 34.
+fxe5 Kxe5 35. d4+ Kd5 36. Kd3 cxd4 37. Bxd4 Qf5+ 38. Kxc3 Qe4 39. Be3 Rc8+ 40.
+Kb2 Qxe3 41. c4+ Kd4 42. Ka3 Qc3 43. a5 Rxc4 44. Ka2 Rb4 45. a6 Qxb3+ 46. Ka1
+Qb2# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lWeOjjU4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "clubamigos"]
+[Black "bluedeep"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:02:12"]
+[WhiteElo "2401"]
+[BlackElo "2465"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e3 c6 2. d4 d5 3. f4 g6 4. Nf3 Bg7 5. Bd3 f6 6. Nbd2 Nh6 7. O-O Nf7 8. c4
+O-O 9. b3 e5 10. cxd5 cxd5 11. Bc2 e4 12. Ne1 g5 13. g3 gxf4 14. gxf4 Kh8 15.
+Ng2 Rg8 16. Kh1 Nh6 17. Rg1 Bg4 18. Qe1 f5 19. Qf2 Bf6 20. Ba3 Nc6 21. Rac1 Qd7
+22. Bd1 Rg6 23. Be2 Rag8 24. Rcf1 Qd8 25. Nb1 b5 26. Bc5 a5 27. Nc3 b4 28. Na4
+Ne7 29. Nb6 Nc8 30. Nxc8 Qxc8 31. Bd6 Qd8 32. Be5 Nf7 33. Bxf6+ Qxf6 34. Nh4
+Bxe2 35. Nxg6+ hxg6 36. Qxe2 Rc8 37. Rg2 Nd6 38. Rfg1 Rg8 39. Qf2 Rg7 40. Rg3
+Kg8 41. Qg2 Kf7 42. Qh3 Nc8 43. Qh8 Ne7 44. Qb8 Qc6 45. Qe5 Qc2 46. h4 Qxa2 47.
+h5 Qxb3 48. hxg6+ Ke8 49. Qxg7 Qc2 50. Qf6 Qe2 51. Qf7+ Kd7 52. g7 Qh5+ 53. Rh3
+Qxf7 54. g8=Q Qxg8 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/i38bIHrS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "James369"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:03:13"]
+[WhiteElo "2496"]
+[BlackElo "2481"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+12"]
+[BlackTitle "LM"]
+[ECO "A07"]
+[Opening "King's Indian Attack: Yugoslav Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 c6 2. g3 d5 3. Bg2 Nf6 4. O-O Bg4 5. d4 Bxf3 6. Bxf3 e6 7. Bg2 Nbd7 8.
+e4 dxe4 9. Nc3 Bb4 10. Nxe4 Nxe4 11. Bxe4 Nf6 12. Bg2 h5 13. c3 Be7 14. Bg5 Nd5
+15. Bxe7 Qxe7 16. h4 g5 17. Bxd5 cxd5 18. Qf3 gxh4 19. gxh4 Qxh4 20. Qg3 Qf6
+21. Kh1 O-O-O 22. Qe5 Qh6 23. Qh2 Rdg8 24. Rg1 Rg4 25. Rxg4 hxg4 26. Qxh6 Rxh6+
+27. Kg2 Rh3 28. Rh1 Rxh1 29. Kxh1 f5 30. Kg2 Kd7 31. Kg3 Ke7 32. f3 Kf6 33.
+fxg4 Kg5 34. gxf5 Kxf5 35. Kf3 e5 36. dxe5 Kxe5 37. Ke3 b5 38. Kd3 a5 39. b3 a4
+40. bxa4 bxa4 41. c4 d4 42. c5 Kd5 43. c6 Kxc6 44. Kxd4 Kb5 45. Kc3 Ka5 46. a3
+Kb5 47. Kb2 Kc5 48. Kc2 Kc4 49. Kb2 Kd3 50. Ka2 Kc3 51. Ka1 Kb3 52. Kb1 Kxa3
+53. Ka1 Kb3 54. Kb1 Kb4 55. Ka1 Ka5 56. Kb1 Kb5 57. Ka1 Kc4 58. Kb1 Kc3 59. Ka1
+a3 60. Kb1 Kb3 61. Ka1 Kb4 62. Kb1 Ka4 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/qvLCUp3x"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "James369"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:04:26"]
+[WhiteElo "2493"]
+[BlackElo "2484"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 e5 4. O-O e4 5. Nd4 c5 6. Nb3 a5 7. a4 c4 8. Nd4 Bc5
+9. e3 Bxd4 10. exd4 O-O 11. d3 Nc6 12. dxc4 dxc4 13. Be3 Be6 14. Nd2 Bd5 15. c3
+Ne7 16. Qe2 Ng6 17. Nxc4 Rc8 18. Ne5 Nxe5 19. dxe5 Nd7 20. Rfd1 Bc4 21. Qd2 Bd3
+22. Bxe4 Bxe4 23. Qxd7 Qxd7 24. Rxd7 Rfe8 25. Bd4 Bc6 26. Rd6 Re6 27. Rxe6 fxe6
+28. Bc5 Kf7 29. Bd6 Bd5 30. Rd1 Rc4 31. Rd4 Rxd4 32. cxd4 Ke8 33. Bc7 Bc6 34.
+Bxa5 Bxa4 35. Bb4 Bc6 36. Bc5 Bd5 37. b4 Kd7 38. Bb6 Kc6 39. Ba5 Kb5 40. Bd8
+Kxb4 41. Be7+ Kc4 42. Bc5 b5 43. Kf1 b4 44. Ke1 b3 45. Kd1 Kc3 46. Kc1 b2+ 47.
+Kb1 Be4+ 48. Ka2 b1=Q+ 49. Ka3 Qb3# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QTPtDtaM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "James369"]
+[Black "Charlie-Waffles"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:05:41"]
+[WhiteElo "2496"]
+[BlackElo "2482"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[BlackTitle "LM"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Sicilian Invitation"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. Nf3 c5 2. g3 d6 3. Bg2 Nc6 4. O-O g6 5. d4 Bg7 6. d5 Ne5 7. Nxe5 Bxe5 8. c4
+Bg7 9. Nc3 Nf6 10. Bg5 O-O 11. e4 h6 12. Bxf6 Bxf6 13. f4 a6 14. Re1 Qc7 15.
+Qe2 e5 16. dxe6 Bd4+ 17. Kh1 Bxe6 18. Nd5 Bxd5 19. exd5 b5 20. Rac1 bxc4 21.
+Qxc4 Rab8 22. Qxd4 cxd4 23. Rxc7 Rxb2 24. Rd1 Rxa2 25. Rc4 d3 26. Rd4 Rb8 27.
+R4xd3 Rbb2 28. Bf3 Rxh2+ 29. Kg1 Rhf2 30. Re3 Rfb2 31. Rde1 Kg7 32. Re7 a5 33.
+Bh1 a4 34. Ra7 a3 35. Bg2 Rd2 36. Bf1 Rab2 37. Ree7 a2 38. Rxf7+ Kg8 39. Rfc7
+Kf8 40. Rc8# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Rx9x1JtR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "pipecat"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:06:28"]
+[WhiteElo "2532"]
+[BlackElo "2281"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-4"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Kalashnikov Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Be6 8.
+Be2 Nf6 9. Bg5 Be7 10. Bxf6 Bxf6 11. Nd5 Bxd5 12. exd5 Ne7 13. c4 O-O 14. O-O
+g6 15. Rc1 Nf5 16. Nc2 Rc8 17. Bd3 Nd4 18. Nxd4 exd4 19. b4 b6 20. a3 Kg7 21.
+Qf3 Re8 22. g3 Qd7 23. Kg2 a5 24. h4 axb4 25. axb4 Re5 26. Rh1 Rce8 27. Ra1 h5
+28. Ra6 b5 29. c5 dxc5 30. Qxf6+ Kh7 31. Rd6 Qg4 32. Qxf7+ Kh8 33. Rxg6 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Guqz5auH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "TheYellowKing"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:07:15"]
+[WhiteElo "2471"]
+[BlackElo "2374"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Indian Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 Nf6 2. Bg2 g6 3. Nf3 Bg7 4. O-O O-O 5. e4 d6 6. e5 dxe5 7. Nxe5 Nfd7 8.
+d4 Nxe5 9. dxe5 Qxd1 10. Rxd1 Bxe5 11. Re1 Bg7 12. Nc3 Nc6 13. Nd5 e6 14. Nxc7
+Rb8 15. Bf4 Bd7 16. Nxe6 Bxe6 17. Bxb8 Rc8 18. Bf4 b5 19. Be3 Nb4 20. c3 Nc2
+21. Rec1 Nxa1 22. Rxa1 Bf5 23. Rd1 Be6 24. a3 Bb3 25. Rd2 a5 26. Bf3 b4 27.
+axb4 axb4 28. cxb4 f6 29. Kg2 h5 30. Bd5+ Kh7 31. Bxb3 h4 32. Bc2 hxg3 33. hxg3
+f5 34. b5 Rb8 35. b6 f4 36. gxf4 Kh6 37. Rd7 Kh5 38. Rxg7 Kg4 39. Rc7 Kh4 40.
+b7 g5 41. fxg5 Rxb7 42. g6 Rxc7 43. g7 Rxg7+ 44. Kf3 Rf7+ 45. Ke2 Kg4 46. Bd3
+Rb7 47. b4 Rxb4 48. Bd2 Rb2 49. Ke3 Rb8 50. Be2+ Kg5 51. f4+ Kg6 52. Kf3 Kg7
+53. Bd3 Kg8 54. Be3 Re8 55. Bd4 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LloGvoa9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "piongu"]
+[Black "Captain-Calagan"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:08:13"]
+[WhiteElo "2518"]
+[BlackElo "2301"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-4"]
+[WhiteTitle "IM"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 cxd4 6. exd4 Bf5 7. Qb3 Qc8 8.
+Ngf3 e6 9. Be2 h6 10. O-O Be7 11. Rae1 O-O 12. h3 Ne4 13. Qd1 a6 14. Ne5 b5 15.
+a3 Na5 16. Nxe4 Bxe4 17. Bd3 Bxd3 18. Qxd3 Nc4 19. Re2 Bf6 20. Rfe1 Nxe5 21.
+Bxe5 Bxe5 22. Rxe5 Qc4 23. Qxc4 bxc4 24. f4 Rab8 25. R1e2 g6 26. Rf2 Rb6 27. g4
+Rfb8 28. Ree2 f5 29. Kf1 Kf7 30. Ke1 Kf6 31. Kd1 a5 32. Kc1 a4 33. Rg2 R6b7 34.
+Re3 fxg4 35. hxg4 Rh7 36. Rh2 h5 37. Re5 h4 38. Rhe2 Rb6 39. Kd1 h3 40. Rh2 Rb8
+41. Re3 Rbh8 42. Ke2 Rh4 43. Kf3 g5 44. fxg5+ Kxg5 45. Rxe6 Rf8+ 46. Ke3 Kxg4
+47. Rg6+ Kf5 48. Rg3 Re8+ 49. Kd2 Reh8 50. Ke3 Re4+ 51. Kf3 Rf4+ 52. Ke3 Re8+
+53. Kd2 Rh8 54. Rgxh3 Rxh3 55. Rxh3 Rf2+ 56. Kc1 Ke4 57. Rh5 Kd3 58. Kb1 Rf1+
+59. Ka2 Kc2 60. Rxd5 Rb1 61. Rb5 Rd1 62. Rb4 Kd3 63. Rxa4 Rc1 64. Rb4 Rc2 65.
+a4 Rf2 66. Ka3 Rf6 67. Rb5 Ra6 68. Kb4 Ra8 69. a5 Kc2 70. Kxc4 Kd2 71. b4 Rc8+
+72. Rc5 Ra8 73. Kb5 Rb8+ 74. Ka4 Kc2 75. a6 Rf8 76. a7 Rf1 77. Kb5 Ra1 78. Rc7
+Kb3 79. Kb6 Ra4 80. Kb7 Ra2 81. a8=Q Rd2 82. Qa5 Kb2 83. Qd5 Rd3 84. Kb6 Re3
+85. Qc4 Rf3 86. Qc5 Re3 87. Kb5 Re6 88. Ra7 Kc2 89. Ra2+ Kb1 90. Kc4 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fJHglqvQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "alexei1897"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:11:09"]
+[WhiteElo "2537"]
+[BlackElo "2273"]
+[WhiteRatingDiff "-21"]
+[BlackRatingDiff "+19"]
+[ECO "B44"]
+[Opening "Sicilian Defense: Paulsen Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nxc6 bxc6 6. Bd3 d5 7. Qe2 Qb6 8.
+O-O Nf6 9. Nc3 Bb4 10. Na4 Qa5 11. b3 O-O 12. Bb2 Be7 13. e5 Nd7 14. c4 Qc7 15.
+Rae1 Nc5 16. Nxc5 Bxc5 17. Qh5 g6 18. Qg4 Ba6 19. h4 dxc4 20. bxc4 Rfd8 21. Rd1
+Rab8 22. Bc3 Bb4 23. Ba1 Bf8 24. h5 Bg7 25. f4 Qb6+ 26. Kh2 Qe3 27. Rf3 Qc5 28.
+hxg6 hxg6 29. Rh3 Qf2 30. Bxg6 Rxd1 31. Bxf7+ Kxf7 32. Rh7 Qg1+ 33. Kg3 Qe1+
+34. Kh2 Qh1+ 35. Kg3 Qxh7 36. f5 Qxf5 37. Qxf5+ exf5 38. e6+ Kg6 39. Bxg7 Kxg7
+40. Kh2 Kf6 41. Kg3 Rb2 42. c5 Rd3+ 43. Kf4 Rb4# 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/cXMap7tn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "RCone2"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:12:44"]
+[WhiteElo "2544"]
+[BlackElo "2364"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. b3 g6 2. Bb2 Nf6 3. e4 Bg7 4. Nf3 d6 5. c4 O-O 6. Qc2 e5 7. Nc3 Nc6 8. h3
+Nd4 9. Nxd4 exd4 10. Ne2 c5 11. d3 Re8 12. g3 b6 13. Bg2 Bb7 14. O-O Qd7 15.
+Rae1 h5 16. f4 Nh7 17. Bc1 a5 18. Bd2 a4 19. Qc1 axb3 20. axb3 Ra3 21. f5 Ra2
+22. Nf4 Nf8 23. fxg6 fxg6 24. Re2 Be5 25. Qe1 Qg7 26. g4 hxg4 27. hxg4 Bc8 28.
+g5 Bg4 29. Ref2 Ne6 30. Nd5 Bg3 31. Nf6+ Kf7 32. Nxg4+ Ke7 33. Rf7+ Qxf7 34.
+Rxf7+ Kxf7 35. Qxg3 Rxd2 36. Qxd6 Rxd3 37. Ne5+ Kg7 38. Qd7+ Kf8 39. Nxd3 Nxg5
+40. e5 Ne6 41. Bd5 Re7 42. Qc8+ Kf7 43. Nf4 Kg7 44. Nxe6+ Kh6 45. Qh8+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/oGEqkaSN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:14:32"]
+[WhiteElo "2479"]
+[BlackElo "2488"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-13"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d6 2. Bg2 e5 3. Nf3 Nf6 4. d4 Nc6 5. dxe5 dxe5 6. Qxd8+ Kxd8 7. Nc3 Ke8
+8. Bg5 Bd6 9. Bxf6 gxf6 10. Nb5 a6 11. Nxd6+ cxd6 12. O-O-O Ke7 13. e3 Be6 14.
+Nd2 d5 15. c4 dxc4 16. Bxc6 bxc6 17. Ne4 Rad8 18. Nc5 Rd5 19. Nxa6 Ra8 20. Nb4
+Rb5 21. Nxc6+ Kf8 22. Rd8+ Rxd8 23. Nxd8 Ra5 24. Nxe6+ fxe6 25. a3 c3 26. Rd1
+cxb2+ 27. Kxb2 Rb5+ 28. Ka2 Rb6 29. Rb1 Rd6 30. Rb2 Rd1 31. Rc2 Rh1 32. Kb3
+Rxh2 33. a4 Rh5 34. a5 e4 35. a6 Ra5 36. Ra2 Rb5+ 37. Kc4 Rb8 38. a7 Ra8 39.
+Kb5 h5 40. Kb6 h4 41. Kb7 Rxa7+ 42. Rxa7 hxg3 43. Ra8+ Kf7 44. fxg3 f5 45. Ra7
+e5 46. Kc6+ Kf6 47. Kd5 f4 48. Ra6+ Kf5 49. exf4 exf4 50. gxf4 Kxf4 51. Ra8 e3
+52. Rf8+ Kg3 53. Kd4 e2 54. Kd3 e1=Q 55. Rg8+ Kf2 56. Rf8+ Kg2 57. Rg8+ Kf1 58.
+Rf8+ 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/2eDIThVC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cartucho"]
+[Black "gameoverbro"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:17:09"]
+[WhiteElo "2384"]
+[BlackElo "2516"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "A38"]
+[Opening "English Opening: Symmetrical Variation, Duchamp Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.15] } 1... c5 { [%eval 0.2] } 2. c4 { [%eval 0.06] } 2... Nc6
+{ [%eval 0.13] } 3. Nc3 { [%eval 0.15] } 3... Nf6 { [%eval 0.15] } 4. g3
+{ [%eval 0.0] } 4... g6 { [%eval 0.18] } 5. Bg2 { [%eval 0.27] } 5... Bg7
+{ [%eval 0.12] } 6. O-O { [%eval 0.18] } 6... O-O { [%eval 0.1] } 7. d3
+{ [%eval 0.05] } 7... d6 { [%eval 0.08] } 8. a3 { [%eval 0.06] } 8... Rb8
+{ [%eval 0.03] } 9. Rb1 { [%eval 0.11] } 9... a6 { [%eval 0.1] } 10. b4
+{ [%eval 0.08] } 10... cxb4 { [%eval 0.01] } 11. axb4 { [%eval 0.12] } 11... b5
+{ [%eval 0.08] } 12. cxb5 { [%eval 0.15] } 12... axb5 { [%eval 0.05] } 13. d4
+{ [%eval -0.2] } 13... d5 { [%eval 0.15] } 14. Ne5 { [%eval 0.29] } 14... Qb6
+{ [%eval 0.73] } 15. Bf4 { [%eval 1.22] } 15... Bf5 { [%eval 1.25] } 16. Nxd5
+$6 { [%eval 0.39] } 16... Nxd5 { [%eval -0.82] } 17. Bxd5 { [%eval -1.0] }
+17... Nxd4 $6 { [%eval -0.05] } 18. Rc1 { [%eval -0.11] } 18... g5
+{ [%eval 0.17] } 19. e4 $4 { [%eval -3.05] } 19... gxf4 { [%eval -3.1] } 20.
+Nc6 { [%eval -3.07] } 20... Bh3 { [%eval -3.56] } 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/flgWduCA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:17:46"]
+[WhiteElo "2475"]
+[BlackElo "2490"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[BlackTitle "LM"]
+[ECO "D10"]
+[Opening "Slav Defense: Exchange Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 c6 2. c4 d5 3. cxd5 cxd5 4. Nc3 e6 5. Nf3 Nf6 6. Bg5 Bd6 7. Bxf6 Qxf6 8.
+e4 dxe4 9. Nxe4 Qe7 10. Nxd6+ Qxd6 11. Bb5+ Bd7 12. Bxd7+ Nxd7 13. O-O O-O 14.
+Qb3 b6 15. Rfd1 Nf6 16. Ne5 Nd5 17. Nc4 Qe7 18. Ne3 Rfd8 19. Nxd5 Rxd5 20. Re1
+Rad8 21. Rad1 Rxd4 22. Rxd4 Rxd4 23. h3 Qd8 24. Qc3 g6 25. Kh2 h5 26. g3 h4 27.
+Kg2 hxg3 28. Qxg3 Qd5+ 29. Qf3 Qg5+ 30. Qg3 Qd5+ 31. Qf3 Qxf3+ 32. Kxf3 Rd2 33.
+Re3 Rxb2 34. Ra3 a5 35. Rb3 Rxb3+ 36. axb3 Kf8 37. Ke4 Ke7 38. Kd4 Kd6 39. Kc4
+Kc6 40. h4 b5+ 41. Kd4 Kd6 42. f4 f6 43. h5 gxh5 44. f5 exf5 45. Ke3 h4 46. Kf3
+h3 47. Kg3 b4 48. Kh2 Kc5 49. Kxh3 Kd4 50. Kg3 Kc3 51. Kf2 Kxb3 52. Ke2 Kc2 53.
+Ke3 b3 54. Kd4 a4 55. Kc5 a3 56. Kb5 a2 57. Kc4 b2 58. Kd4 f4 59. Ke4 f3 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/M8trCXWo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RCone2"]
+[Black "patzerseescheck"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:18:54"]
+[WhiteElo "2359"]
+[BlackElo "2550"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "B56"]
+[Opening "Sicilian Defense: Classical Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 Ng4 7. Nxc6 bxc6 8.
+Bc1 Qb6 9. Qf3 g6 10. Bd3 Bg7 11. O-O O-O 12. h3 Ne5 13. Qe2 Rb8 14. Bd2 Qc7
+15. Rab1 Nxd3 16. cxd3 Qd7 17. f4 Re8 18. f5 d5 19. fxg6 hxg6 20. Qf3 e6 21.
+Kh1 Ba6 22. Rf2 Rbd8 23. Bg5 Rb8 24. Rbf1 Rf8 25. Bf6 dxe4 26. Nxe4 Qxd3 27.
+Bxg7 Qxf3 28. Rxf3 Kxg7 29. R1f2 Bc4 30. Nc5 Bd5 31. Ra3 Rb5 32. Rc2 a5 33. b3
+f5 34. Nd3 Kf6 35. Ra4 e5 36. Rh4 Be4 37. Rc3 Rd8 38. Nf2 Bd5 39. Kh2 Rb4 40.
+Rxb4 axb4 41. Rc4 Bxc4 42. bxc4 Rd2 43. Kg3 e4 44. Nh1 g5 45. h4 f4+ 46. Kh3 e3
+47. hxg5+ Kxg5 48. g3 e2 49. gxf4+ Kxf4 50. Nf2 e1=Q 51. Nd3+ Rxd3+ 52. Kg2
+Rd2+ 53. Kh3 Qg3# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lplkLjj7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:19:14"]
+[WhiteElo "2501"]
+[BlackElo "2463"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-11"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d5 2. Bg2 Bh3 3. Nxh3 Nf6 4. d4 g5 5. Nf4 g4 6. c4 h5 7. cxd5 Nbd7 8. Nc3
+Bh6 9. Qb3 Bxf4 10. Bxf4 Rb8 11. e4 O-O 12. e5 Nh7 13. Qc2 b5 14. Qf5 b4 15.
+Ne4 c5 16. dxc5 b3 17. a3 Nxc5 18. Nxc5 Qa5+ 19. Bd2 Qxc5 20. Qxh5 Rbc8 21.
+Qxg4+ Kh8 22. O-O Rg8 23. Qh4 Rg7 24. Bc3 Rcg8 25. e6 f6 26. Bf3 Qc8 27. Rae1
+Qf8 28. Re4 Rg5 29. Rf4 Qg7 30. d6 Rg6 31. dxe7 Qxe7 32. Bxf6+ Rxf6 33. Rxf6
+Qxf6 34. Be4 Qxh4 35. Bg2 Qd4 36. e7 Qf6 37. e8=Q Rxe8 38. Re1 Qf7 39. Rxe8+
+1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/26cfngMC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "Charlie-Waffles"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:20:34"]
+[WhiteElo "2452"]
+[BlackElo "2510"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-12"]
+[BlackTitle "LM"]
+[ECO "B06"]
+[Opening "Modern Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 g6 2. Nc3 Bg7 3. Bc4 e6 4. Nf3 Ne7 5. d4 d5 6. exd5 exd5 7. Bd3 O-O 8.
+O-O c6 9. Bg5 Bf5 10. Bxe7 Qxe7 11. Bxf5 gxf5 12. Re1 Qf6 13. Qd2 Nd7 14. Ne5
+Nxe5 15. dxe5 Qg6 16. Rad1 Rfe8 17. f4 Re6 18. Ne2 Rae8 19. Nd4 R6e7 20. Qd3 f6
+21. Nxf5 Re6 22. Nd6 Rxd6 23. Qxg6 Red8 24. exd6 hxg6 25. Re6 Kf7 26. Rde1 Bf8
+27. Re7+ Bxe7 28. Rxe7+ Kf8 29. Rxb7 Rxd6 30. Rxa7 c5 31. Ra8+ Kf7 32. Ra5 Ke6
+33. b4 cxb4 34. Rb5 d4 35. Rxb4 Kf5 36. Rb5+ Ke4 37. Kf2 d3 38. cxd3+ Rxd3 39.
+Rb4+ Kd5 40. Rb3 Rd2+ 41. Kf3 Rxa2 42. Rd3+ Ke6 43. Re3+ Kf5 44. h4 g5 45. g4+
+Kg6 46. h5+ Kh6 47. fxg5+ Kxg5 48. Re6 f5 49. Re3 f4 50. Re5+ Kh4 51. Kxf4 Ra5
+52. Re4 Ra4 53. h6 Ra3 54. h7 Ra5 55. Re5 Ra2 56. Kf5 Kh3 57. Kg6 Kg3 58. Rg5
+Rf2 59. Kg7 Rf6 60. Kxf6 Kf3 61. Rg6 Ke3 62. h8=Q Kf3 63. Qh5 Kg3 64. Rg5 Kf3
+65. Rf5+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dQKsxHgh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "TheYellowKing"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:21:12"]
+[WhiteElo "2568"]
+[BlackElo "2365"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "B45"]
+[Opening "Sicilian Defense: Four Knights Variation, Exchange Variation"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nxc6 bxc6 7. Bd2 d5 8.
+Bd3 d4 9. Ne2 e5 10. Ng3 Be7 11. O-O O-O 12. f4 exf4 13. Bxf4 c5 14. Qd2 Be6
+15. Qe2 Rc8 16. b3 a5 17. Rfe1 a4 18. Nf5 axb3 19. axb3 Bxf5 20. exf5 Bd6 21.
+Bg5 h6 22. Bh4 Re8 23. Qf2 Rxe1+ 24. Rxe1 Be7 25. Qe2 Bd6 26. Bc4 Qf8 27. Bxf6
+gxf6 28. Qh5 Qg7 29. Re4 Be5 30. Rg4 Ra8 31. Qxf7+ Kh8 32. Qxg7# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/LISbLyzr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "usuarioconnombre"]
+[Black "TheJudgeTruth"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:21:33"]
+[WhiteElo "2459"]
+[BlackElo "2480"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 b6 4. Be2 Bb7 5. Bf3 c6 6. c3 d5 7. Be2 Nbd7 8. Nf3
+Be7 9. Ne5 O-O 10. Bd3 Rc8 11. Nd2 c5 12. Qf3 Nxe5 13. dxe5 Nd7 14. Qh3 g6 15.
+Nf3 Re8 16. O-O Nf8 17. Rad1 h5 18. g4 hxg4 19. Qxg4 Nh7 20. h4 Kh8 21. Kg2 Rg8
+22. Rh1 Kg7 23. Kf1 Kf8 24. Ke2 d4 25. Bh6+ Ke8 26. exd4 cxd4 27. Bb5+ Bc6 28.
+Bxc6+ Rxc6 29. Rxd4 Qc7 30. Rhd1 Nf8 31. Bxf8 Kxf8 32. Qe4 Kg7 33. h5 Qc8 34.
+hxg6 Rf8 35. Rg1 f5 36. exf6+ Rxf6 37. Ne5 Rc5 38. Rd3 Qc7 39. Re3 Bd6 40. f4
+Rxf4 41. Qxf4 Bxe5 42. Rxe5 Rxe5+ 43. Kd2 Rd5+ 44. Ke3 Rd3+ 45. Ke4 Qxf4+ 46.
+Kxf4 Rd2 47. Ke5 Rxb2 48. Kxe6 Rxa2 49. Kd5 Rc2 50. c4 Rd2+ 51. Kc6 Rc2 52. Kb5
+Ra2 53. Rg5 Ra5+ 54. Kc6 Rxg5 55. c5 Rxc5+ 56. Kb7 Kxg6 57. Kxa7 b5 58. Kb6 Rf5
+59. Ka5 Kf6 60. Kb4 Ke6 61. Ka5 Kd6 62. Kb4 Kc6 63. Ka5 Kc5 64. Ka6 b4 65. Ka5
+Kc4+ 66. Ka4 Rf8 67. Ka5 b3 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bstK4NUW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "ToLazyToGetAName"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:21:39"]
+[WhiteElo "2524"]
+[BlackElo "2473"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-9"]
+[BlackTitle "IM"]
+[ECO "C05"]
+[Opening "French Defense: Tarrasch Variation, Closed Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6. f4 Nc6 7. Ndf3 Qb6 8. a3
+Be7 9. h4 cxd4 10. cxd4 Na5 11. b4 Nc4 12. Bd3 Qc7 13. Ne2 b5 14. h5 h6 15. g4
+Ndb6 16. f5 a5 17. Rb1 axb4 18. axb4 f6 19. exf6 Bxf6 20. Bf4 Qc6 21. O-O exf5
+22. gxf5 O-O 23. Ng3 Ra3 24. Ne5 Qe8 25. Ng6 Bxd4+ 26. Kh2 Ne3 27. Bxe3 Qxe3
+28. Rf3 Qg5 29. Nxf8 Kxf8 30. Qe2 Nc4 31. Bxc4 Rxf3 32. Qxf3 dxc4 33. Qe4 Qe3
+34. Qxe3 Bxe3 35. Ne4 Kg8 36. Rf1 Bd4 37. Kg3 Bd7 38. Kg4 Be8 39. Rd1 Be5 40.
+Rd8 Kf8 41. Rc8 Ke7 42. Nc5 Bd6 43. Ne6 Bxb4 44. Nxg7 Bd7 45. Rc7 Bd6 46. Rb7
+b4 47. Ne6 c3 48. Nd4 Be5 49. Nb3 Kf6 50. Kf3 Bxf5 51. Rb6+ Be6 52. Rxb4 Bxb3
+53. Rxb3 c2 54. Rb6+ Kf5 55. Rc6 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/sXtkra0H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "1/2-1/2"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:22:17"]
+[WhiteElo "2498"]
+[BlackElo "2467"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[WhiteTitle "LM"]
+[ECO "D79"]
+[Opening "Neo-Gruenfeld Defense: Ultra-delayed Exchange Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d5 2. Bg2 c6 3. Nf3 Nf6 4. O-O g6 5. c4 Bg7 6. cxd5 cxd5 7. d4 O-O 8. Nc3
+Nc6 9. Bf4 Bg4 10. Rc1 Bxf3 11. Bxf3 e6 12. Na4 a6 13. Nc5 Nh5 14. Nxb7 Qb6 15.
+Nc5 Nxf4 16. gxf4 Nxd4 17. Nd3 Nxf3+ 18. exf3 Rab8 19. b3 a5 20. Qe2 a4 21.
+Rfd1 axb3 22. axb3 Qxb3 23. Ne5 Bxe5 24. fxe5 Qb2 25. Rc2 Qb7 26. Rcd2 Qb5 27.
+f4 Qxe2 28. Rxe2 Rb4 29. Rde1 Rfb8 30. Kg2 Rb1 31. f3 Rxe1 32. Rxe1 Rb3 33. Re2
+Rb4 34. Rc2 g5 35. Rc8+ Kg7 36. fxg5 Rb2+ 37. Kg3 h5 38. h4 Rd2 39. Rc3 Rd1 40.
+Re3 Rd4 41. Kf2 Rb4 42. Re2 d4 43. f4 d3 44. f5 dxe2 45. f6+ Kg6 46. Kxe2 Re4+
+47. Kf3 Rxe5 48. Kg3 Rxg5+ 49. Kh3 Rf5 50. Kh2 Rxf6 51. Kh3 Rf4 52. Kg3 Rxh4
+53. Kxh4 f5 54. Kh3 1/2-1/2
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/arvKvaJX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheYellowKing"]
+[Black "chessstrategy"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:22:18"]
+[WhiteElo "2360"]
+[BlackElo "2573"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "A45"]
+[Opening "Indian Game: Omega Gambit"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 Nf6 2. d4 e5 3. dxe5 Nxe4 4. Qd5 Nc5 5. Be3 Ne6 6. f3 Nc6 7. Qd2 Nxe5 8.
+Nc3 Ng6 9. O-O-O b6 10. f4 f5 11. Nf3 Bd6 12. Bd3 O-O 13. h3 Ngxf4 14. g4 Nxd3+
+15. Qxd3 fxg4 16. Nd4 Nc5 17. Qc4+ Kh8 18. hxg4 Bb7 19. Nd5 Qe8 20. Rde1 Qf7
+21. g5 Bxd5 22. Qc3 Bxh1 23. Rxh1 Rae8 24. b4 Rxe3 25. Qxe3 Bf4 26. g6 Bxe3+
+27. Kb2 Bxd4+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/hxVmg2m8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:23:40"]
+[WhiteElo "2468"]
+[BlackElo "2497"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[BlackTitle "LM"]
+[ECO "A40"]
+[Opening "English Defense #2"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 b6 2. c3 Bb7 3. Nf3 Nf6 4. Bg5 e6 5. Bxf6 Qxf6 6. Nbd2 d6 7. e4 Nd7 8.
+Bd3 e5 9. Qe2 O-O-O 10. dxe5 Nxe5 11. Nxe5 dxe5 12. O-O-O Bc5 13. Nf3 Kb8 14.
+Bc2 g5 15. h3 h5 16. g4 hxg4 17. hxg4 Qf4+ 18. Kb1 Rxh1 19. Rxh1 Qxg4 20. Rd1
+Qd7 21. Rxd7 Rxd7 22. Nxe5 Re7 23. Nc4 f5 24. b4 Bd6 25. f3 fxe4 26. Bxe4 Bf4
+27. Qd3 Bxe4 28. fxe4 Re8 29. b5 g4 30. a4 g3 31. a5 g2 32. Qf3 Rg8 33. Kb2
+g1=Q 34. a6 Qg2+ 35. Qxg2 Rxg2+ 36. Kb3 Rg4 37. e5 Bxe5 38. Nxe5 Rg3 39. Nc6+
+Kc8 40. Nd4 Kb8 41. Kc4 Ka8 42. Nc6 Rg4+ 43. Nd4 Rg5 44. Nc6 Rc5+ 45. Kb4 Rd5
+46. c4 Rg5 47. Nd4 Rg1 48. Nb3 Rb1 49. c5 Rc1 50. cxb6 cxb6 51. Nc5 Kb8 52.
+Nd7+ Kc7 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/OahWiMUS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:23:43"]
+[WhiteElo "2303"]
+[BlackElo "2579"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+3"]
+[ECO "C00"]
+[Opening "French Defense: Alapin Gambit"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 e6 2. d4 d5 3. Be3 Bb4+ 4. Nd2 Be7 5. Bd3 dxe4 6. Nxe4 Nf6 7. Nf3 O-O 8.
+O-O Nc6 9. Ne5 Nxd4 10. Nxf6+ Bxf6 11. Qh5 g6 12. Nxg6 fxg6 13. Bxg6 Qe7 14.
+Be4 Bd7 15. Bh6 Rfe8 16. Rad1 Bc6 17. Qg4+ Kh8 18. Rd3 Rg8 19. Qf4 Ne2+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/npd4x4Fs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:24:44"]
+[WhiteElo "2582"]
+[BlackElo "2299"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-3"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. g3 e5 2. Bg2 d5 3. Nf3 Be6 4. Nxe5 Nd7 5. Nf3 Bd6 6. O-O Ne7 7. Nd4 h5 8.
+Nxe6 fxe6 9. d4 h4 10. c4 hxg3 11. hxg3 c6 12. Nc3 Nf5 13. e4 dxe4 14. Nxe4 Qc7
+15. Re1 O-O-O 16. Nxd6+ Qxd6 17. Bf4 Qxd4 18. Rxe6 Qxb2 19. Rb1 Nc5 20. Qe1 Qd4
+21. Re7 Nxe7 22. Qxe7 Rhe8 23. Qc7# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QZ15rc6D"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "RCone2"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:24:55"]
+[WhiteElo "2556"]
+[BlackElo "2353"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "E62"]
+[Opening "King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 g6 2. g3 Bg7 3. Bg2 d6 4. O-O Nf6 5. c4 O-O 6. d4 e5 7. Nc3 Nc6 8. d5
+Ne7 9. e4 Ng4 10. h3 Nh6 11. Ne1 f5 12. Nd3 fxe4 13. Nxe4 Nef5 14. b4 Nd4 15.
+c5 Nhf5 16. cxd6 Nxd6 17. Bg5 Qe8 18. Ndc5 b6 19. Nxd6 cxd6 20. Ne4 Bf5 21.
+Nxd6 Qd7 22. Nxf5 Qxf5 23. Be3 Rad8 24. Rc1 Nf3+ 25. Qxf3 Qxf3 26. Bxf3 Rxf3
+27. Rfd1 e4 28. Rc7 Be5 29. Rxa7 Bxg3 30. Bxb6 Rb8 31. Bc5 Bh4 32. d6 Rf4 33.
+d7 Bd8 34. Bd6 Rxb4 35. Bxf4 Kf8 36. Bg5 Bxg5 37. d8=Q+ Bxd8 38. Rxd8# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/HXZPel8p"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:25:08"]
+[WhiteElo "2507"]
+[BlackElo "2457"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Slav Formation"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. g3 d5 2. Bg2 c6 3. Nf3 Nf6 4. O-O g6 5. d3 Bg7 6. Nbd2 O-O 7. Qe1 Nbd7 8. e4
+dxe4 9. dxe4 e5 10. Nc4 Qe8 11. Nd6 Qe7 12. Nxc8 Raxc8 13. Nd2 Nb6 14. f3 Rfd8
+15. a4 Qc5+ 16. Kh1 Qxc2 17. a5 Nc4 18. Nxc4 Qxc4 19. Qf2 a6 20. Be3 Qe6 21.
+Bb6 Rd7 22. Rfd1 Bf8 23. h4 Bd6 24. Kh2 Bc7 25. Bh3 Qe7 26. Bxd7 Nxd7 27. Bxc7
+Rxc7 28. Rd2 Nf6 29. Rad1 Rd7 30. Rxd7 Nxd7 31. Qd2 Nf6 32. Qd8+ Qxd8 33. Rxd8+
+Kg7 34. Rb8 h5 35. Rxb7 Ne8 36. Rb6 Nd6 37. Rxc6 Nb5 38. Rxa6 Nd4 39. Rb6 Nxf3+
+40. Kg2 Nd2 41. a6 Nxe4 42. Rb7 Nd6 43. a7 Nxb7 44. a8=Q Nd6 45. Qd5 Kf6 46.
+Qxd6+ Kf5 47. b4 f6 48. b5 g5 49. b6 gxh4 50. b7 h3+ 51. Kxh3 e4 52. Kg2 Kg5
+53. Qd7 f5 54. b8=Q h4 55. Qg8+ Kh6 56. Qdh7# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GAOgpqvu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "usuarioconnombre"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:25:29"]
+[WhiteElo "2402"]
+[BlackElo "2449"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-12"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "30+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.37] } 2. Nf3 { [%eval 0.38] } 2...
+Nc6 { [%eval 0.4] } 3. g3 { [%eval -0.06] } 3... g6 { [%eval 0.0] } 4. Bg2
+{ [%eval 0.01] } 4... Bg7 { [%eval 0.07] } 5. O-O { [%eval 0.12] } 5... d6
+{ [%eval 0.04] } 6. a3 { [%eval 0.01] } 6... Bd7 { [%eval 0.05] } 7. Nc3
+{ [%eval 0.05] } 7... Qc8 { [%eval 0.18] } 8. b4 { [%eval -0.08] } 8... cxb4
+{ [%eval -0.01] } 9. axb4 { [%eval -0.03] } 9... Nxb4 { [%eval -0.04] } 10. Rb1
+{ [%eval -0.06] } 10... Nc6 { [%eval -0.07] } 11. d4 { [%eval -0.37] } 11...
+Bg4 $6 { [%eval 0.15] } 12. Ne2 { [%eval -0.2] } 12... h5 { [%eval 0.13] } 13.
+d5 { [%eval -0.05] } 13... Bxf3 { [%eval 0.0] } 14. Bxf3 { [%eval -0.49] }
+14... Ne5 { [%eval -0.5] } 15. Bg2 { [%eval -0.54] } 15... Nf6
+{ [%eval -0.42] } 16. Be3 { [%eval -0.6] } 16... Neg4 { [%eval -0.19] } 17. Bd4
+{ [%eval -0.17] } 17... O-O { [%eval -0.13] } 18. Qd2 { [%eval -0.12] } 18...
+b6 $6 { [%eval 0.57] } 19. Rfc1 $6 { [%eval -0.02] } 19... Qc4
+{ [%eval -0.08] } 20. Rb4 { [%eval 0.0] } 20... Qa6 { [%eval 0.34] } 21. Ra1
+{ [%eval 0.42] } 21... Qb7 { [%eval 0.59] } 22. Nc3 $6 { [%eval -0.36] } 22...
+Rfc8 { [%eval 0.0] } 23. Nb5 { [%eval -0.41] } 23... Nd7 { [%eval -0.28] } 24.
+Bxg7 { [%eval -0.23] } 24... Kxg7 { [%eval -0.16] } 25. Nd4 { [%eval -0.47] }
+25... a5 { [%eval -0.54] } 26. Rbb1 { [%eval -0.57] } 26... Nc5
+{ [%eval -0.12] } 27. Nc6 { [%eval -0.24] } 27... Nf6 { [%eval 0.0] } 28. Qd4
+$6 { [%eval -0.67] } 28... Kg8 $2 { [%eval 0.89] } 29. Nxa5 $6 { [%eval 0.34] }
+29... Qc7 { [%eval 0.49] } 30. Nc6 { [%eval 0.57] } 30... Rxa1 $6
+{ [%eval 1.32] } 31. Rxa1 { [%eval 1.21] } 31... Ne8 $4 { [%eval 5.63] } 32.
+Ra7 { [%eval 5.65] } 32... Nb7 { [%eval 4.27] } 33. Bh3 { [%eval 5.31] } 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ngTPB0Cr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:25:59"]
+[WhiteElo "2296"]
+[BlackElo "2586"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-19"]
+[ECO "B07"]
+[Opening "Pirc Defense #5"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 d6 2. d4 c6 3. Bd3 g6 4. Ne2 Bg7 5. O-O b5 6. Be3 Na6 7. Nd2 Nc7 8. Ng3
+Rb8 9. f4 e6 10. f5 exf5 11. exf5 Nf6 12. fxg6 hxg6 13. Bg5 Ne6 14. Nde4 Nxg5
+15. Nxg5 O-O 16. Qf3 Nd5 17. N3e4 Bxd4+ 18. Kh1 Bf5 19. Qg3 Be5 20. Qh4 Qxg5
+21. Nxg5 Nf6 22. Bxf5 gxf5 23. Rxf5 Rfe8 24. Rxf6 Re6 25. Qh7+ Kf8 26. Qxf7#
+1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/vGbHUG3d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:26:39"]
+[WhiteElo "2447"]
+[BlackElo "2516"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[BlackTitle "LM"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense, Tan Gambit"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 c6 2. c4 d5 3. cxd5 Nf6 4. Nc3 cxd5 5. e4 dxe4 6. Bb5+ Bd7 7. Bxd7+ Nbxd7
+8. Nge2 e6 9. O-O Be7 10. Be3 O-O 11. d5 exd5 12. Nxd5 Nxd5 13. Qxd5 Nf6 14.
+Qxd8 Rfxd8 15. Nf4 b6 16. Ne2 Rac8 17. Rfd1 Rxd1+ 18. Rxd1 Rc2 19. Nd4 Rxb2 20.
+Nc6 Bf8 21. Bd4 Rc2 22. Nxa7 h5 23. Bxb6 Nd5 24. Be3 Nxe3 25. fxe3 Bc5 26. Nb5
+Bxe3+ 27. Kh1 Bf2 28. a4 e3 29. Nd4 Rd2 30. Rxd2 exd2 31. h3 d1=Q+ 32. Kh2 Bxd4
+33. Kg3 Be5+ 34. Kh4 Qd4+ 35. g4 Qf2+ 36. Kxh5 g6+ 37. Kg5 Qf4+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/l1TZ7YLw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:27:17"]
+[WhiteElo "2567"]
+[BlackElo "2315"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+19"]
+[ECO "C46"]
+[Opening "Three Knights Opening: Winawer Defense"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nc3 Nc6 3. Nf3 f5 4. exf5 Nf6 5. d4 e4 6. Ne5 d5 7. Bb5 Qd6 8. Bf4
+Bd7 9. Nxd7 Qxd7 10. g4 Bb4 11. Be5 O-O-O 12. Bxf6 gxf6 13. a3 Ba5 14. b4 Bb6
+15. Na4 h5 16. c3 hxg4 17. Qxg4 Rdg8 18. Qf4 Rh5 19. Nc5 Bxc5 20. bxc5 Rxf5 21.
+Bxc6 bxc6 22. Qe3 Rf3 23. Qe2 Qf5 24. Rb1 Kd7 25. Kd2 Rg2 26. Rbf1 Rfxf2 27.
+Rxf2 Rxf2 28. Re1 e3+ 29. Kc1 Rxe2 30. Rxe2 Qf1+ 31. Re1 Qxe1+ 32. Kc2 Qd2+ 33.
+Kb3 e2 34. c4 e1=Q 35. Ka4 Qb1 36. cxd5 Qdc2+ 37. Ka5 Qc3+ 38. Ka4 Qcb3+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XwlXsW35"]
+[Date "????.??.??"]
+[Round "?"]
+[White "usuarioconnombre"]
+[Black "waffeln"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:27:32"]
+[WhiteElo "2437"]
+[BlackElo "2416"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. d4 c5 2. c3 g6 3. Bf4 Bg7 4. e3 Qb6 5. Qb3 d5 6. dxc5 Qxc5 7. Nd2 Nc6 8.
+Ngf3 e5 9. Bg3 Nge7 10. Bb5 O-O 11. O-O Bg4 12. h3 Bxf3 13. Nxf3 f5 14. Bxc6
+Nxc6 15. Rfd1 Rad8 16. Rac1 f4 17. exf4 exf4 18. Bh4 Rd7 19. Kf1 h6 20. Nd4 g5
+21. Bxg5 hxg5 22. Ne6 Qe7 23. Nxf8 Bxf8 24. Rxd5 Rxd5 25. Qxd5+ Qf7 26. Re1 Bg7
+27. Qxf7+ Kxf7 28. f3 Be5 29. Re4 Kf6 30. Ke2 Kf5 31. Kd3 Bd6 32. b4 Ne5+ 33.
+Kd4 Ng6 34. Kd5 Be7 35. c4 Bf6 36. c5 Nh4 37. Re2 Bc3 38. b5 Kf6 39. Rc2 Ba5
+40. a4 Nf5 41. c6 Ne3+ 42. Kd6 bxc6 43. Rxc6 Kf5 44. Ra6 Bb6 45. Kc6 Nxg2 46.
+Rxb6 axb6 47. Kxb6 Ne3 48. a5 Ke6 49. a6 Nc4+ 50. Kc5 Nd6 51. a7 Nb7+ 52. Kb6
+g4 53. a8=Q Nd6 54. Qg8+ Ke5 55. Qxg4 Nc4+ 56. Kc5 Ne3 57. Qxf4+ Kxf4 58. b6
+Nf5 59. b7 Ne7 60. b8=Q+ Kxf3 61. Qd6 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/NLKAbmkP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:27:56"]
+[WhiteElo "2525"]
+[BlackElo "2437"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+15"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 c6 4. O-O g6 5. d3 Bg7 6. c4 O-O 7. cxd5 cxd5 8.
+Nbd2 Nc6 9. Nb3 e5 10. d4 e4 11. Ne5 Bg4 12. Nxg4 Nxg4 13. e3 Nf6 14. Bd2 b6
+15. Rc1 Qd7 16. Qe2 Rac8 17. Qb5 Rc7 18. h4 Rfc8 19. Rc2 h5 20. Rfc1 Qd6 21. a4
+Ne7 22. Rxc7 Rxc7 23. Rxc7 Qxc7 24. Bc3 Ng4 25. Bh3 Nf5 26. Bxg4 hxg4 27. a5
+Nxg3 28. fxg3 Qxg3+ 29. Kf1 Qxe3 30. Qe2 Qh3+ 31. Qg2 Qxh4 32. Nd2 Qf6+ 33. Ke2
+e3 34. Nf1 Qf5 35. Nxe3 Qf4 36. Qxg4 Qh2+ 37. Kd3 Qh7 38. Qc8+ Bf8 39. Qg4 g5+
+40. Nf5 Be7 41. Ke3 Bf6 42. Kf3 Qh1+ 43. Kg3 Qd1 44. Qxd1 Be5+ 45. dxe5 f6 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/10iLsOpU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:29:02"]
+[WhiteElo "2334"]
+[BlackElo "2549"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "C21"]
+[Opening "Center Game #2"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. d4 Nf6 3. dxe5 Nxe4 4. Bd3 Nc5 5. Nf3 Ne6 6. O-O Nc6 7. Re1 Be7 8.
+Nc3 d6 9. exd6 Bxd6 10. Nd5 O-O 11. Bg5 Nxg5 12. Nxg5 Qxg5 13. Ne3 Qh4 14. h3
+Bxh3 15. gxh3 Qxh3 16. Qg4 Qh2+ 17. Kf1 Ne5 18. Qf5 Rae8 19. Ke2 g6 20. Qe4
+Nxd3 21. Qxd3 Rxe3+ 22. Qxe3 Be5 23. Rh1 Qf4 24. Qxf4 Bxf4 25. Kf3 Bd6 26. Rad1
+Rd8 27. Rd5 Kg7 28. Rd3 Re8 29. Rhd1 Re5 30. c4 Rf5+ 31. Ke2 Rf4 32. Kf1 Rxc4
+33. R3d2 Rh4 34. b3 Rh1+ 35. Ke2 Rh5 36. Rg1 Re5+ 37. Kf1 Ra5 38. Rg3 Bxg3 39.
+fxg3 Rf5+ 40. Kg2 Rd5 41. Rxd5 c6 42. Rd7 b5 43. Rc7 c5 44. Rb7 b4 45. Rxa7 c4
+46. Rxf7+ Kxf7 47. Kf3 Ke7 48. bxc4 Kd6 49. c5+ Kc7 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/f69tp277"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:29:17"]
+[WhiteElo "2452"]
+[BlackElo "2511"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[BlackTitle "LM"]
+[ECO "A40"]
+[Opening "English Defense #2"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 b6 2. c3 Bb7 3. Nf3 Nf6 4. e4 e6 5. e5 Nd5 6. Bc4 c5 7. O-O cxd4 8. cxd4
+Nc6 9. Nc3 Nxc3 10. bxc3 d6 11. exd6 Bxd6 12. Bd3 Qc7 13. Bg5 h6 14. Bh4 g5 15.
+Bg3 f5 16. Bxd6 Qxd6 17. Re1 O-O-O 18. Ne5 Nxe5 19. Rxe5 Qc6 20. Bf1 h5 21. Qe1
+Rhe8 22. c4 Kb8 23. Rd1 h4 24. d5 exd5 25. cxd5 Rxe5 26. Qxe5+ Qc7 27. d6 Qd7
+28. Bd3 a6 29. Bxf5 Qc6 30. d7+ Ka7 31. Be4 Qxe4 32. Qxe4 Bxe4 33. f3 Bc6 34.
+Re1 Kb7 35. Kf2 Rxd7 36. Re8 Rd2+ 37. Re2 Be8 38. Rxd2 Bf7 39. Re2 Bc4 40. Re3
+b5 41. g3 Kb6 42. gxh4 Ka5 43. hxg5 b4 44. f4 b3 45. g6 b2 46. Re1 b1=Q 47.
+Rxb1 Bd3 48. Rd1 Bb1 49. Rd3 Bxd3 50. Ke3 Bc4 51. f5 Bg8 52. g7 Be6 53. f6 Bf5
+54. h4 Be6 55. f7 Bxf7 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Br8SYDFt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "usuarioconnombre"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:30:33"]
+[WhiteElo "2405"]
+[BlackElo "2447"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: English Variation"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. b3 c5 2. Bb2 Nc6 3. g3 Nf6 4. Bg2 d6 5. Nc3 g6 6. Na4 Bg7 7. Nf3 O-O 8. O-O
+b5 9. Nc3 b4 10. Na4 Bb7 11. a3 a5 12. axb4 axb4 13. d4 cxd4 14. Nxd4 Qc7 15.
+Qd2 Nxd4 16. Bxd4 Bxg2 17. Kxg2 Rab8 18. Nb2 e5 19. Be3 Qc6+ 20. f3 Nd5 21. Bf2
+Rfc8 22. Nc4 Bf8 23. e4 Nc3 24. Ra7 d5 25. Nxe5 Qe6 26. Nxf7 dxe4 27. Nh6+ Kh8
+28. Bd4+ Bg7 29. Bxg7# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Dz71to8y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "hillezinho"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:30:42"]
+[WhiteElo "2520"]
+[BlackElo "2442"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d6 2. Bg2 Bh3 3. Bxh3 Nf6 4. Bg2 e5 5. Bxb7 Be7 6. Bxa8 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/oe7FWuvj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:30:55"]
+[WhiteElo "2554"]
+[BlackElo "2328"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. g3 e5 2. Bg2 d5 3. d4 Be6 4. dxe5 Nc6 5. Nf3 f6 6. exf6 Nxf6 7. O-O Bd6 8.
+Ng5 Qd7 9. Nc3 O-O 10. Nxe6 Qxe6 11. Nxd5 Rae8 12. Nxf6+ Qxf6 13. e4 Ne5 14. f4
+Bc5+ 15. Kh1 Rd8 16. fxe5 Rxd1 17. exf6 Rxf1+ 18. Bxf1 Rxf6 19. Bf4 Rb6 20.
+Bc4+ Kf8 21. Bb3 Bd4 22. Bxc7 Rc6 23. Bf4 Bxb2 24. Rf1 Bf6 25. e5 Be7 26. Be3+
+Ke8 27. Ba4 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/7h0a2zDQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:31:56"]
+[WhiteElo "2323"]
+[BlackElo "2559"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-18"]
+[ECO "C45"]
+[Opening "Scotch Game: Scotch Gambit, Advance Variation"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 Nf6 2. Bc4 e5 3. Nf3 Nc6 4. d4 exd4 5. e5 Qe7 6. O-O Ng4 7. Re1 Kd8 8.
+Bf4 h5 9. Ng5 Qc5 10. Nxf7+ Ke8 11. Nxh8 Qxc4 12. h3 Nh6 13. Qxh5+ Nf7 14. Nd2
+Qe6 15. Ne4 Ne7 16. Ng5 g6 17. Nxe6 gxh5 18. Nxc7+ Kd8 19. Nxf7+ Kxc7 20. e6+
+Kc6 21. Ne5+ Kb6 22. exd7 Bxd7 23. Nxd7+ Kc6 24. Nxf8 Nd5 25. Re6+ Kc5 26. Nd7+
+Kc4 27. b3+ Kc3 28. Rd6 Kb2 29. Rxd5 Kxa1 30. Rxd4 Kxa2 31. Rd2 Re8 32. c4+ Ka3
+33. Kh2 Kb4 34. Be3 Kc3 35. Rd5 Kxb3 36. Nc5+ Kb4 37. Ne4 Kxc4 38. Nc3 Kxc3 39.
+Rd4 Re7 40. Rd1 Re6 41. Rc1+ Kb4 42. Rb1+ Ka5 43. Rc1 Ka6 44. Ra1+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/vXp7gQwC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "usuarioconnombre"]
+[Black "waffeln"]
+[Result "1/2-1/2"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:32:00"]
+[WhiteElo "2435"]
+[BlackElo "2418"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+0"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. d4 Nc6 2. Bf4 d6 3. e3 g6 4. Nf3 Bg7 5. Bb5 Bd7 6. c3 e5 7. Bxc6 Bxc6 8.
+dxe5 Bxf3 9. gxf3 dxe5 10. Qxd8+ Rxd8 11. Bg3 g5 12. h4 h6 13. hxg5 hxg5 14.
+Rxh8 Bxh8 15. Nd2 Ne7 16. O-O-O f5 17. Kc2 f4 18. Bh2 Nf5 19. Bg1 Bf6 20. Ne4
+Rxd1 21. Kxd1 Be7 22. Ke2 Kd7 23. Kd3 b5 24. b3 c5 25. c4 a6 26. a4 Kc6 27.
+axb5+ axb5 28. Ke2 Kb6 29. Nc3 bxc4 30. bxc4 Ka5 31. Nd5 Bd8 32. Kd3 Nh4 33.
+Ke2 Ka4 34. exf4 exf4 35. Bh2 Kb3 36. Kd3 Nxf3 37. Bxf4 gxf4 38. Nxf4 Ne5+ 39.
+Ke4 Nxc4 40. Kd5 Bb6 41. Nd3 Kc3 42. Nxc5 Nd2 43. f4 Bxc5 44. Kxc5 Kd3 45. Kd5
+Ne4 46. f5 Ke3 47. Ke5 Kf3 48. Ke6 Kf4 49. f6 Nxf6 1/2-1/2
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0vvTs2iP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:33:42"]
+[WhiteElo "2541"]
+[BlackElo "2342"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nc3 f5 3. exf5 Nf6 4. d4 exd4 5. Qxd4 d5 6. Bg5 Be7 7. O-O-O O-O 8.
+Bxf6 Bxf6 9. Qxd5+ Qxd5 10. Nxd5 Bg5+ 11. Kb1 Na6 12. Bxa6 bxa6 13. Nxc7 Rb8
+14. g4 Rf7 15. Nd5 Rfb7 16. b3 Bd7 17. Nf3 Bc6 18. Nxg5 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WVs2zdA1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "ToLazyToGetAName"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:33:58"]
+[WhiteElo "2521"]
+[BlackElo "2477"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+12"]
+[BlackTitle "IM"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense #2"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. c4 e6 2. Nf3 d5 3. e3 Nf6 4. b3 b6 5. Bb2 Bb7 6. Nc3 Be7 7. Be2 O-O 8. O-O
+c5 9. d4 dxc4 10. Bxc4 Nc6 11. dxc5 Bxc5 12. Qe2 Qe7 13. Rfd1 Rfd8 14. Ng5 Ne5
+15. Ba6 h6 16. Bxb7 Qxb7 17. Nh3 Ng6 18. Na4 Be7 19. Rxd8+ Rxd8 20. Rd1 Rxd1+
+21. Qxd1 b5 22. Nc3 a6 23. Qd4 Bf8 24. Kf1 Qc6 25. f3 e5 26. Qd3 b4 27. Ne4
+Nxe4 28. Qxe4 Qxe4 29. fxe4 Bd6 30. Ke2 Kf8 31. Kd3 Nh4 32. Kc4 Nxg2 33. Kd5
+Ke7 34. Bc1 Kd7 35. Bd2 Nh4 36. Nf2 Ng6 37. Kc4 Ne7 38. Bxb4 f5 39. Bc3 g5 40.
+exf5 Nxf5 41. e4 Ne3+ 42. Kd3 Ng2 43. Ng4 Nf4+ 44. Kc4 h5 45. Nxe5+ Ke6 46. Nf3
+g4 47. Nd4+ Kd7 48. Nf5 Bc7 49. e5 Ng6 50. Kd5 Nf8 51. Ng7 h4 52. e6+ Nxe6 53.
+Nxe6 Bxh2 54. Nc5+ Kc8 55. Nxa6 Bg1 56. Be5 h3 57. Ke4 h2 58. Bxh2 Bxh2 59. a4
+Kb7 60. Nc5+ Kc6 61. Nd3 Bc7 62. Kf5 g3 63. Ne1 Kd5 64. Kg4 Kd4 65. Kf3 Kc3 66.
+Ng2 Kxb3 67. a5 Ka4 68. a6 Bb6 69. a7 Bxa7 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/NZdw2vIH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:34:27"]
+[WhiteElo "2336"]
+[BlackElo "2547"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-18"]
+[ECO "C21"]
+[Opening "Center Game #2"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 Nf6 3. dxe5 Nxe4 4. Bd3 Nxf2 5. Kxf2 Nc6 6. Nf3 Bc5+ 7. Kf1 O-O
+8. Qe2 d6 9. Nc3 Re8 10. Qe4 g6 11. Bg5 f6 12. Bxf6 Qd7 13. Bc4+ Kf8 14. Qh4 h5
+15. Qg5 Qh7 16. Nd5 Be6 17. Nf4 Bxc4+ 18. Ke1 Bf7 19. e6 Rxe6+ 20. Nxe6+ Bxe6
+21. Kd2 Bf5 22. Rae1 Qf7 23. Qh6+ Kg8 24. Qh8# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/tDNqMx07"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "usuarioconnombre"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:34:36"]
+[WhiteElo "2418"]
+[BlackElo "2434"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. c4 e5 2. g3 Bc5 3. Bg2 Nc6 4. e3 Nf6 5. Ne2 O-O 6. O-O d5 7. a3 dxc4 8. Qc2
+Be6 9. Nbc3 Nd5 10. Ne4 Bb6 11. f4 exf4 12. gxf4 Nf6 13. N2g3 Nxe4 14. Bxe4 g6
+15. f5 Bd5 16. b3 Bxe4 17. Nxe4 Qd3 18. Qxd3 cxd3 19. Bb2 f6 20. Nxf6+ Kf7 21.
+fxg6+ Kxg6 22. Ng4 h5 23. Nf2 Na5 24. Nxd3 Nxb3 25. Nf4+ Kg5 26. Rf2 Nxd2 27.
+Rg2+ Kh4 28. Ng6+ Kh3 29. Rg3# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/djdf22JW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "theaitetos"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:35:35"]
+[WhiteElo "2529"]
+[BlackElo "2370"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[WhiteTitle "LM"]
+[ECO "B07"]
+[Opening "Pirc Defense #4"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 d6 2. Qh5 Nf6 3. Qe2 g6 4. d3 Bg7 5. f3 O-O 6. Nh3 c5 7. Nf2 c4 8. Nc3
+cxd3 9. cxd3 Nbd7 10. g3 Nc5 11. Bg2 Bd7 12. O-O Rb8 13. d4 Na6 14. e5 Ne8 15.
+f4 b5 16. Rd1 b4 17. Nce4 d5 18. Ng5 h6 19. Nf3 e6 20. h3 Nec7 21. g4 Nb5 22.
+f5 exf5 23. gxf5 Bxf5 24. Ng4 Be4 25. Nxh6+ Kh7 26. Ng4 Bxf3 27. Bxf3 Nac7 28.
+Qf2 Ne6 29. h4 f5 30. exf6 Bxf6 31. Nxf6+ Qxf6 32. Qg3 Qxf3 33. Qxf3 Rxf3 34.
+Bd2 Rf4 35. Kh2 Rg4 36. Kh3 Rxh4+ 37. Kxh4 Nf4 38. Kg3 Ng2 39. Rh1+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/DITRcX5l"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:35:42"]
+[WhiteElo "2529"]
+[BlackElo "2354"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nc3 f5 3. exf5 Nf6 4. d4 e4 5. Bg5 d5 6. Bxf6 gxf6 7. Qh5+ Ke7 8.
+Nh3 Rg8 9. Qxh7+ Rg7 10. Qh5 Nc6 11. Nf4 Qe8 12. Ncxd5+ Kd6 13. Qxe8 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Ay1iRNSr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:36:13"]
+[WhiteElo "2348"]
+[BlackElo "2536"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-18"]
+[ECO "B07"]
+[Opening "Pirc Defense: Kholmov System"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 Nf6 2. Bc4 d6 3. Nc3 g6 4. d4 Bg7 5. Nge2 O-O 6. Be3 c5 7. O-O Qc7 8. Nd5
+Nxd5 9. Bxd5 cxd4 10. Bxd4 e5 11. Bc3 Nc6 12. f4 Be6 13. Ng3 exf4 14. Bxg7 Kxg7
+15. Rxf4 Qb6+ 16. Kh1 Qxb2 17. Qf1 Qe5 18. Rd1 Nd4 19. c3 Nc6 20. Qd3 Rad8 21.
+Qf3 h5 22. Rf1 Bg4 23. Qf2 Ne7 24. Rxf7+ Kh6 25. Rxf8 Rd7 26. Qf7 Nxd5 27. Qxd5
+Qxd5 28. exd5 Rc7 29. R1f7 Rxc3 30. h4 g5 31. Rf6+ Kg7 32. hxg5 h4 33. Nf5+
+Bxf5 34. Rxf5 Rc1+ 35. Kh2 Rc5 36. R8f7+ Kg6 37. R7f6+ Kh5 38. Rxd6 Kg4 39. Rh6
+1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ClIywlmh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "theaitetos"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:36:39"]
+[WhiteElo "2364"]
+[BlackElo "2535"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[BlackTitle "LM"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Slav Invitation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 c6 2. g3 d5 3. Bg2 Nf6 4. c4 Bg4 5. cxd5 cxd5 6. d3 Nbd7 7. Qa4 Bxf3 8.
+Bxf3 e6 9. Nd2 Be7 10. O-O O-O 11. b4 Ne5 12. Qb3 Nxf3+ 13. Nxf3 Nd7 14. Bb2
+Qb6 15. a4 Qxb4 16. Qc2 Rac8 17. Qd1 Qxb2 18. Rb1 Qf6 19. Rxb7 Nc5 20. Rxa7 Ra8
+21. Rxa8 Rxa8 22. a5 Rxa5 23. Qb1 Ra8 24. Qb6 h6 25. Qc6 Rd8 26. Nd4 Qxd4 27.
+Qc7 Qf6 28. Rb1 Nd7 29. Rb8 Rxb8 30. Qxd7 Rd8 31. Qb7 h5 32. Kg2 h4 33. g4 Qg5
+34. h3 g6 35. Qxe7 Qxe7 36. f4 Qd7 37. f5 e5 38. Kf3 gxf5 39. e4 fxe4+ 40. Ke3
+d4+ 41. Kxe4 Qd5+ 42. Kf5 Qe6+ 43. Ke4 Qg6+ 44. Kf3 Qxd3+ 45. Kg2 e4 46. Kh1
+Qe3 47. g5 Rc8 48. g6 Qd3 49. gxf7+ Kf8 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/gsDiq5ex"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:37:55"]
+[WhiteElo "2518"]
+[BlackElo "2366"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e3 e5 2. Nc3 d5 3. d4 Nc6 4. dxe5 Be6 5. Nf3 f6 6. Bb5 Bb4 7. O-O Qe7 8. Nd4
+Bd7 9. e6 Bxe6 10. Nxc6 bxc6 11. Bxc6+ Kf7 12. Bxa8 Nh6 13. Bxd5 Rd8 14. Bxe6+
+Kxe6 15. Qf3 Bxc3 16. bxc3 Rd5 17. Rb1 Rf5 18. Qe4+ Kf7 19. Qc4+ Kf8 20. Rb8+
+1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Vx1aRxpa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:38:42"]
+[WhiteElo "2359"]
+[BlackElo "2525"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-16"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit: Vienna Variation"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. f3 Bf5 5. fxe4 Nxe4 6. Qf3 Nd6 7. Nb5 Nxb5 8.
+Bxb5+ c6 9. Qxf5 Qa5+ 10. Bd2 Qxb5 11. Qf2 e6 12. O-O-O Na6 13. Nf3 Nb4 14. Ne5
+Nxa2+ 15. Kb1 Nb4 16. Qxf7+ Kd8 17. Qd7# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/8Fy8lHdV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:39:28"]
+[WhiteElo "2509"]
+[BlackElo "2376"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+16"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined, Reversed Mokele Mbembe"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. d4 e5 2. Nf3 e4 3. Ne5 d6 4. Nxf7 Kxf7 5. Nc3 Nf6 6. Bg5 d5 7. Bxf6 gxf6 8.
+e3 h5 9. Be2 Bb4 10. Bxh5+ Kg7 11. O-O Bxc3 12. bxc3 Bf5 13. f3 Bg6 14. fxe4
+Bxh5 15. Qe1 dxe4 16. Qg3+ Kf7 17. Rxf6+ Qxf6 18. Rf1 Qxf1+ 19. Kxf1 Nd7 20.
+Qxc7 Ke7 21. Qf4 Raf8 22. g3 Rxf4+ 23. exf4 Bf3 24. h4 Nf6 25. Kf2 Ng4+ 26. Kg1
+Rc8 27. d5 Rxc3 28. Kf1 Rxc2 29. Ke1 Ne3 30. d6+ Kxd6 31. f5 Re2# 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sF7kZYey"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ToLazyToGetAName"]
+[Black "gameoverbro"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:40:23"]
+[WhiteElo "2489"]
+[BlackElo "2507"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+12"]
+[WhiteTitle "IM"]
+[ECO "A55"]
+[Opening "Old Indian Defense: Normal Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. Nc3 e5 5. e4 Be7 6. g3 c6 7. Bg2 Qc7 8. O-O
+O-O 9. h3 exd4 10. Nxd4 Re8 11. Re1 a5 12. Be3 Nc5 13. Qc2 Bf8 14. Rad1 Nfd7
+15. b3 Na6 16. Kh2 Ndc5 17. Bf4 Nb4 18. Qb1 Ne6 19. Nxe6 Bxe6 20. c5 Rad8 21.
+a3 Na6 22. b4 axb4 23. axb4 h6 24. cxd6 Bxd6 25. b5 Bxf4 26. bxa6 Be5 27. Rxd8
+Rxd8 28. Na4 bxa6 29. Nc5 Bc4 30. Rc1 Bb5 31. Rd1 Rd4 32. f4 Rxd1 33. Qxd1 Bd6
+34. Qd4 a5 35. e5 Be7 36. f5 Qa7 37. Nb3 Qxd4 38. Nxd4 a4 39. Nxc6 Bc5 40. Bd5
+a3 41. Nd8 Kf8 42. Nxf7 Bc6 43. Ba2 Bd4 44. f6 gxf6 45. exf6 h5 46. g4 h4 47.
+g5 Be4 48. Nh6 Be5+ 49. Kg1 Bg6 50. Ng4 Bf4 51. Kf2 Bxg5 52. Ne5 Bf5 53. f7 Be7
+54. Nf3 Bg6 55. Ke3 Bxf7 56. Bxf7 Kxf7 57. Ne5+ Ke6 58. Nd3 Bg5+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WGYiL9d2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:40:46"]
+[WhiteElo "2392"]
+[BlackElo "2493"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 Nf6 2. Bc4 e5 3. Nf3 Bc5 4. Bxf7+ Kxf7 5. Nxe5+ Ke8 6. d4 d6 7. dxc5 dxe5
+8. Qe2 Nc6 9. Be3 Nxe4 10. O-O Nf6 11. Nc3 Bf5 12. Rad1 Qe7 13. Bg5 Rd8 14. Qf3
+Rxd1 15. Rxd1 Bg4 16. Qg3 Bxd1 17. Nd5 Qf7 18. Nxf6+ gxf6 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/W0bmWxcQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Aleks1"]
+[Black "waffeln"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:40:58"]
+[WhiteElo "2356"]
+[BlackElo "2493"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. c4 e6 2. Nc3 b6 3. e4 Bb7 4. g3 Bb4 5. Nge2 Nf6 6. Bg2 h5 7. O-O h4 8. d4
+hxg3 9. hxg3 Nc6 10. d5 Ne5 11. b3 Nfg4 12. f3 Bc5+ 13. Nd4 Qf6 14. fxg4 Bxd4+
+15. Qxd4 Nf3+ 16. Rxf3 Qxd4+ 17. Kf1 exd5 18. exd5 O-O-O 19. Bf4 Rde8 20. Rd1
+Qc5 21. Rf2 Ba6 22. d6 b5 23. Rd5 Qb4 24. Bd2 bxc4 25. Nb5 c3 26. Rf4 Bxb5+ 27.
+Kg1 cxd2 28. Rxb4 Re1+ 29. Kf2 Re2+ 30. Kf3 Rxg2 31. Kxg2 Bc6 32. Rd4 Re8 33.
+Rxd2 Re5 34. dxc7 Rxd5 35. Rxd5 Bxd5+ 36. Kf2 Kxc7 37. Ke3 g5 38. Kd4 Be6 39.
+b4 Bxg4 40. a4 Bf3 41. a5 g4 42. Ke5 a6 43. Kd4 Kc6 44. Kc4 d5+ 45. Kd4 Kb5 46.
+Ke5 Kxb4 47. Kd6 Kxa5 48. Ke5 Kb4 49. Kf6 a5 50. Kxf7 d4 51. Kf6 d3 52. Kg5 d2
+53. Kh4 d1=Q 54. Kg5 a4 55. Kh4 a3 56. Kg5 a2 57. Kh6 a1=Q 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/S2kk80bv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:41:48"]
+[WhiteElo "2502"]
+[BlackElo "2383"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.21] } 2. Nc3 { [%eval 0.15] } 2... f5
+$2 { [%eval 1.37] } 3. exf5 { [%eval 0.96] } 3... Nf6 { [%eval 1.26] } 4. d4 $6
+{ [%eval 0.36] } 4... e4 $2 { [%eval 1.44] } 5. Bg5 { [%eval 1.06] } 5... d5 $6
+{ [%eval 1.99] } 6. Bxf6 { [%eval 2.21] } 6... gxf6 { [%eval 2.19] } 7. Qh5+
+{ [%eval 2.49] } 7... Ke7 { [%eval 2.44] } 8. Nh3 { [%eval 2.07] } 8... c6
+{ [%eval 2.08] } 9. Nf4 { [%eval 2.03] } 9... Qe8 { [%eval 2.33] } 10. Qh3 $6
+{ [%eval 1.73] } 10... Qd7 { [%eval 2.15] } 11. g4 { [%eval 2.07] } 11... Bg7
+$2 { [%eval 3.73] } 12. O-O-O $2 { [%eval 2.34] } 12... Na6 $2 { [%eval 4.09] }
+13. f3 $2 { [%eval 2.91] } 13... Qd6 { [%eval 3.05] } 14. Qg3 $2
+{ [%eval 0.75] } 14... Bh6 { [%eval 0.97] } 15. Ne2 { [%eval 0.82] } 15... Nb4
+$2 { [%eval 2.44] } 16. Kb1 { [%eval 2.25] } 16... c5 $2 { [%eval 5.09] } 17.
+fxe4 $6 { [%eval 4.28] } 17... cxd4 $2 { [%eval 5.82] } 18. Rxd4
+{ [%eval 5.72] } 18... Nc6 $4 { [%eval 15.56] } 19. Rxd5 $2 { [%eval 8.67] }
+19... Bxf4 $2 { [%eval 11.08] } 20. Nxf4 { [%eval 12.08] } 20... Qb4
+{ [%eval 13.53] } 21. Bb5 { [%eval 10.8] } 21... Bd7 { [%eval 17.79] } 22. Rhd1
+{ [%eval 16.07] } 22... Rad8 { [%eval 19.46] } 23. Qd3 { [%eval 10.75] } 23...
+a6 $6 { [%eval #6] } 24. Bxc6 { [%eval #9] } 24... Bxc6 { [%eval #12] } 25.
+Rxd8 { [%eval 68.65] } 25... Bxe4 $6 { [%eval #1] } 26. Qd7# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GXuqIYGB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:43:20"]
+[WhiteElo "2376"]
+[BlackElo "2509"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-15"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit: Vienna Variation"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. f3 Bf5 5. fxe4 Nxe4 6. Qf3 Nd6 7. Nb5 Nxb5 8.
+Qxf5 Nd6 9. Qf3 e6 10. Bd3 Be7 11. Ne2 Bf6 12. Be3 O-O 13. O-O-O g6 14. g4 Nc6
+15. h4 Bxh4 16. Rxh4 Qxh4 17. Rh1 Qe7 18. Qh3 f5 19. gxf5 exf5 20. Bh6 Rfe8 21.
+Nf4 Ne4 22. Bc4+ Kh8 23. Nxg6+ hxg6 24. Bf8+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/PlDRgxUB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheYellowKing"]
+[Black "Charlie-Waffles"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:44:30"]
+[WhiteElo "2354"]
+[BlackElo "2541"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[BlackTitle "LM"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. exd5 Qxd5 3. b4 Qd6 4. Nc3 Nf6 5. Nf3 c6 6. Be2 Bg4 7. O-O Nbd7 8.
+d4 O-O-O 9. d5 Nxd5 10. Nxd5 Qxd5 11. Qxd5 cxd5 12. b5 e6 13. b6 Nxb6 14. Be3
+Bxf3 15. Bxf3 Nc4 16. Bd4 b6 17. c3 f6 18. Be2 e5 19. Bxc4 dxc4 20. Be3 Bc5 21.
+a4 Bxe3 22. fxe3 a5 23. Rab1 Kc7 24. Rb5 Rd6 25. Rfb1 Rhd8 26. h3 Rc6 27. Kh2
+Rdd6 28. h4 Rd3 29. g3 Rxc3 30. Kh3 Rc2 31. h5 c3 32. Kh4 g6 33. h6 g5+ 34. Kg4
+Rh2 35. Kf5 Rxh6 36. g4 Rh2 37. Ke4 Rf2 38. Rd1 Rd2 39. Rxd2 cxd2 40. Rd5 d1=Q
+41. Rxd1 Rc4+ 42. Kf5 Rxa4 43. Ke6 Rxg4 44. Rc1+ Kb7 45. Rd1 Re4 46. Rd7+ Ka6
+47. Rd5 Rxe3 48. Rd3 Rxd3 49. Kf5 Rd4 50. Kxf6 Rf4+ 51. Kg7 e4 52. Kh6 e3 53.
+Kxh7 g4 54. Kg6 g3 55. Kg5 Rf2 56. Kg4 g2 57. Kh3 g1=Q 58. Kh4 Rh2# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/v5F9T4Nl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "under1650"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:44:35"]
+[WhiteElo "2494"]
+[BlackElo "2391"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+15"]
+[ECO "C63"]
+[Opening "Ruy Lopez: Schliemann Defense, Dyckhoff Variation"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nc3 Nc6 3. Nf3 f5 4. Bb5 Nf6 5. Bxc6 dxc6 6. exf5 Bd6 7. Nh4 O-O 8.
+O-O Qe8 9. d3 Nd5 10. Nxd5 cxd5 11. Qf3 Qe7 12. Qxd5+ Kh8 13. g3 Bxf5 14. Nxf5
+Rxf5 15. Be3 Raf8 16. Qxb7 Qf6 17. Qxa7 Qg6 18. a4 Rh5 19. Qb7 Qg4 20. a5 Rf3
+21. a6 Qh3 22. Qc8+ Qxc8 23. h4 Rxh4 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/gWZ5AZnu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "Aleks1"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:45:19"]
+[WhiteElo "2501"]
+[BlackElo "2349"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "B25"]
+[Opening "Sicilian Defense: Closed Variation, Traditional"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. Bb5 Bg7 5. Bxc6 dxc6 6. d3 Qc7 7. Be3 Bg4 8.
+Bxc5 Nf6 9. h3 Bxf3 10. Qxf3 O-O 11. O-O Rae8 12. a4 Nd7 13. Be3 f5 14. a5 f4
+15. Bxa7 Bxc3 16. bxc3 e5 17. Rfb1 Rf7 18. d4 Rg7 19. Qd3 Rf8 20. f3 g5 21. Bb6
+Qc8 22. a6 bxa6 23. Qxa6 Qe8 24. Qc4+ Kh8 25. Bc7 h5 26. dxe5 Nxe5 27. Bxe5
+Qxe5 28. Qd4 Qxd4+ 29. cxd4 g4 30. hxg4 hxg4 31. Kf2 g3+ 32. Ke2 Rd7 33. c3 c5
+34. Kd3 cxd4 35. cxd4 Rfd8 36. d5 Kg7 37. Kd4 Kf6 38. Rb6+ Kg5 39. Raa6 Rg7 40.
+Ke5 Re8+ 41. Re6 Rb8 42. Rf6 Rb2 43. Rf5+ Kh4 44. Rh6# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/LnUSY9YK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Charlie-Waffles"]
+[Black "TheYellowKing"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:45:37"]
+[WhiteElo "2546"]
+[BlackElo "2348"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[WhiteTitle "LM"]
+[ECO "A00"]
+[Opening "Lasker Simul Special"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 h5 2. Bg2 h4 3. gxh4 Rxh4 4. Nf3 Rh7 5. d4 Nf6 6. c4 e5 7. Qd3 e4 8. Qe3
+Qe7 9. Ng5 Rh5 10. Nxe4 Nxe4 11. Qxe4 Qe5 12. Qxe5+ Rxe5 13. dxe5 d6 14. Nc3
+dxe5 15. Nb5 Bd6 16. Nxd6+ cxd6 17. Be3 Nc6 18. O-O-O Be6 19. Rxd6 Ke7 20. Rxc6
+bxc6 21. Bxc6 Rc8 22. Ba4 Rxc4+ 23. Bc2 Bf5 24. Kd2 Rxc2+ 25. Kd1 Rxb2 26. Rg1
+Rb1+ 27. Bc1 Be6 28. Kd2 Bxa2 29. Rg3 Ke6 30. Ra3 Bd5 31. Ra6+ Kf5 32. Rxa7 Rb5
+33. Ra3 Be6 34. Ke1 e4 35. Be3 f6 36. Kd2 g5 37. Ra4 Kg6 38. f3 exf3 39. exf3
+Bd5 40. Ke1 Bxf3 41. Kf2 g4 42. Ra6 Rb3 43. Rd6 Rb2+ 44. Kg3 Rg2+ 45. Kf4 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uHcpbRZ1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "chessstrategy"]
+[Result "1/2-1/2"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:46:13"]
+[WhiteElo "2406"]
+[BlackElo "2479"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-2"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Wing Gambit"]
+[TimeControl "45+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. b4 cxb4 3. d4 d5 4. exd5 Qxd5 5. Nf3 Nc6 6. c4 bxc3 7. Nxc3 Qd8 8.
+d5 Nb8 9. Bb5+ Bd7 10. O-O Nf6 11. Re1 g6 12. Ne5 Bg7 13. d6 e6 14. Nxd7 Nbxd7
+15. Bg5 O-O 16. Qf3 Qb6 17. Rab1 Qc5 18. Bxd7 Nxd7 19. Ne4 Qc6 20. Qf4 e5 21.
+Qh4 f5 22. Rec1 Qxe4 23. Qxe4 fxe4 24. Rc7 Rf7 25. Rbxb7 e3 26. fxe3 Bf6 27.
+Bxf6 Rxf6 28. Rxd7 Re8 29. Rg7+ Kf8 30. Rxh7 Kg8 31. Rhg7+ Kf8 32. Rh7 Kg8 33.
+Rhg7+ Kf8 34. Rh7 Kg8 1/2-1/2
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bR5A8gxa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "ToLazyToGetAName"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:46:59"]
+[WhiteElo "2519"]
+[BlackElo "2479"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[BlackTitle "IM"]
+[ECO "C05"]
+[Opening "French Defense: Tarrasch Variation, Closed Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6. f4 Nc6 7. Ndf3 Qb6 8. a3
+Be7 9. h4 cxd4 10. cxd4 Na5 11. b4 Nc4 12. Bd3 a5 13. bxa5 Qxa5+ 14. Kf2 b5 15.
+Ne2 Ndb6 16. h5 h6 17. g4 b4 18. f5 bxa3 19. Nf4 Qc3 20. Ra2 Bg5 21. Ne2 Qb4
+22. Nxg5 hxg5 23. Bxg5 Nb2 24. Qb1 Nxd3+ 25. Qxd3 Ba6 26. Qe3 Bc4 27. Raa1 Qb2
+28. h6 gxh6 29. Bf6 Rg8 30. Rhb1 Qxe2+ 31. Qxe2 Bxe2 32. Kxe2 Nc4 33. Kf3 exf5
+34. gxf5 Nd2+ 35. Kf2 Nxb1 36. Rxb1 a2 37. Ra1 Rg4 38. Ke3 Re4+ 39. Kd3 Rf4 40.
+e6 Rxf5 41. exf7+ Kxf7 42. Be5 Rf3+ 43. Kc2 Rh3 44. Kb2 Ke6 45. Bg7 Re3 46. Rh1
+a1=Q+ 47. Rxa1 Rxa1 48. Kxa1 h5 49. Kb2 Kf5 50. Kc2 Ke4 51. Kd2 Rd3+ 52. Ke2
+Rxd4 53. Kf2 Rd3 54. Kg2 h4 55. Bf6 h3+ 56. Kh2 Rf3 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/1tlYVyXI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Aleks1"]
+[Black "waffeln"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:49:00"]
+[WhiteElo "2342"]
+[BlackElo "2508"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. b3 e6 2. Bb2 a5 3. Nc3 d5 4. e4 d4 5. Nce2 Nc6 6. f4 a4 7. Nf3 Bc5 8. bxa4
+Nf6 9. d3 Ng4 10. Bc1 Bb4+ 11. Bd2 Ne3 12. Qb1 Rxa4 13. g3 Qd6 14. Kf2 Qc5 15.
+Ne1 Bxd2 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XmusUkfm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Berthe"]
+[Black "TrapKing"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:49:11"]
+[WhiteElo "2557"]
+[BlackElo "2376"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "A49"]
+[Opening "Indian Game: Przepiorka Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d6 5. O-O Bd7 6. c4 Qc8 7. Nc3 Bh3 8. e4
+Nc6 9. e5 dxe5 10. dxe5 Nh5 11. Nd5 Be6 12. Re1 Nd8 13. Bg5 Bf8 14. Nd4 Bxd5
+15. cxd5 e6 16. Rc1 exd5 17. e6 Nxe6 18. Bxd5 Bd6 19. Nxe6 fxe6 20. Bxe6 Qb8
+21. Bb3+ Kf8 22. Qf3+ Kg7 23. Qf7# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QKemxlwn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yamac123"]
+[Black "patzerseescheck"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:50:01"]
+[WhiteElo "2413"]
+[BlackElo "2575"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-16"]
+[ECO "B67"]
+[Opening "Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. Nb3 b5 10. f3 Ne5 11. Kb1 b4 12. Ne2 a5 13. Nf4 Nxe4 14. fxe4 Qxg5
+15. h4 Qd8 16. Nd4 Be7 17. h5 h6 18. Rh3 O-O 19. Rg3 Bg5 20. Nf3 Nxf3 21. Rxf3
+e5 22. Qxd6 Bg4 23. Qxd8 Raxd8 24. Rxd8 Rxd8 25. Nd5 Bxf3 26. gxf3 g6 27. Bh3
+Kg7 28. c4 bxc3 29. bxc3 f5 30. hxg6 fxe4 31. fxe4 Kxg6 32. c4 Rd6 33. Kc2 Kf7
+34. Kc3 Ke8 35. c5 Rc6 36. Kc4 Be7 37. Nxe7 Kxe7 38. Kd5 Rc7 39. c6 h5 40. a4
+h4 41. Bg4 Ra7 42. Kxe5 Rc7 43. Kd5 Ra7 44. e5 Rc7 45. Kc5 Kd8 46. Kb6 Re7 47.
+e6 Kc8 48. Kxa5 Kc7 49. Kb5 Re8 50. a5 Rb8+ 51. Kc5 Ra8 52. Kb5 Rb8+ 53. Kc4
+Ra8 54. e7 Re8 55. Bd7 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/mG1SV32u"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TrapKing"]
+[Black "Berthe"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:50:41"]
+[WhiteElo "2370"]
+[BlackElo "2562"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d3 g6 2. Nd2 Bg7 3. Ngf3 d5 4. g3 c5 5. Bg2 Nc6 6. O-O Nf6 7. c3 O-O 8. Re1
+b6 9. e4 Bb7 10. Qe2 dxe4 11. dxe4 Nd7 12. Nf1 Nde5 13. h4 Qd3 14. Nxe5 Nxe5
+15. Bf4 Qxe2 16. Rxe2 Nd3 17. Be3 Rfd8 18. Rd1 Ne5 19. Red2 Rxd2 20. Rxd2 Bc6
+21. b3 Kf8 22. f4 Nd7 23. e5 Bxg2 24. Kxg2 Ke8 25. Bf2 e6 26. Ne3 f6 27. exf6
+Nxf6 28. Kf3 Rd8 29. Rxd8+ Kxd8 30. g4 Kd7 31. c4 Ne8 32. g5 Nd6 33. Ng4 Nf5
+34. Ke4 Kd6 35. Nh2 a6 36. Nf3 Ke7 37. Nd2 Nd6+ 38. Kf3 e5 39. fxe5 Bxe5 40.
+Nf1 Ke6 41. Ne3 b5 42. Ng4 Bg7 43. Bg3 Nf5 44. Bf4 Nxh4+ 45. Ke4 Nf5 46. cxb5
+axb5 47. Nf2 Nd6+ 48. Kf3 Nf5 49. Nd1 Nd4+ 50. Ke4 Nc2 51. Kd3 Nb4+ 52. Ke2
+Nxa2 53. Nc3 Nb4 54. Nxb5 Nd5 55. Nc3 Kf5 56. Ne4 Nxf4+ 57. Ke3 Nd5+ 58. Kd3
+Nf6 59. Nd6+ Kxg5 60. Nc4 Kf5 61. Kc2 Nd5 62. Ne3+ Ke4 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/1ZTz1Mr7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ToLazyToGetAName"]
+[Black "gameoverbro"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:51:48"]
+[WhiteElo "2491"]
+[BlackElo "2506"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-13"]
+[WhiteTitle "IM"]
+[ECO "A53"]
+[Opening "Old Indian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. Nc3 e5 5. g3 c6 6. Bg2 Qc7 7. O-O Be7 8. e4
+O-O 9. Re1 Re8 10. h3 a6 11. Be3 b5 12. Nd2 b4 13. Ne2 exd4 14. Nxd4 Nc5 15.
+Qc2 Bd7 16. Rad1 a5 17. Nf5 Bf8 18. Bf4 Bxf5 19. exf5 a4 20. g4 Nfd7 21. h4 Ne5
+22. Bxe5 dxe5 23. Ne4 b3 24. axb3 Nxb3 25. f6 g6 26. h5 Nd4 27. Qc3 a3 28. bxa3
+Rxa3 29. Qc1 Rea8 30. Qg5 Nf3+ 31. Bxf3 Rxf3 32. hxg6 fxg6 33. c5 Rf4 34. Nd6
+Qd7 35. f7+ Rxf7 36. Nxf7 Qxf7 37. Qxe5 Ra4 38. Re4 Ra2 39. Rf4 Qb3 40. Rd8
+Ra1+ 41. Kg2 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nFM5dEGb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "TheYellowKing"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:52:23"]
+[WhiteElo "2515"]
+[BlackElo "2364"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+20"]
+[ECO "E04"]
+[Opening "Catalan Opening: Open Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. g3 e6 3. Bg2 d5 4. c4 dxc4 5. Nf3 Bb4+ 6. Bd2 c5 7. Bxb4 cxb4 8.
+Ne5 O-O 9. a3 Nc6 10. Nxc6 bxc6 11. axb4 Qb6 12. O-O Rd8 13. e3 e5 14. Qa4 exd4
+15. exd4 Rxd4 16. Bxc6 Bd7 17. b5 Bxc6 18. bxc6 Rd6 19. Qxc4 Rxc6 20. Qe2 h5
+21. Nc3 Rac8 22. Rfd1 Ng4 23. Nd5 Re6 24. Nxb6 Rxe2 25. Nxc8 Nxf2 26. Re1 Rc2
+27. Ne7+ Kh7 28. Rac1 Nh3+ 29. Kh1 Nf2+ 30. Kg2 Nd3+ 31. Kf3 Nxc1 32. b4 Nd3
+33. Re4 Rxh2 34. Ke3 Nf2 35. Rf4 Ng4+ 36. Kd4 Rb2 37. Kc5 f6 38. Nc6 Ne5 39.
+Nxe5 fxe5 40. Rf5 Rb3 41. Rxh5+ Kg6 42. Rxe5 Rxg3 43. Re7 Ra3 44. b5 Kf6 45.
+Rc7 g5 46. Kd4 Kf5 47. Rf7+ Kg4 48. Ke4 Kh3 49. Rh7+ Kg3 50. Kf5 g4 51. Rg7 Ra4
+52. Ke5 Rb4 53. Kd5 Rxb5+ 54. Kc4 Ra5 55. Kd3 Ra3+ 56. Ke2 a5 57. Kf1 a4 58.
+Rf7 Ra2 59. Rc7 a3 60. Ra7 Kh4 61. Kg1 Kh3 62. Kh1 Ra1# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XyYpyzri"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Berthe"]
+[Black "TrapKing"]
+[Result "1/2-1/2"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:52:55"]
+[WhiteElo "2568"]
+[BlackElo "2364"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation, Nimzowitsch-Flohr Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 e5 2. c4 e4 3. Ng1 d5 4. Nc3 c6 5. cxd5 cxd5 6. d3 exd3 7. Nf3 dxe2 8.
+Bxe2 Nf6 9. O-O Be7 10. Bg5 O-O 11. Bxf6 Bxf6 12. Nxd5 Nc6 13. Nxf6+ Qxf6 14.
+Re1 Bf5 15. Qb3 b6 16. Rac1 Nd4 17. Nxd4 Qxd4 18. Red1 Qh4 19. Bf3 Rad8 20. Qa3
+a5 21. Qb3 Rxd1+ 22. Rxd1 Qf6 23. Qb5 h6 24. Rd5 Bg6 25. b3 Qe6 26. h3 Re8 27.
+Kh2 Rf8 28. g3 Qf6 29. Kg2 h5 30. Qe2 h4 31. g4 Qa1 32. Qd2 Qf6 33. Rd6 Qe5 34.
+Rxb6 Re8 35. Rd6 f5 36. Rd8 fxg4 37. hxg4 Rxd8 38. Qxd8+ Kh7 39. Qxh4+ Kg8 40.
+Qd8+ Be8 41. Bd5+ Kf8 42. Qxa5 Qe7 43. Qd2 Qf6 44. Qf4 Bf7 45. Qxf6 gxf6 46.
+Bxf7 Kxf7 47. Kf3 Kg6 48. Kf4 f5 49. g5 Kf7 50. Kg3 Ke6 51. f4 Kd5 52. Kf3 Kd4
+53. g6 Kd3 54. g7 Kc2 55. g8=Q Kb2 56. Qf7 Ka3 57. Qxf5 Kb2 58. Qe5+ Ka3 59. f5
+Kxa2 60. f6 Ka3 61. f7 Ka2 62. f8=Q Kb1 63. Qfe7 Kc2 1/2-1/2
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QODKLxGB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TrapKing"]
+[Black "Berthe"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:55:15"]
+[WhiteElo "2370"]
+[BlackElo "2562"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-16"]
+[ECO "A00"]
+[Opening "Valencia Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.06] } 1... e5 { [%eval 0.0] } 2. Nd2 { [%eval -0.09] } 2...
+d5 { [%eval -0.06] } 3. Ngf3 { [%eval -0.01] } 3... Nd7 { [%eval 0.2] } 4. e4
+{ [%eval 0.24] } 4... Ngf6 { [%eval 0.16] } 5. g3 { [%eval -0.12] } 5... c6
+{ [%eval -0.05] } 6. Bg2 { [%eval -0.12] } 6... Bd6 { [%eval -0.08] } 7. O-O
+{ [%eval -0.01] } 7... O-O { [%eval -0.03] } 8. c3 { [%eval -0.21] } 8... Re8
+{ [%eval -0.24] } 9. Qc2 { [%eval -0.32] } 9... a5 { [%eval -0.1] } 10. h3
+{ [%eval -0.5] } 10... Bf8 { [%eval -0.3] } 11. Nh4 { [%eval -0.46] } 11... g6
+{ [%eval -0.36] } 12. Re1 { [%eval -0.38] } 12... Bg7 { [%eval -0.36] } 13. Nf1
+{ [%eval -0.44] } 13... Qc7 { [%eval -0.36] } 14. Bg5 { [%eval -0.41] } 14...
+b6 { [%eval -0.41] } 15. Rad1 { [%eval -0.42] } 15... Ba6 { [%eval -0.2] } 16.
+Kh1 { [%eval -0.54] } 16... Rad8 { [%eval -0.54] } 17. f4 $6 { [%eval -1.26] }
+17... Nc5 $2 { [%eval -0.1] } 18. fxe5 $6 { [%eval -0.66] } 18... Rxe5 $6
+{ [%eval -0.1] } 19. Bf4 { [%eval -0.45] } 19... dxe4 $2 { [%eval 2.12] } 20.
+Bxe5 { [%eval 1.91] } 20... Qxe5 { [%eval 1.89] } 21. dxe4 $2 { [%eval -0.64] }
+21... Qxg3 $4 { [%eval 17.49] } 22. Nxg3 { [%eval 10.62] } 22... Re8
+{ [%eval 11.64] } 23. b4 { [%eval 11.19] } 23... axb4 { [%eval 12.0] } 24. cxb4
+{ [%eval 12.19] } 24... Ne6 { [%eval 13.37] } 25. Rd6 { [%eval 10.9] } 25...
+Bb7 { [%eval 12.13] } 26. Nf3 { [%eval 10.67] } 26... Nf4 { [%eval 12.11] } 27.
+e5 { [%eval 11.47] } 27... N6h5 { [%eval 13.69] } 28. Nxh5 { [%eval 14.14] }
+28... Nxh5 { [%eval 12.92] } 29. Red1 { [%eval 12.8] } 29... c5
+{ [%eval 14.33] } 30. Rd8 { [%eval 14.11] } 30... Bh6 { [%eval 22.4] } 31.
+Rxe8+ { [%eval 23.46] } 31... Kg7 { [%eval 23.6] } 32. e6 { [%eval 24.06] }
+32... Ng3+ { [%eval 26.01] } 33. Kg1 { [%eval 24.46] } 33... Bf4 $6
+{ [%eval #7] } 34. exf7 { [%eval #6] } 34... Kxf7 { [%eval #6] } 35. Rde1
+{ [%eval #7] } 35... Kg7 { [%eval #6] } 36. R1e7+ { [%eval #7] } 36... Kh6
+{ [%eval #7] } 37. Qf2 { [%eval #7] } 37... cxb4 { [%eval #5] } 38. h4 $6
+{ [%eval #6] } 38... b3 { [%eval #5] } 39. axb3 $6 { [%eval #6] } 39... b5
+{ [%eval #5] } 40. Nh2 { [%eval #4] } 40... b4 { [%eval #2] } 41. Rh8 $6
+{ [%eval #4] } 41... Bxg2 { [%eval #1] } 42. Rhxh7# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/HCj3HmsH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jodeldiplom"]
+[Black "Rappozevich"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:55:41"]
+[WhiteElo "2368"]
+[BlackElo "2490"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-14"]
+[ECO "D07"]
+[Opening "Queen's Gambit Refused: Chigorin Defense, Main Line"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. e3 e6 5. Nbd2 Nf6 6. Be2 Be7 7. O-O O-O 8. b3
+Ne4 9. Bb2 Kh8 10. Nxe4 dxe4 11. Nd2 Bxe2 12. Qxe2 f5 13. f3 exf3 14. Rxf3 Bf6
+15. Rff1 Ne7 16. Rad1 c5 17. Nf3 Qc7 18. e4 cxd4 19. Bxd4 Rad8 20. e5 Nc6 21.
+exf6 Nxd4 22. fxg7+ Qxg7 23. Nxd4 Rxd4 24. Qxe6 f4 25. Rde1 Rg8 26. Qe5 Rd2 27.
+Qxg7+ Rxg7 28. Rf2 Rxf2 29. Kxf2 Rd7 30. Kf3 Rd3+ 31. Kxf4 Rd2 32. Kf3 Rxa2 33.
+Re8+ Kg7 34. Re7+ Kg6 35. Rxb7 Ra3 36. Kf4 a5 37. g4 Ra2 38. Rb6+ Kg7 39. h4
+Rd2 40. Rb5 Ra2 41. Kg5 a4 42. Rb7+ Kg8 43. bxa4 Rxa4 44. Rc7 Ra6 45. c5 Ra5
+46. Kf6 Ra6+ 47. c6 h6 48. Kg6 Kf8 49. Kxh6 Ra4 50. Kg5 Ra5+ 51. Kg6 Ra4 52.
+Kh5 Ra5+ 53. g5 Kg8 54. Kg6 Kf8 55. h5 Rd5 56. h6 Rd6+ 57. Kh5 Kg8 58. g6 Rd5+
+59. Kg4 Rd4+ 60. Kf5 Kf8 61. Rc8+ Ke7 62. h7 Rd5+ 63. Ke4 Rh5 64. h8=Q Re5+ 65.
+Qxe5# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7eFWEQCc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "yamac123"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:56:31"]
+[WhiteElo "2559"]
+[BlackElo "2428"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined: Traditional Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 d5 4. Bg5 dxc4 5. Qa4+ Nbd7 6. e4 h6 7. Bxf6 Qxf6 8.
+Bxc4 a6 9. Qc2 b5 10. Bd3 c5 11. e5 Qd8 12. Be4 Ra7 13. O-O cxd4 14. Nxd4 Qb6
+15. Qxc8+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/p3iD4pSl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Berthe"]
+[Black "TrapKing"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:57:10"]
+[WhiteElo "2546"]
+[BlackElo "2387"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "B07"]
+[Opening "Pirc Defense #3"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. Nc3 g6 3. e4 d6 4. Be3 Nbd7 5. f3 e5 6. Nge2 Bg7 7. Qd2 O-O 8. h4
+h5 9. O-O-O exd4 10. Nxd4 Ne5 11. Be2 Nc4 12. Qd3 Nxe3 13. Qxe3 a5 14. Kb1 a4
+15. g4 hxg4 16. h5 Nxh5 17. fxg4 Nf6 18. Qh3 Re8 19. Nd5 Nxd5 20. exd5 Qg5 21.
+Rdf1 a3 22. Qh7+ Kf8 23. Ne6+ Bxe6 24. dxe6 Rxe6 25. Bc4 d5 26. Bb3 c5 27. Qh2
+Rae8 28. Qf2 c4 29. Qxf7# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4FpjHMjf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gameoverbro"]
+[Black "ToLazyToGetAName"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:57:28"]
+[WhiteElo "2493"]
+[BlackElo "2502"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-10"]
+[BlackTitle "IM"]
+[ECO "C05"]
+[Opening "French Defense: Tarrasch Variation, Closed Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e6 { [%eval 0.24] } 2. d4 { [%eval 0.17] } 2... d5
+{ [%eval 0.14] } 3. Nd2 { [%eval 0.18] } 3... Nf6 { [%eval 0.2] } 4. e5
+{ [%eval 0.28] } 4... Nfd7 { [%eval 0.28] } 5. c3 { [%eval 0.17] } 5... c5
+{ [%eval 0.17] } 6. f4 { [%eval 0.09] } 6... Nc6 { [%eval 0.03] } 7. Ndf3
+{ [%eval -0.07] } 7... Qb6 { [%eval 0.12] } 8. a3 { [%eval -0.14] } 8... Be7
+{ [%eval 0.0] } 9. h4 { [%eval -0.22] } 9... cxd4 { [%eval -0.2] } 10. cxd4
+{ [%eval -0.22] } 10... Na5 { [%eval -0.14] } 11. Bd3 $6 { [%eval -0.69] }
+11... Nb3 { [%eval -0.67] } 12. Rb1 { [%eval -0.69] } 12... Nxc1 $6
+{ [%eval 0.14] } 13. Qxc1 { [%eval 0.12] } 13... Qa5+ { [%eval 0.34] } 14. Kf2
+{ [%eval 0.12] } 14... Qd8 { [%eval 0.22] } 15. Ne2 { [%eval 0.29] } 15... Nb6
+{ [%eval 0.39] } 16. h5 { [%eval 0.18] } 16... h6 { [%eval 0.28] } 17. g4
+{ [%eval 0.34] } 17... Bd7 { [%eval 0.25] } 18. f5 { [%eval 0.03] } 18... Rc8
+{ [%eval -0.01] } 19. Qf4 { [%eval 0.09] } 19... O-O $2 { [%eval 2.37] } 20. f6
+{ [%eval 2.42] } 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/c8kpcgKj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheYellowKing"]
+[Black "waffeln"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:58:24"]
+[WhiteElo "2384"]
+[BlackElo "2499"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C69"]
+[Opening "Ruy Lopez: Exchange Variation, Normal Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. d3 f6 7. Be3 c5 8.
+Nbd2 Qd7 9. h3 Bh5 10. Nc4 Nh6 11. a4 Bd6 12. Nxd6+ cxd6 13. Nxe5 fxe5 14.
+Qxh5+ Nf7 15. f4 O-O-O 16. fxe5 Nxe5 17. Bf4 Ng6 18. Bg3 d5 19. exd5 Qxd5 20.
+Qxd5 Rxd5 21. Rf7 Rd7 22. Raf1 Re8 23. a5 Re2 24. c4 Rxb2 25. Rxd7 Kxd7 26.
+Rf7+ Ke6 27. Rxg7 Ne7 28. Rxh7 Nc6 29. Bf2 Nxa5 30. Bxc5 Nc6 31. d4 Kf5 32. d5
+Ne5 33. Bd4 Rb1+ 34. Kh2 Nxc4 35. Rc7 Nd6 36. Bc5 Ne4 37. d6 Rd1 38. d7 b5 39.
+Be3 Ke6 40. Rc6+ Kxd7 41. Rxa6 Nd6 42. Rb6 Rd5 43. Bf4 Nc4 44. Rb7+ Kc6 45.
+Rc7+ Kb6 46. Rg7 b4 47. Rg6+ Kb5 48. Rg5 Rxg5 49. Bxg5 Kc5 50. Bf6 Kd5 51. h4
+Ne5 52. Bxe5 Kxe5 53. g4 b3 54. h5 b2 55. h6 b1=Q 56. g5 Qc2+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/E4Sd9HDt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TrapKing"]
+[Black "Berthe"]
+[Result "1-0"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:59:06"]
+[WhiteElo "2381"]
+[BlackElo "2553"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-16"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 g6 2. Nd2 Bg7 3. Ngf3 d5 4. g3 Nf6 5. Bg2 O-O 6. O-O c5 7. e4 Nc6 8. c3
+dxe4 9. dxe4 b6 10. Qe2 Ba6 11. Qxa6 e5 12. Qe2 Qc7 13. Nc4 Rad8 14. Bg5 Rfe8
+15. Nh4 a6 16. Ne3 h6 17. Bxf6 Bxf6 18. Nd5 Bxh4 19. Nxc7 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mdpwdgWx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yamac123"]
+[Black "patzerseescheck"]
+[Result "0-1"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:59:21"]
+[WhiteElo "2422"]
+[BlackElo "2566"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+8"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.17] } 2. Nf3 { [%eval 0.21] } 2...
+Nc6 { [%eval 0.28] } 3. Nc3 { [%eval 0.15] } 3... d6 { [%eval 0.19] } 4. Bb5
+{ [%eval 0.09] } 4... Bd7 { [%eval 0.26] } 5. O-O { [%eval 0.11] } 5... Nf6
+{ [%eval 0.19] } 6. Re1 { [%eval 0.03] } 6... a6 { [%eval 0.34] } 7. Bf1
+{ [%eval -0.07] } 7... e5 { [%eval 0.06] } 8. h3 { [%eval -0.03] } 8... Be7
+{ [%eval -0.05] } 9. a4 { [%eval 0.01] } 9... O-O { [%eval 0.0] } 10. d3
+{ [%eval -0.28] } 10... h6 { [%eval -0.18] } 11. Nd2 { [%eval -0.22] } 11...
+Nd4 { [%eval 0.15] } 12. Nc4 { [%eval -0.14] } 12... Be6 { [%eval 0.09] } 13.
+Ne3 { [%eval -0.01] } 13... b5 { [%eval -0.04] } 14. g3 { [%eval -0.22] } 14...
+Qd7 { [%eval -0.23] } 15. g4 { [%eval -0.51] } 15... Nh7 $6 { [%eval 0.12] }
+16. Ncd5 { [%eval 0.18] } 16... Ng5 { [%eval 0.17] } 17. Nb6 $6
+{ [%eval -0.76] } 17... Qb7 { [%eval -0.8] } 18. Nxa8 { [%eval -0.87] } 18...
+Ndf3+ $6 { [%eval -0.05] } 19. Kg2 { [%eval -0.05] } 19... Nxe1+
+{ [%eval -0.12] } 20. Qxe1 { [%eval -0.12] } 20... Rxa8 { [%eval -0.04] } 21.
+axb5 { [%eval -0.1] } 21... axb5 { [%eval -0.13] } 22. Bd2 { [%eval -0.26] }
+22... d5 { [%eval 0.05] } 23. f3 { [%eval -0.22] } 23... d4 { [%eval -0.12] }
+24. Nf5 { [%eval -0.18] } 24... Bf8 { [%eval -0.25] } 25. h4 { [%eval -0.2] }
+25... Nh7 { [%eval -0.26] } 26. b3 { [%eval -0.34] } 26... Nf6
+{ [%eval -0.32] } 27. Be2 { [%eval -0.41] } 27... h5 { [%eval -0.25] } 28. g5
+{ [%eval -0.68] } 28... Nd7 { [%eval -0.5] } 29. f4 $2 { [%eval -2.72] } 29...
+Bxf5 { [%eval -2.66] } 30. Bf3 $6 { [%eval -3.64] } 30... Bg4 { [%eval -3.55] }
+31. f5 $6 { [%eval -4.3] } 31... Bxf3+ { [%eval -4.16] } 32. Kxf3
+{ [%eval -4.31] } 32... g6 { [%eval -3.9] } 33. f6 $2 { [%eval -5.15] } 33...
+Bd6 $6 { [%eval -4.55] } 34. Kg3 $6 { [%eval -5.16] } 34... Nf8 $6
+{ [%eval -4.48] } 35. c3 $2 { [%eval -6.38] } 35... Ne6 $6 { [%eval -5.73] }
+36. b4 $2 { [%eval -8.12] } 36... dxc3 { [%eval -8.13] } 37. Bxc3
+{ [%eval -8.0] } 37... cxb4 $6 { [%eval -7.44] } 38. Bxb4 $2 { [%eval -10.87] }
+38... Bxb4 $6 { [%eval -9.03] } 39. Rxa8+ { [%eval -9.96] } 39... Qxa8
+{ [%eval -13.15] } 40. Qxb4 { [%eval -12.58] } 40... Qd8 $4 { [%eval -4.9] }
+41. Qb3 $4 { [%eval -55.04] } 41... Nf4 $2 { [%eval -8.98] } 42. Qxb5 $2
+{ [%eval -50.78] } 42... Qxd3+ { [%eval -16.32] } 43. Qxd3 { [%eval -8.51] }
+43... Nxd3 { [%eval -56.15] } 44. Kf3 { [%eval -51.0] } 44... Nc5
+{ [%eval -55.03] } 45. Ke3 { [%eval -51.19] } 45... Kf8 { [%eval -55.27] } 46.
+Kf3 { [%eval -15.15] } 46... Ke8 { [%eval -55.27] } 47. Ke3 { [%eval -53.78] }
+47... Kd7 { [%eval -55.31] } 48. Kf3 { [%eval -55.27] } 48... Kc6
+{ [%eval #-19] } 49. Ke3 { [%eval #-18] } 49... Kb5 { [%eval -55.35] } 50. Kf3
+$6 { [%eval #-15] } 50... Kc4 { [%eval #-17] } 51. Ke3 { [%eval #-15] } 51...
+Kc3 { [%eval #-14] } 52. Kf3 { [%eval #-12] } 52... Kd4 { [%eval #-12] } 53.
+Ke2 { [%eval #-13] } 53... Nxe4 { [%eval #-12] } 54. Kf3 { [%eval #-12] } 54...
+Kd3 { [%eval #-10] } 55. Kg2 { [%eval #-10] } 55... Ke3 { [%eval #-9] } 56. Kh3
+{ [%eval #-7] } 56... Kf4 { [%eval #-11] } 57. Kg2 { [%eval #-10] } 57... Nxg5
+$6 { [%eval -63.89] } 58. hxg5 $6 { [%eval #-11] } 58... Kxg5 { [%eval #-13] }
+59. Kh3 { [%eval #-12] } 59... Kxf6 { [%eval #-13] } 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UA5flE3i"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ToLazyToGetAName"]
+[Black "gameoverbro"]
+[Result "1/2-1/2"]
+[UTCDate "2016.02.29"]
+[UTCTime "23:59:59"]
+[WhiteElo "2492"]
+[BlackElo "2506"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[WhiteTitle "IM"]
+[ECO "A53"]
+[Opening "Old Indian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. g3 e5 5. Bg2 Be7 6. O-O O-O 7. Nc3 c6 8. b4
+a5 9. b5 Qc7 10. Bb2 Re8 11. e3 Nf8 12. Rc1 Bg4 13. h3 Bh5 14. bxc6 bxc6 15.
+Qa4 Ne6 16. d5 cxd5 17. Nxd5 Nxd5 18. cxd5 Nc5 19. Qc4 Reb8 20. Ba3 Rc8 21. g4
+Bg6 22. Rfd1 Qd7 23. Nxe5 dxe5 24. d6 Nd3 25. Bxa8 Rxc4 26. Rxc4 Bd8 27. Bc6
+Qe6 28. Bb5 h5 29. gxh5 Bxh5 30. Rxd3 e4 31. Rdd4 Qg6+ 32. Kf1 Bf3 33. Rxe4
+Qg2+ 34. Ke1 Qg1+ 35. Kd2 Bxe4 36. Rxe4 Qxf2+ 37. Kd3 Bf6 38. Rf4 Kh7 39. Rxf2
+Be5 40. Rf5 1/2-1/2
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/M4tF3L4P"]
+[Date "????.??.??"]
+[Round "?"]
+[White "andrewrun"]
+[Black "Berthe"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:00:27"]
+[WhiteElo "2346"]
+[BlackElo "2537"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[WhiteTitle "NM"]
+[ECO "C48"]
+[Opening "Four Knights Game: Spanish Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.06] } 1... e5 { [%eval 0.12] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.25] } 3. Nc3 { [%eval 0.09] } 3... Nf6 { [%eval 0.0] } 4. Bb5
+{ [%eval 0.1] } 4... Bd6 { [%eval 0.15] } 5. a3 { [%eval 0.05] } 5... O-O
+{ [%eval 0.0] } 6. d3 { [%eval 0.0] } 6... Re8 { [%eval 0.31] } 7. g4
+{ [%eval 0.0] } 7... Nd4 { [%eval 0.23] } 8. Bc4 $6 { [%eval -0.27] } 8... c6
+{ [%eval 0.06] } 9. g5 { [%eval 0.26] } 9... Nxf3+ $2 { [%eval 2.92] } 10. Qxf3
+{ [%eval 2.89] } 10... Be7 { [%eval 2.84] } 11. gxf6 { [%eval 2.85] } 11...
+Bxf6 { [%eval 3.02] } 12. Rg1 { [%eval 2.83] } 12... d6 { [%eval 3.1] } 13. Bh6
+{ [%eval 2.81] } 13... g6 { [%eval 3.07] } 14. O-O-O $6 { [%eval 2.51] } 14...
+a5 { [%eval 2.99] } 15. h4 { [%eval 2.67] } 15... b5 { [%eval 2.68] } 16. Ba2
+{ [%eval 2.77] } 16... b4 { [%eval 2.75] } 17. Na4 { [%eval 2.72] } 17... bxa3
+{ [%eval 2.55] } 18. bxa3 { [%eval 2.85] } 18... Be6 { [%eval 2.93] } 19. Bxe6
+{ [%eval 2.65] } 19... Rxe6 { [%eval 2.88] } 20. h5 { [%eval 2.85] } 20... Rb8
+{ [%eval 2.96] } 21. hxg6 { [%eval 2.67] } 21... fxg6 { [%eval 2.54] } 22. Rg2
+$6 { [%eval 1.89] } 22... Qc8 $6 { [%eval 2.87] } 23. Rdg1 { [%eval 2.77] }
+23... Qb7 $2 { [%eval 5.47] } 24. Bg5 $4 { [%eval 2.1] } 24... Bg7 $6
+{ [%eval 2.79] } 25. Qg4 $6 { [%eval 2.24] } 25... Ree8 { [%eval 2.36] } 26.
+Rh1 $4 { [%eval -2.35] } 26... Qb5 $4 { [%eval 3.76] } 27. Nc3 $6
+{ [%eval 3.0] } 27... Qb2+ { [%eval 3.48] } 28. Kd2 { [%eval 3.36] } 28... d5
+$2 { [%eval 5.91] } 29. exd5 $4 { [%eval 1.95] } 29... cxd5 $4 { [%eval 7.3] }
+30. Nxd5 { [%eval 6.15] } 30... e4 { [%eval 7.14] } 31. Qd7 $4 { [%eval 0.7] }
+31... exd3 { [%eval 0.78] } 32. Kxd3 $4 { [%eval #-1] } 32... Qxa3+ $4
+{ [%eval 12.52] } 33. Kd2 $4 { [%eval 2.91] } 33... Qb2 { [%eval 2.79] } 34.
+Rgh2 $4 { [%eval #-3] } 34... Qd4+ { [%eval #-2] } 35. Kc1 { [%eval #-2] }
+35... Rb1+ { [%eval #-1] } 36. Kxb1 { [%eval #-1] } 36... Qb2# 0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nJUsXCEm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "TheYellowKing"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:03:35"]
+[WhiteElo "2507"]
+[BlackElo "2375"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "B39"]
+[Opening "Sicilian Defense: Accelerated Dragon, Maroczy Bind, Breyer Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. c4 g6 3. Nf3 Bg7 4. d4 cxd4 5. Nxd4 Nc6 6. Be3 Nf6 7. Nc3 Ng4 8.
+Qxg4 Nxd4 9. Qd1 Ne6 10. Qd2 b6 11. Bd3 Bb7 12. O-O O-O 13. Rae1 Rc8 14. b3 Nc5
+15. Bb1 Bxc3 16. Qxc3 Bxe4 17. Bh6 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ih4Y9V55"]
+[Date "????.??.??"]
+[Round "?"]
+[White "under1650"]
+[Black "waffeln"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:04:52"]
+[WhiteElo "2433"]
+[BlackElo "2515"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C44"]
+[Opening "Scotch Game: Goering Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 Nc6 3. Nf3 exd4 4. c3 d3 5. Bxd3 Nf6 6. e5 Ng4 7. O-O Be7 8. Re1
+d6 9. exd6 Qxd6 10. Na3 Be6 11. Nb5 Qd7 12. Qe2 O-O-O 13. h3 Qxd3 14. Qxd3 Rxd3
+15. hxg4 Bxg4 16. Ne5 Nxe5 17. Rxe5 Bf6 18. Rc5 Rd1+ 19. Kh2 c6 20. Nxa7+ Kc7
+21. Bf4+ Kb6 22. Be3 Rxa1 23. Rxc6+ Ka5 24. b4+ Ka4 25. Rc5 Rxa2 26. Ra5+ Kb3
+0-1
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bPi2C81t"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "yamac123"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:05:40"]
+[WhiteElo "2574"]
+[BlackElo "2416"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined: Traditional Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 d5 4. Bg5 dxc4 5. Qa4+ Nbd7 6. e4 h6 7. Bxf6 Qxf6 8.
+Bxc4 a6 9. Qc2 b5 10. Bd3 c5 11. e5 Qd8 12. Be4 Rb8 13. O-O Bb7 14. Rd1 Qb6 15.
+a4 Be7 16. axb5 axb5 17. Bxb7 Qxb7 18. dxc5 Nxc5 19. Nc3 O-O 20. Ne2 Rbc8 21.
+Ned4 Rfd8 22. Qe2 b4 23. Rac1 Rd5 24. Rc4 Rcd8 25. Rdc1 Qa6 26. Qe3 Qa4 27. h4
+Qa5 28. g3 Qa4 29. Kg2 Qa8 30. Kg1 Qa6 31. Rxb4 Nd7 32. Rbc4 Nc5 33. b4 Na4 34.
+b5 Qa5 35. Nc6 Rd1+ 36. Kg2 Qc7 37. Nxe7+ Qxe7 38. Rxd1 Rxd1 39. Rxa4 Rb1 40.
+Ra8+ Kh7 41. Qe4+ g6 42. Qxb1 Qb7 43. Ra5 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/syv7GZXJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "Cartucho"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:07:52"]
+[WhiteElo "2524"]
+[BlackElo "2341"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "A45"]
+[Opening "Trompowsky Attack: Raptor Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. h4 c5 4. d5 d6 5. Nd2 Qa5 6. c3 Nf6 7. e4 e5 8. a4 Be7
+9. Bb5+ Bd7 10. Nc4 Qc7 11. Ne2 O-O 12. Ng3 a6 13. Bxd7 Nbxd7 14. Nf5 Rfe8 15.
+Qf3 Bf8 16. Nh6+ gxh6 17. Bxf6 Nxf6 18. Qxf6 b5 19. Rh3 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Zc7C5OMs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "Berthe"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:10:54"]
+[WhiteElo "2404"]
+[BlackElo "2590"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C20"]
+[Opening "King's Pawn Opening: 2.b3"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. b3 Nc6 3. Bb2 Nf6 4. Nf3 d6 5. Bb5 Bd7 6. d4 Nxd4 7. Bxd7+ Qxd7 8.
+Nxd4 exd4 9. O-O Be7 10. Qxd4 O-O 11. Nc3 Rfe8 12. Rfe1 Bf8 13. Rad1 Rad8 14.
+h3 a6 15. Qa7 Qc6 16. f3 d5 17. e5 Nh5 18. Qd4 g6 19. Kh1 Bg7 20. f4 Ng3+ 21.
+Kh2 Nf5 22. Qf2 d4 23. Ne4 Qb6 24. Rd3 c5 25. g4 Ne7 26. Ng3 Nd5 27. f5 Bxe5
+28. Rf3 Ne3 29. Bc1 Qd6 30. Bxe3 dxe3 31. Rexe3 Bxg3+ 32. Rxg3 Rxe3 33. Qxe3
+Qd2+ 34. Qxd2 Rxd2+ 35. Rg2 Rd4 36. Rf2 gxf5 37. Rxf5 Kg7 38. Kg3 f6 39. Rxc5
+Rd2 40. Rc7+ Kg6 41. Rc4 Rd7 42. Kh4 Kf7 43. Rf4 Re7 44. Rf5 h6 45. Rh5 Re6 46.
+Rf5 Ke7 47. Rf3 Kd6 48. Rf5 Re5 49. Rh5 Ke6 50. Rxh6 Kd5 51. Rh5 Rxh5+ 52. Kxh5
+Ke5 53. Kg6 Ke6 54. h4 f5 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lilJDHH8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "TrapKing"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:11:58"]
+[WhiteElo "2486"]
+[BlackElo "2389"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Indian Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. b3 Nf6 2. Bb2 g6 3. e4 Bg7 4. f4 Nh5 5. Bxg7 Nxg7 6. Nf3 d6 7. d4 Nd7 8.
+Nbd2 c6 9. Bd3 Qc7 10. O-O e5 11. fxe5 dxe5 12. Nc4 exd4 13. Nxd4 O-O 14. Kh1
+b5 15. Ne3 Ne5 16. Be2 Ne6 17. Nxe6 Bxe6 18. Qe1 Qe7 19. Qg3 Nd7 20. Bg4 Bxg4
+21. Nxg4 Kg7 22. Rad1 h5 23. Rxd7 Qxd7 24. Qe5+ f6 25. Nxf6 Qf7 26. Nxh5+ Kg8
+27. Rxf7 Rxf7 28. Ng3 Raf8 29. h3 Kh7 30. Qg5 Rf6 31. e5 Rf5 32. Nxf5 Rxf5 33.
+Qh4+ Kg7 34. e6 Rf1+ 35. Kh2 Re1 36. Qe7+ Kh6 37. Qf6 Rf1 38. Qxf1 g5 39. Qf6+
+Kh5 40. e7 c5 41. e8=Q+ Kh4 42. Qeg6 c4 43. Qff5 c3 44. Qff6 b4 45. Qff5 a5 46.
+Qff6 a4 47. Qff5 1-0
+
+[Event "Rated Bullet tournament https://lichess.org/tournament/HdljkBJp"]
+[Site "https://lichess.org/ndKOotDQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nurmiBrah"]
+[Black "jcgs"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:12:18"]
+[WhiteElo "2587"]
+[BlackElo "2401"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Sicilian Invitation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 c5 2. Bg2 g6 3. c4 Bg7 4. Nc3 Nf6 5. e3 O-O 6. Nge2 Nc6 7. O-O d6 8. a3
+Rb8 9. d3 a6 10. Rb1 Ne8 11. Qc2 Nc7 12. b4 Bd7 13. b5 Ne5 14. a4 Ne6 15. Bb2
+h5 16. Nd5 Nc7 17. Nxc7 Qxc7 18. Rbc1 Bf5 19. Rfd1 axb5 20. axb5 Ra8 21. e4 Bg4
+22. h3 Bf3 23. Bxe5 Bxe2 24. Qxe2 Bxe5 25. Kh2 Ra3 26. Rd2 Rfa8 27. Rcd1 Kg7
+28. Qf3 Bd4 29. g4 hxg4 30. Qxg4 Rh8 31. f4 f6 32. Bf3 Qc8 33. Qg3 Be3 34. Rg2
+Qe8 35. f5 g5 36. Be2 Bd4 37. Kh1 Be5 38. Qg4 Rh4 39. Qxh4 Qh8 40. Qxh8+ Kxh8
+41. h4 gxh4 42. Rg4 Bg3 43. Rxh4+ Bxh4 44. Bf3 Bg5 45. Kg2 Kg7 46. Kh3 Ra2 47.
+Kg4 Rf2 48. Rg1 Rh2 49. Rg2 Rh4+ 50. Kg3 Rf4 51. Kf2 Kf8 52. Ke2 Rh4 53. Rf2
+Bf4 54. Bh5 Rh2 55. Bf3 Rxf2+ 56. Kxf2 Be5 57. Kg2 Bd4 58. Be2 Be5 59. Kf3 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/1XDM2PsN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Berthe"]
+[Black "waffeln"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:13:02"]
+[WhiteElo "2596"]
+[BlackElo "2398"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "A32"]
+[Opening "English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 e6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 Nf6 5. Nc2 a6 6. Nc3 b5 7. g3 bxc4 8. Bg2
+Ra7 9. Be3 Rc7 10. Bb6 Nc6 11. O-O Bb7 12. Rc1 Qc8 13. Bxc7 Qxc7 14. Ne3 d5 15.
+b3 Bb4 16. bxc4 Bxc3 17. Rxc3 d4 18. Rc1 dxe3 19. fxe3 O-O 20. c5 Re8 21. Qd6
+Qc8 22. Rb1 Rd8 23. Qf4 Na5 24. c6 Bxc6 25. Rfc1 Qd7 26. Rd1 Qe8 27. Bxc6 Rxd1+
+28. Rxd1 Nxc6 29. Qc7 Nd5 30. Qd6 f5 31. e4 fxe4 32. Rc1 h5 33. Rxc6 Qf7 34.
+Qxe6 Nf6 35. Qxf7+ Kxf7 36. Rxa6 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Dh3JlXm7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rappozevich"]
+[Black "elrond"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:14:02"]
+[WhiteElo "2476"]
+[BlackElo "2443"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bb3 Nxd4 7. Nxd4 exd4
+8. Re1+ Be7 9. Bg5 f6 10. Bxf6 gxf6 11. Qh5+ Kf8 12. Qh6+ Ke8 13. Qh5+ Kf8 14.
+Nd2 Rg8 15. Qxh7 Nc4 16. Bxc4 d5 17. Bxd5 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/kTW4EJVj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TrapKing"]
+[Black "patzerseescheck"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:14:04"]
+[WhiteElo "2380"]
+[BlackElo "2494"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d3 g6 2. Nd2 Bg7 3. g3 Nf6 4. Bg2 O-O 5. Ngf3 c6 6. O-O d5 7. e4 Nbd7 8. Qe2
+e5 9. c3 Re8 10. Re1 b6 11. h3 Ba6 12. Nh4 Nc5 13. c4 dxc4 14. dxc4 Nfd7 15.
+Ndf3 Ne6 16. Be3 Qe7 17. Rad1 Rad8 18. Qc2 Bb7 19. Qc1 c5 20. Bh6 Bxh6 21. Qxh6
+Nd4 22. Ng5 Nf8 23. Rd3 Rd6 24. Rde3 Red8 25. f4 f6 26. Ngf3 Nc2 27. f5 Nxe3
+28. Rxe3 g5 29. Ng6 hxg6 30. fxg6 Qg7 31. Qh5 Qxg6 32. Qg4 Bc8 33. Nxe5 Bxg4
+34. Nxg6 Nxg6 35. hxg4 Ne5 36. b3 Kg7 37. Bf1 Rd1 38. Kf2 Nxg4+ 39. Ke2 R8d2+
+40. Kf3 Nxe3 41. Be2 Rf1+ 42. Kxe3 Rxe2+ 43. Kxe2 Ra1 44. Kd3 Rxa2 45. e5 Rg2
+46. e6 Rxg3+ 47. Ke4 Kf8 48. Kd5 Ke7 49. Kc6 Rxb3 50. Kb7 Rc3 51. Kxa7 Rxc4 52.
+Kxb6 Rd4 53. Kb5 Rd6 54. Kxc5 g4 55. Kb5 g3 56. Kc5 g2 57. Kc4 f5 58. Kc5 f4
+59. Kc4 f3 60. Kc5 f2 61. Kc4 Rd8 62. Kc5 Rc8+ 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WfEQvghW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "waffeln"]
+[Black "Berthe"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:14:42"]
+[WhiteElo "2392"]
+[BlackElo "2601"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "A45"]
+[Opening "Indian Game: Tartakower Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. c4 dxc4 7. b3 cxb3 8.
+axb3 c6 9. Nc3 Nbd7 10. Bb2 Nb6 11. e4 Bd7 12. Qe2 Rc8 13. Rfd1 a6 14. Ne5 Be8
+15. f4 Nfd7 16. Kh1 Nxe5 17. dxe5 Qc7 18. Qf2 Bd7 19. Ne2 Rfd8 20. f5 exf5 21.
+exf5 Nd5 22. f6 Bf8 23. Rac1 Be6 24. Nd4 Qd7 25. fxg7 Bxg7 26. Nf3 Qe7 27. Rf1
+h6 28. Nh4 a5 29. Rce1 Nb4 30. Nf5 Bxf5 31. Qxf5 Nd3 32. Re2 Nxb2 33. Rxb2 Qe6
+34. Qf3 Bxe5 35. Re2 Rd7 36. Qh5 Re8 37. Rfe1 f6 38. Bh3 Qf7 39. Qg4+ Qg7 40.
+Qxd7 Qxd7 41. Bxd7 Rd8 42. Bf5 b5 43. Kg2 c5 44. Kf3 c4 45. Re4 cxb3 46. Rg4+
+Kf8 47. Be6 b2 48. Rg8+ Ke7 49. Rxd8 Kxd8 50. Ke4 a4 51. Ba2 a3 52. Kd5 b4 53.
+Kc4 Ke7 54. Kxb4 Kd6 55. Kxa3 Kc5 56. Kb3 Kd4 57. Rd1+ Ke3 58. Rb1 Kf2 59. Kc2
+Kg2 60. Rxb2 Bxb2 61. Kxb2 Kxh2 62. Bd5 Kxg3 63. Kc2 Kf4 64. Kd2 h5 65. Ke2 h4
+0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/LHx2xpi2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patzerseescheck"]
+[Black "TrapKing"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:16:22"]
+[WhiteElo "2502"]
+[BlackElo "2372"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-7"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Main Line"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. g3 c6 5. Bg2 Nf6 6. Nge2 Bf5 7. O-O e6 8.
+d3 Bd6 9. h3 O-O 10. a3 Nbd7 11. Bg5 h6 12. b4 Qc7 13. Be3 Rfe8 14. Nd4 Bg6 15.
+Nce2 Rad8 16. c4 Be5 17. Qc2 c5 18. Nb5 Qb8 19. Rab1 a6 20. Nbc3 cxb4 21. axb4
+Rc8 22. Nf4 Bh7 23. Qe2 Bxc3 24. Rfc1 Be5 25. d4 Bd6 26. c5 Be7 27. Rb2 b6 28.
+c6 Rcd8 29. c7 Qa7 30. cxd8=Q Rxd8 31. d5 e5 32. Nh5 Nxh5 33. Qxh5 Nf6 34. Qe2
+e4 35. Rd2 Qd7 36. Rcd1 Bd6 37. Qxa6 b5 38. Qc6 Qf5 39. g4 Qe5 40. Qxb5 Qh2+
+41. Kf1 h5 42. g5 Ne8 43. Qb6 Rd7 44. Bc5 Bc7 45. Qc6 Re7 46. d6 Bxd6 47. Bxd6
+Nxd6 48. Rxd6 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WSjWLoNk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "CrispinKream"]
+[Black "waffeln"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:17:17"]
+[WhiteElo "2308"]
+[BlackElo "2530"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-18"]
+[ECO "B06"]
+[Opening "Modern Defense: Two Knights Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 d6 2. d4 g6 3. Nf3 Bg7 4. Nc3 c5 5. Be3 cxd4 6. Bxd4 Nf6 7. Bd3 Nc6 8.
+Be3 Ng4 9. Bd2 O-O 10. O-O Nge5 11. Be2 Be6 12. Nd5 Rc8 13. Bc3 Nxf3+ 14. Bxf3
+Ne5 15. Bxe5 Bxe5 16. c3 Qa5 17. Bg4 Bxg4 18. Qxg4 Qd8 19. f4 Bg7 20. f5 Be5
+21. h4 Kg7 22. h5 Qd7 23. f6+ 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/H8HZuYRe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "chessstrategy"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:17:44"]
+[WhiteElo "2433"]
+[BlackElo "2512"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-13"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. d4 e5 2. c3 Ne7 3. dxe5 d6 4. e6 fxe6 5. Nf3 Ng6 6. g3 Be7 7. Bg2 O-O 8. O-O
+e5 9. Bd2 Nc6 10. Bc1 Bg4 11. Nbd2 Be6 12. Ne4 Qc8 13. Neg5 Bg4 14. h3 Bxf3 15.
+exf3 Bf6 16. Ne4 Be7 17. c4 Nd8 18. b3 Ne6 19. Bb2 Nd4 20. Nc3 Bf6 21. Nd5 c5
+22. Nxf6+ Rxf6 23. Bxd4 cxd4 24. Qd2 Qc6 25. Rfe1 Qd7 26. Rad1 Raf8 27. f4 exf4
+28. Qxd4 fxg3 29. fxg3 Ne5 30. Rf1 Qf7 31. Bd5 Kh8 32. Bxf7 R6xf7 33. Rxf7 Nxf7
+34. Rf1 Kg8 35. Qd5 h6 36. Qe6 b5 37. g4 bxc4 38. g5 hxg5 39. h4 cxb3 40. axb3
+g6 41. Qxg6+ Kh8 42. Rxf7 Rxf7 43. Qxf7 gxh4 44. Kh2 d5 45. Kh3 d4 46. Kxh4 d3
+47. Kh5 d2 48. Kh6 d1=Q 49. Qg7# 1-0
+
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/zsDAyfsx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elrond"]
+[Black "Rappozevich"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:17:52"]
+[WhiteElo "2433"]
+[BlackElo "2486"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 Nc6 2. d4 d5 3. g3 Bf5 4. Bg2 Nb4 5. Na3 e6 6. O-O Nf6 7. c3 Nc6 8. Qa4
+Bd6 9. Ne5 Bxe5 10. dxe5 Nd7 11. f4 O-O 12. Be3 Nb6 13. Qd1 f6 14. exf6 Qxf6
+15. Bd4 Nxd4 16. Qxd4 Qxd4+ 17. cxd4 c6 18. Rac1 Nd7 19. Nc2 Rac8 20. Ne3 Bg6
+21. f5 exf5 22. Nxf5 Rxf5 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cZiVtFkg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TrapKing"]
+[Black "patzerseescheck"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:18:33"]
+[WhiteElo "2365"]
+[BlackElo "2510"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 g6 2. Nd2 Bg7 3. Ngf3 Nf6 4. g3 O-O 5. Bg2 d5 6. O-O Nbd7 7. e4 e5 8. c3
+c6 9. Qc2 b6 10. h3 Ba6 11. Re1 Nc5 12. c4 dxe4 13. dxe4 Re8 14. Nf1 Qd7 15.
+Bg5 Rad8 16. Rad1 Qe6 17. b3 h6 18. Be3 Ncxe4 19. Nh4 Rxd1 20. Rxd1 Nd6 21. Nh2
+Nb7 22. Bf3 Rd8 23. Rxd8+ Nxd8 24. Ng4 Nxg4 25. hxg4 Qe7 26. Qd2 Ne6 27. Bxh6
+Bf6 28. Ng2 Nd4 29. Be4 c5 30. g5 Bh8 31. Ne3 Bb7 32. Bxb7 Qxb7 33. Nd5 Nf3+
+34. Kg2 Nxd2 35. a4 Bg7 36. Bxg7 Kxg7 37. a5 Nxb3 38. Kf3 Nxa5 39. Ke4 Nxc4 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/6BE1dKIZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "hillezinho"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:19:09"]
+[WhiteElo "2499"]
+[BlackElo "2447"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e3 d5 2. Nc3 c6 3. d4 Nf6 4. Be2 Bg4 5. Bxg4 e6 6. Be2 Be7 7. Nf3 O-O 8. O-O
+Nbd7 9. Re1 Re8 10. Bd3 Nf8 11. e4 dxe4 12. Nxe4 Nd5 13. c4 Nb4 14. Bb1 Na6 15.
+a3 Nc7 16. Qe2 b6 17. Bf4 Qc8 18. b4 Qb7 19. Bc2 Rad8 20. Red1 a5 21. Neg5 axb4
+22. axb4 Bxb4 23. Qe4 g6 24. h4 Be7 25. h5 Bf6 26. Ne5 Na6 27. Nexf7 Ra8 28.
+Nxh7 Kxf7 29. hxg6+ Ke7 30. Be5 Bxe5 31. dxe5 Nxg6 32. Qxg6 Rg8 33. Qf6+ Ke8
+34. Qxe6+ Qe7 35. Nf6+ Kf8 36. Qxg8# 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Fq8LBu3f"]
+[Date "????.??.??"]
+[Round "?"]
+[White "OmomboBotha"]
+[Black "waffeln"]
+[Result "1-0"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:20:15"]
+[WhiteElo "2510"]
+[BlackElo "2387"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-8"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... g6 { [%eval 0.54] } 2. e4 { [%eval 0.51] } 2... Bg7
+{ [%eval 0.51] } 3. c3 { [%eval 0.55] } 3... b5 $6 { [%eval 1.44] } 4. Bxb5
+{ [%eval 1.44] } 4... Bb7 { [%eval 1.26] } 5. f3 { [%eval 1.26] } 5... e6
+{ [%eval 1.53] } 6. Ne2 { [%eval 1.47] } 6... Ne7 { [%eval 1.44] } 7. O-O
+{ [%eval 1.47] } 7... O-O { [%eval 1.52] } 8. Be3 { [%eval 1.37] } 8... c6
+{ [%eval 1.44] } 9. Bd3 { [%eval 1.35] } 9... d5 { [%eval 1.55] } 10. e5 $6
+{ [%eval 0.99] } 10... Nd7 { [%eval 0.95] } 11. b4 { [%eval 0.77] } 11... c5 $2
+{ [%eval 2.41] } 12. bxc5 { [%eval 2.47] } 12... Nc6 { [%eval 2.74] } 13. Nd2
+{ [%eval 2.63] } 13... a5 { [%eval 3.02] } 14. a4 { [%eval 2.62] } 14... Qc8
+{ [%eval 2.91] } 15. Bb5 { [%eval 2.75] } 15... Na7 $6 { [%eval 3.5] } 16. Rb1
+{ [%eval 3.24] } 16... Bc6 { [%eval 3.59] } 17. c4 { [%eval 3.53] } 17... dxc4
+$6 { [%eval 4.12] } 18. Nxc4 { [%eval 4.0] } 18... Bd5 { [%eval 4.37] } 19. Nd6
+{ [%eval 4.32] } 19... Qc7 { [%eval 4.35] } 20. Qd2 { [%eval 4.13] } 20... Nc6
+{ [%eval 4.3] } 21. Bh6 { [%eval 3.81] } 21... f6 $6 { [%eval 4.62] } 22. Bxg7
+{ [%eval 4.82] } 22... Kxg7 { [%eval 4.89] } 23. exf6+ { [%eval 4.75] } 23...
+Nxf6 { [%eval 5.08] } 24. Nf4 $6 { [%eval 4.4] } 24... Nb4 $6 { [%eval 5.0] }
+25. Rfe1 { [%eval 5.26] } 25... Qe7 { [%eval 5.2] } 26. Qe3 $6 { [%eval 4.55] }
+26... Nc2 $2 { [%eval 5.94] } 27. Qe5 { [%eval 6.23] } 27... Nxe1 $4
+{ [%eval 9.95] } 28. Nxd5 { [%eval 9.21] } 28... Qd8 $6 { [%eval 12.52] } 29.
+Nf4 { [%eval 11.55] } 29... Qe7 { [%eval 12.39] } 30. Rxe1 { [%eval 12.27] }
+30... Kg8 { [%eval 12.73] } 31. d5 { [%eval 9.51] } 31... Rad8
+{ [%eval 10.85] } 32. Nxe6 { [%eval 11.08] } 32... Nxd5 { [%eval 22.53] } 33.
+Qxd5 { [%eval 22.42] } 33... Rf5 $6 { [%eval #8] } 34. Nxf5 { [%eval #7] } 1-0
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/DhHL3Hy9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hillezinho"]
+[Black "chessstrategy"]
+[Result "0-1"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:20:23"]
+[WhiteElo "2437"]
+[BlackElo "2508"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. c3 e5 3. Nf3 e4 4. Nfd2 d5 5. e3 Bg4 6. Be2 Bd7 7. f3 c6 8. fxe4
+dxe4 9. O-O Bd6 10. Rf2 Qc7 11. Nf1 O-O 12. c4 Re8 13. Nc3 Bf8 14. Qc2 Qb6 15.
+b3 Na6 16. Bb2 Nb4 17. Qd2 Nd3 18. Bxd3 exd3 19. Qxd3 Qc7 20. e4 Qc8 21. e5 Ng4
+22. Rf3 Bf5 23. Qd1 g6 24. Ng3 Nh6 25. Nxf5 Nxf5 26. Qf1 Nxd4 27. Rxf7 Qe6 28.
+Rf6 Qxe5 29. Nd1 Ne2+ 30. Kh1 Qxb2 31. Nxb2 Bg7 32. Rf8+ Rxf8 33. Qxe2 Rfe8 34.
+Qd2 Kh8 35. Qc2 Rf8 36. Rd1 Rad8 37. Nd3 Rde8 38. Nf2 Rf7 39. Qd2 Ref8 40. Nd3
+Rf1+ 41. Rxf1 Rxf1# 0-1
+
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/HbM0fGJ6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chessstrategy"]
+[Black "hillezinho"]
+[Result "1/2-1/2"]
+[UTCDate "2016.03.01"]
+[UTCTime "00:21:38"]
+[WhiteElo "2517"]
+[BlackElo "2428"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+3"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 d6 2. Bg2 c6 3. e4 Nf6 4. d4 g6 5. Ne2 Bg7 6. O-O O-O 7. Nbc3 Nbd7 8. Qe1
+e5 9. d5 c5 10. Be3 a6 11. a4 Rb8 12. a5 b5 13. axb6 Qxb6 14. b3 Qc7 15. Nc1
+Nb6 16. Nd3 c4 17. Bxb6 Rxb6 18. Na4 Rb8 19. bxc4 Qxc4 20. Ndb2 Qc7 21. Kh1 Bd7
+22. f4 Bxa4 23. Nxa4 exf4 24. Rxf4 Qxc2 25. Rf2 Qc7 26. Nc3 Rfd8 27. Rc2 Qd7
+28. Na4 Nh5 29. Nc3 Bxc3 30. Rxc3 f5 31. exf5 Qxf5 32. Re3 Qf7 33. Rd1 Re8 34.
+Re6 Rxe6 35. dxe6 Qe7 36. Bd5 Rf8 37. Qe2 Kg7 38. Rf1 Nf6 39. Rxf6 Kxf6 40. Qd3
+Kg7 41. Kg2 Rf6 42. Qd4 Qf8 43. g4 Qe7 44. g5 h6 45. gxf6+ Qxf6 46. Qxf6+ Kxf6
+47. Kf3 Ke7 48. Ke4 a5 49. Kd4 a4 50. Kc3 a3 51. Kb3 g5 52. Ka2 Kf6 53. Kb3 Ke5
+54. Kxa3 Kxd5 55. e7 Ke6 56. e8=Q+ Kf5 57. Qh5 d5 58. Qxh6 g4 59. Qh4 g3 60.
+Qxg3 d4 61. Qd3+ Ke5 62. Kb4 Kd5 63. Kb3 Ke5 64. Kc2 Kd5 65. h3 Ke6 66. h4 Kf7
+67. h5 Kg7 68. h6+ Kxh6 69. Qxd4 Kh5 1/2-1/2
+
