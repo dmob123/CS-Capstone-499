@@ -6,13 +6,14 @@ import chess
 import chess.engine
 import math
 from PIL import Image, ImageTk
+import os
 
 class ChessGUI:
     def __init__(self, master):
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
-        self.engine_path = r"C:\Users\drmob\Downloads\stockfish\stockfish\stockfish-windows-x86-64.exe"  # User must update this path        
+        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
@@ -587,6 +588,9 @@ class ChessGUI:
             tk.messagebox.showinfo("Game Over", "Draw due to threefold repetition.")
         elif self.board.can_claim_fifty_moves():
             tk.messagebox.showinfo("Game Over", "Draw due to fifty-move rule.")
+
+    def is_windows():
+        return os.name == 'nt'
 
 def main():
     root = tk.Tk()

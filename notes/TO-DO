@@ -1,0 +1,17 @@
+1. generate set of all legal moves from a position
+    -- Method shown via pychess in pchessMod.py evaluate_position()
+
+2. work on extracting features of these moves (listed in ML_notes)
+3. Explore Random Forest model intricacies (quick & dirty, return to improve accuracy if time)
+4. Implement advantage calculation (maybe already done?? not sure)
+    - special case when checkmate or forced draw is in evaluation - give probability of result + advantage number if it doesn't happen
+5. Implement new iterative algo
+6. any issues that come up
+7. improve RF accuracy
+
+
+
+MISC
+-------
+there should be one evaluation, not a distinct one for each color
+advantage should be given in decimal value (1 = 1 pawn), not in raw centipawns

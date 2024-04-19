@@ -1,0 +1,11 @@
+* Represent as regression problem w/ supervised solution (predict move probability)
+* Using Random forest to accomplish
+
+
+Random Forest Model
+features:
+    move distance, material captured, material sacrifice, stockfish rating delta, is check, allows check, delta space controlled, delta material attacked,
+    potentially more if they come to mind.
+    
+
+Run PCA to determine which to use 

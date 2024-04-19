@@ -11,8 +11,7 @@ class ChessGUI:
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
-        #self.engine_path = r"C:\Users\lkirk\OneDrive\Desktop\stockfish\stockfish\stockfish-windows-x86-64.exe"  # Update this path
-        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe')  # Update this path
+        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
@@ -160,6 +159,10 @@ class ChessGUI:
             tk.messagebox.showinfo("Game Over", "Draw due to threefold repetition.")
         elif self.board.can_claim_fifty_moves():
             tk.messagebox.showinfo("Game Over", "Draw due to fifty-move rule.")
+
+
+    def is_windows():
+        return os.name == 'nt'
 
 def main():
     root = tk.Tk()

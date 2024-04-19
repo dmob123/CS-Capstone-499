@@ -1,23 +1,19 @@
+from tkinter import *
 import tkinter as tk
 import tkinter.simpledialog as simpledialog
 import tkinter.messagebox as messagebox
 import chess
 import chess.engine
 import math
-import sqlite3
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.cluster import KMeans
-from sklearn.decomposition import IncrementalPCA
-from sklearn.ensemble import RandomForestClassifier
-from gamelog import fetch_and_print_user_games, extract_moves_from_pgn
-import numpy as np
+from PIL import Image, ImageTk
+import os
 
 class ChessGUI:
     def __init__(self, master):
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
-        self.engine_path = r"C:\Users\lkirk\OneDrive\Desktop\stockfish\stockfish\stockfish-windows-x86-64.exe"  # Update this path
+        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe')
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None
         self.current_player = chess.WHITE
