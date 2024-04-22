@@ -18,7 +18,7 @@ class ChessGUI:
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
-        self.engine_path = os.path.abspath('stockfish/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')
+        self.engine_path = os.path.abspath('stockfish_win/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
