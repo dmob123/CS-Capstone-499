@@ -13,6 +13,8 @@ import pandas as pd
 
 class ChessGUI:
     def __init__(self, master):
+        with open('RF_model.pkl', 'rb') as file:
+            self.model = pickle.load(file)
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
@@ -21,9 +23,11 @@ class ChessGUI:
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
         self.white_elo, self.black_elo = self.prompt_for_elo()  # Prompt for ELO scores
-        self.color_blind = self.prompt_for_color_blind()
-        self.white_win_probability, self.black_win_probability = self.calculate_initial_probabilities()
+        self.create_board()
+        self.place_pieces()   
+        self.create_evaluation_bars()     
         self.display_elo_scores()  # Display ELO scores
+        self.update_evaluation()  # Initial evaluation
         self.button_width = 32  # Initial width of the images
         self.button_height = 32  # Initial height of the images
         self.piece_values = {
@@ -34,199 +38,31 @@ class ChessGUI:
             chess.QUEEN: 9,
             chess.KING: 0
         }
-        with open('RF_model.pkl', 'rb') as file:
-            self.model = pickle.load(file)
 
-        for s in self.color_blind:
-            if 'OFF' in self.color_blind:
-                self.create_board()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_off()
-                self.display_win_probabilities()  # Display initial winning probabilities
-                self.update_evaluation()  # Initial evaluation
-                self.create_move_log()  # Create move log for real-time reporting
-                self.create_increase_font_button()  # Display the increase font button
-                self.create_decrease_font_button()  # Display the decrease font button
-                self.create_increase_image_size_button()    # Display the increase image (chess pieces) button
-                self.create_decrease_image_size_button()    # Display the decrease image (chess pieces) button
-            elif 'Off' in self.color_blind:
-                self.create_board()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_off()
-                self.display_win_probabilities()  # Display initial winning probabilities
-                self.update_evaluation()  # Initial evaluation
-                self.create_move_log()  # NEW: Create move log for real-time reporting
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
-            elif 'off' in self.color_blind:
-                self.create_board()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_off()
-                self.display_win_probabilities()  # Display initial winning probabilities
-                self.update_evaluation()  # Initial evaluation
-                self.create_move_log()  # Create move log for real-time reporting
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
-            elif 'ON' in self.color_blind:
-                self.create_board_CBM()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_on()
-                self.display_win_probabilities_CBM()  # Display initial winning probabilities
-                self.create_move_log()  # Create move log for real-time reporting
-                self.update_evaluation_CBM()  # Initial evaluation
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
-            elif 'on' in self.color_blind:
-                self.create_board_CBM()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_on()
-                self.display_win_probabilities_CBM()  # Display initial winning probabilities
-                self.create_move_log()  # Create move log for real-time reporting
-                self.update_evaluation_CBM()  # Initial evaluation
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
-            elif 'On' in self.color_blind:
-                self.create_board_CBM()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_on()
-                self.display_win_probabilities_CBM()  # Display initial winning probabilities
-                self.create_move_log()  # Create move log for real-time reporting
-                self.update_evaluation_CBM()  # Initial evaluation
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
-            else:
-                self.create_board_CBM()
-                self.side_labels()
-                self.place_pieces()
-                self.create_evaluation_bars()
-                self.display_color_blind_default()
-                self.display_win_probabilities_CBM()  # Display initial winning probabilities
-                self.create_move_log()  # Create move log for real-time reporting
-                self.update_evaluation_CBM()  # Initial evaluation
-                self.create_increase_font_button()  
-                self.create_decrease_font_button()
-                self.create_increase_image_size_button()
-                self.create_decrease_image_size_button()
 
-    def prompt_for_elo(self):   # Prompt the user for white and black player's ELO scores as well as if they are using the color blind mode
+    def prompt_for_elo(self):   # Prompt the user for white and black player's ELO scores 
         white_elo = simpledialog.askinteger("ELO Score", "Enter White player's ELO score:", parent=self.master)
         black_elo = simpledialog.askinteger("ELO Score", "Enter Black player's ELO score:", parent=self.master)
         return white_elo, black_elo
     
-    def prompt_for_color_blind(self):   # Prompt the user for whether or not they want to play in CBM 
-        color_blind = simpledialog.askstring("Color Blind Mode", "Enter ON for Color Blind Mode or Enter OFF for No Color Blind Mode", parent=self.master)
-        return color_blind
-
-    def calculate_initial_probabilities(self):  # Calculate initial winning probabilities based on ELO scores
-        delta_elo = self.white_elo - self.black_elo
-        probability_white_wins = 1 / (1 + math.exp(-delta_elo / 400))  # Using a sigmoid function
-        probability_black_wins = 1 - probability_white_wins
-        return probability_white_wins, probability_black_wins
-
-    def display_elo_scores(self):   # Display ELO scores on the game window
+    def display_elo_scores(self):
+        # Display ELO scores on the game window
         white_elo_label = tk.Label(self.master, text=f"White ELO: {self.white_elo}", fg="black")
-        white_elo_label.grid(row=12, column=1, columnspan=2, sticky="")
-        black_elo_label = tk.Label(self.master, text=f"Black ELO: {self.black_elo}", fg="black")
-        black_elo_label.grid(row=12, column=5, columnspan=2, sticky="")
+        white_elo_label.grid(row=9, column=0, columnspan=4, sticky="w")
+        black_elo_label = tk.Label(self.master, text=f"Black ELO: {self.black_elo}", fg="blue")
+        black_elo_label.grid(row=9, column=4, columnspan=4, sticky="e")
 
-    def display_color_blind_on(self): # Set the game to CBM
-        color_blind_label = tk.Label(self.master, text=f"CBM: ON", fg="black")
-        color_blind_label.grid(row=15, column=2, columnspan=4, sticky="")
-    
-    def display_color_blind_off(self): # Set the game to non-CBM
-        color_blind_label = tk.Label(self.master, text=f"CBM: OFF", fg="black")
-        color_blind_label.grid(row=15, column=2, columnspan=4, sticky="")
-
-    def display_color_blind_default(self): # Set the game to CBM if a desired input is not given
-        color_blind_label1 = tk.Label(self.master, text=f"By Default, CBM: ON", fg="black")
-        color_blind_label1.grid(row=16, column=3, columnspan=2, sticky="")
-
-    def display_win_probabilities(self):    # Display win probabilities
-        self.win_prob_label = tk.Label(self.master, text=f"Win Probability - White: {self.white_win_probability*100:.1f}%, Black: {self.black_win_probability*100:.1f}%", fg="green")
-        self.win_prob_label.grid(row=13, column=1, columnspan=6)
-    
-    def display_win_probabilities_CBM(self):    # Display win probabilities for CBM
-        self.win_prob_label = tk.Label(self.master, text=f"Win Probability - White: {self.white_win_probability*100:.1f}%, Black: {self.black_win_probability*100:.1f}%", fg="black")
-        self.win_prob_label.grid(row=13, column=1, columnspan=6)
-
-    def update_win_probabilities(self, score):  # Update display after adjustment
-        # This is a conceptual implementation; you'll need to adjust the logic based on how you interpret the evaluation scores
-        # For simplicity, we assume the score is in centipawns and directly proportional to winning probability
-        # Update win probabilities based on evaluation score
-        score_difference = score - 0  # Assuming 0 is the starting score for an even match
-        adjustment_factor = 1 / (1 + math.exp(-score_difference / 400))  # Sigmoid function
-        if self.current_player == chess.WHITE:
-            self.white_win_probability *= adjustment_factor
-        else:
-            self.black_win_probability *= adjustment_factor
-        # Ensure total probability sums to 1
-        total_probability = self.white_win_probability + self.black_win_probability
-        self.white_win_probability /= total_probability
-        self.black_win_probability /= total_probability
-        self.display_win_probabilities()  # Update display after adjustment
-
-    def update_win_probabilities_CBM(self, score): # Update display after adjustment for CBM
-        # This is a conceptual implementation; you'll need to adjust the logic based on how you interpret the evaluation scores
-        # For simplicity, we assume the score is in centipawns and directly proportional to winning probability
-       # Update win probabilities based on evaluation score
-        score_difference = score - 0  # Assuming 0 is the starting score for an even match
-        adjustment_factor = 1 / (1 + math.exp(-score_difference / 400))  # Sigmoid function
-        if self.current_player == chess.WHITE:
-            self.white_win_probability *= adjustment_factor
-        else:
-            self.black_win_probability *= adjustment_factor
-        # Ensure total probability sums to 1
-        total_probability = self.white_win_probability + self.black_win_probability
-        self.white_win_probability /= total_probability
-        self.black_win_probability /= total_probability
-        self.display_win_probabilities_CBM()  # Update display after adjustment
-
-    def create_board(self): # Create chess board
+    def create_board(self):
         self.buttons = [[None for _ in range(8)] for _ in range(8)]
         for row in range(8):
             for col in range(8):
-                color = "#F0D9B5" if (row + col) % 2 != 0 else "#B58863"
-                button = tk.Button(self.master, bg=color, width=14, height=1,
-                    command=lambda r=row, c=col: self.on_click(7-r, c))
-                button.grid(row=7-row, column=col, sticky="nsew") 
-                self.master.grid_rowconfigure(7-row, weight=1)  # Weight = tells grid how much the column or row should grow if there is extra room in the master to fill
-                self.master.grid_columnconfigure(col, weight=1)  # Weight = tells grid how much the column or row should grow if there is extra room in the master to fill
-                self.buttons[7-row][col] = button
+                color = "#F0D9B5" if (row + col) % 2 == 0 else "#B58863"
+                button = tk.Button(self.master, bg=color, width=8, height=4,
+                                   command=lambda r=row, c=col: self.on_click(r, c))
+                button.grid(row=row, column=col)
+                self.buttons[row][col] = button
 
-    def create_board_CBM(self): # Create chess board for CBM
-        self.buttons = [[None for _ in range(8)] for _ in range(8)]
-        for row in range(8):
-            for col in range(8):
-                color = "#B3B3B3" if (row + col) % 2 != 0 else "#666666"    # 2 colors of gray variation
-                button = tk.Button(self.master, bg=color, width=14, height=1,
-                    command=lambda r=row, c=col: self.on_click(7-r, c))
-                button.grid(row=7-row, column=col, sticky="nsew") 
-                self.master.grid_rowconfigure(7-row, weight=1) # Weight = tells grid how much the column or row should grow if there is extra room in the master to fill
-                self.master.grid_columnconfigure(col, weight=1) # Weight = tells grid how much the column or row should grow if there is extra room in the master to fill
-                self.buttons[7-row][col] = button
-    
+ 
     def side_labels(self):  # Place labels on the side of the chessboard
         labela = tk.Label(self.master, text=f"a", fg="black")
         labela.grid(row=9, column=0, columnspan=1, sticky="")
@@ -261,51 +97,71 @@ class ChessGUI:
         label8 = tk.Label(self.master, text=f"1", fg="black")
         label8.grid(row=7, column=8, columnspan=1, sticky="")
     
-    def place_pieces(self): # Place the pieces along with their images on the board
-        piece_images = {
-            chess.PAWN: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\pawn.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\pawn.png")    # User must update path for image
-        },
-            chess.ROOK: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\rook.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\rook.png")    # User must update path for image
-        },
-            chess.KNIGHT: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\knight.png"), # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\knight.png")  # User must update path for image
-        },
-            chess.BISHOP: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\bishop.png"), # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\bishop.png")  # User must update path for image
-        },
-            chess.QUEEN: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\queen.png"),  # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\queen.png")   # User must update path for image
-        },
-            chess.KING: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\king.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\king.png")    # User must update path for image
-        },
-    }
-        button_width = 32  # Default width of the button
-        button_height = 32  # Default height of the button
+    # def place_pieces(self): # Place the pieces along with their images on the board
+    #     piece_images = {
+    #         chess.PAWN: {
+                
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
+    #     },
+    #         chess.ROOK: {
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
+    #     },
+    #         chess.KNIGHT: {
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
+    #     },
+    #         chess.BISHOP: {
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))  # User must update path for image
+    #     },
+    #         chess.QUEEN: {
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
+    #     },
+    #         chess.KING: {
+    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
+    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
+    #     },
+    # }
+    #     button_width = 32  # Default width of the button
+    #     button_height = 32  # Default height of the button
         
+    #     for square in chess.SQUARES:
+    #         piece = self.board.piece_at(square)
+    #         if piece:
+    #             color = 'white' if piece.color == chess.WHITE else 'black'
+    #             row, col = divmod(square, 8)
+    #             image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
+    #             photo_image = ImageTk.PhotoImage(image)
+    #             button = self.buttons[7 - row][col]
+    #             button.config(image=photo_image)
+    #             button.image = photo_image  
+    #         else:
+    #             row, col = divmod(square, 8)
+    #             button = self.buttons[7 - row][col]
+    #             button.config(image='')  
+    
+
+    def place_pieces(self):
+        piece_symbols = {
+            chess.PAWN: 'P', chess.KNIGHT: 'N', chess.BISHOP: 'B',
+            chess.ROOK: 'R', chess.QUEEN: 'Q', chess.KING: 'K'
+        }
         for square in chess.SQUARES:
             piece = self.board.piece_at(square)
             if piece:
+                symbol = piece_symbols.get(piece.piece_type, '')
                 color = 'white' if piece.color == chess.WHITE else 'black'
                 row, col = divmod(square, 8)
-                image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
-                photo_image = ImageTk.PhotoImage(image)
-                button = self.buttons[7 - row][col]
-                button.config(image=photo_image)
-                button.image = photo_image  
+                self.buttons[row][col].config(text=symbol, fg=color)
             else:
                 row, col = divmod(square, 8)
-                button = self.buttons[7 - row][col]
-                button.config(image='')  
-    
+                self.buttons[row][col].config(text='', fg='black')
+
+
+
     def create_increase_image_size_button(self): # Create an "increase image size" button
         self.increase_image_size_button = tk.Button(self.master, text="Increase Image Size", command=self.increase_image_size)
         self.increase_image_size_button.grid(row=13, column=9, columnspan=1, pady=5)
@@ -331,28 +187,28 @@ class ChessGUI:
     def update_image_size(self): # Update image size based on the increasement or decreasement of the images
         piece_images = {
             chess.PAWN: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\pawn.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\pawn.png")    # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
         },
             chess.ROOK: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\rook.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\rook.png")    # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
         },
             chess.KNIGHT: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\knight.png"), # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\knight.png")  # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
         },
             chess.BISHOP: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\bishop.png"), # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\bishop.png")
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))
         },
             chess.QUEEN: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\queen.png"),  # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\queen.png")   # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
         },
             chess.KING: {
-                chess.WHITE: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\white\king.png"),   # User must update path for image
-                chess.BLACK: Image.open(r"C:\Users\drmob\Downloads\chess_pieces\black\king.png")    # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
         },
     }
         for square in chess.SQUARES:
@@ -376,23 +232,6 @@ class ChessGUI:
         self.white_bar = tk.Scale(self.master, from_=-10000, to=10000, orient="horizontal")
         self.white_bar.grid(row=11, column=4, columnspan=4, sticky="ew")
 
-    def create_move_log(self):
-        # Create a frame to hold the Text widget and the Scrollbar
-        log_frame = tk.Frame(self.master)
-        log_frame.grid(row=0, column=9, rowspan=10, padx=10, pady=10, sticky="nsew")
-
-        # Create the Text widget for logging moves and evaluations
-        self.move_log = tk.Text(log_frame, height=20, width=95, wrap="none")  # wrap="none" is important for horizontal scrolling
-
-        # Create a horizontal Scrollbar and attach it to the Text widget
-        h_scroll = tk.Scrollbar(log_frame, orient="horizontal", command=self.move_log.xview)
-        self.move_log.configure(xscrollcommand=h_scroll.set)
-
-        # Pack the Scrollbar before packing the Text widget so it appears at the bottom
-        h_scroll.pack(side="bottom", fill="x")
-        self.move_log.pack(side="top", fill="both", expand=True)
-
-        self.move_log.insert(tk.END, "Move Log:\n")
 
     def create_increase_font_button(self):  # Create an "increase font" button
         self.font_size = 8  # Initial font size
@@ -421,39 +260,28 @@ class ChessGUI:
             widget.config(font=new_font)
         for child in widget.winfo_children():
             self.update_font_size(child)
-    
+
+
     def on_click(self, row, col):
-        # Invert row index to match internal board representation
-        adjusted_row = 7 - row
-        square = chess.square(col, adjusted_row)
-        piece = self.board.piece_at(square)
         if not self.board.is_game_over():
-            if self.selected_piece is None and piece and piece.color == self.current_player:
-                # Select the piece
-                self.selected_piece = square
-            elif self.selected_piece is not None:
-                # Calculate the target square based on the inverted board
-                target_square = chess.square(col, adjusted_row)
-                move = chess.Move(self.selected_piece, target_square)
-                if move in self.board.legal_moves:
-                    # Make the move if it's legal
-                    pre_move_evaluation = self.evaluate_position()  # Evaluate before making the move
-                    self.board.push(move)
-                    post_move_evaluation = self.evaluate_position()  # Evaluate after making the move
-                    move_quality = self.analyze_move_quality(pre_move_evaluation, post_move_evaluation)  # Analyze move quality
-                    messagebox.showinfo("Move Quality", move_quality)  # Display move quality feedback
-    
-                    
-                    # Log the move and its evaluation
-                    self.log_move(move, pre_move_evaluation, post_move_evaluation, is_legal=True)
-                    
-                    # Change the current player after a successful move
-                    self.current_player = not self.current_player
-                    self.place_pieces()  # Re-draw the pieces on the board
-                    self.update_evaluation()
-                    self.check_game_end()
-                # Clear the selected piece after an attempt to move, regardless of its legality
-                self.selected_piece = None
+            square = chess.square(col, row)
+            piece = self.board.piece_at(square)
+        if self.selected_piece is None and piece and piece.color == self.current_player:
+            self.selected_piece = square  # Select the piece
+        elif self.selected_piece is not None:
+            move = chess.Move(self.selected_piece, square)
+            if move in self.board.legal_moves:
+                # pre_move_evaluation = self.evaluate_position()  # Evaluate before making the move
+                self.board.push(move)  # Make the move
+                # post_move_evaluation = self.evaluate_position()  # Evaluate after making the move
+                # move_quality = self.analyze_move_quality(pre_move_evaluation, post_move_evaluation)  # Analyze move quality
+                # messagebox.showinfo("Move Quality", move_quality)  # Display move quality feedback
+
+                self.current_player = not self.current_player
+                self.place_pieces()
+                self.update_evaluation()
+                self.check_game_end()
+            self.selected_piece = None
 
     def explain_fen(self, fen):
         parts = fen.split(' ')  # Split the FEN string into its components
@@ -517,23 +345,8 @@ class ChessGUI:
             message += "Unable to provide an in-depth analysis at this time."
         return message
 
-    def log_move(self, move, pre_move_evaluation, post_move_evaluation, is_legal=False):
-        try:
-            move_notation = move.uci()  # Use UCI notation as a fallback
-            if is_legal:
-                try:
-                    move_notation = self.board.san(move)
-                except AssertionError:
-                    pass
-            current_evaluation = self.evaluate_position()
-            in_depth_analysis = self.provide_in_depth_analysis()
-            self.move_log.insert(tk.END, f"{move_notation}: Pre-move Eval: {pre_move_evaluation}, Post-move Eval: {post_move_evaluation}, Stockfish Eval: {current_evaluation}\n{in_depth_analysis}\n")
-        except Exception as e:
-            self.move_log.insert(tk.END, f"Error logging move: {e}\n")
-        finally:
-            self.move_log.see(tk.END)
-
     def evaluate_position(self):
+        print("Evaluation Started")
         legal_moves = list(self.board.legal_moves)
         if not legal_moves:
             return 0  # No legal moves implies a stalemate or checkmate scenario
@@ -545,15 +358,11 @@ class ChessGUI:
         column_names = ['IsCapture', 'IsPromotion', 'MaterialCaptured', 'Capturable',
                 'Sacrifice', 'MaterialSacrificed', 'TEval', 'WhiteElo', 'BlackElo']
         df = pd.DataFrame(columns=column_names)
-        #####
-        probabilities = np.array(CG.model.predict_proba(x_train[150:250]))*scaling_factor 
-        print("Probabilities on the training data:")
-        pVec = np.array(self.softmax(probabilities[:,1]))
-        #####
+        print("pre-calculating")
         for move in legal_moves:
             # Simulate the move
             self.board.push(move)
-            move_evaluation = self.engine.analyse(self.board, chess.engine.Limit(time=0.1))["score"].white().score(mate_score=10000)
+            move_evaluation = self.engine.analyse(self.board, chess.engine.Limit(time=0.01))["score"].white().score(mate_score=10000)
             # Undo the move to restore the board
             self.board.pop()
 
@@ -571,55 +380,20 @@ class ChessGUI:
 
 
             evals.append(move_evaluation)
-
+        print("Calc probabilities")
         scaling_factor = 5
         probabilities = np.array(self.model.predict_proba(df))*scaling_factor 
         pVec = np.array(self.softmax(probabilities[:,1])) 
         npEvals = np.array(evals)
+        print("Evaluation finished")
         return np.dot(pVec, npEvals)
     
-    def analyze_move_quality(self, pre_move_evaluation, post_move_evaluation):
-        evaluation_change = post_move_evaluation - pre_move_evaluation
-        # may need to adjust thresholds or logic based on the phase of the game (e.g., opening to endgame)
-        if self.board.fullmove_number <= 10:  # Considers opening phase adjustments first 10 moves
-            if evaluation_change > 20:
-                return "Strategically sound move"
-            elif evaluation_change > -10:
-                return "Decent move"
-            else:
-                return "Dubious move"
-        else:
-            # Original thresholds with slight adjustments
-            if evaluation_change > 100:
-                return "Excellent move"
-            elif evaluation_change > 50:
-                return "Great move"
-            elif evaluation_change > 20:
-                return "Good move"
-            elif evaluation_change > -20:
-                return "Decent move"
-            elif evaluation_change > -50:
-                return "Questionable move"
-            elif evaluation_change > -100:
-                return "Bad move"
-            else:
-                return "Blunder"
-
     def update_evaluation(self):    # Updates evaluation
         if not self.board.is_game_over():
             current_evaluation = self.evaluate_position()
             if current_evaluation is not None:
                 self.white_bar.set(current_evaluation)
                 self.black_bar.set(-current_evaluation)
-                self.update_win_probabilities(current_evaluation)  # Update win probabilities based on current evaluation
-
-    def update_evaluation_CBM(self):    # Updates the CBM evaluation
-        if not self.board.is_game_over():
-            current_evaluation = self.evaluate_position()
-            if current_evaluation is not None:
-                self.white_bar.set(current_evaluation)
-                self.black_bar.set(-current_evaluation)
-                self.update_win_probabilities_CBM(current_evaluation)  # Update win probabilities based on current evaluation for CBM
 
     def check_game_end(self):
         if self.board.is_checkmate():
@@ -634,11 +408,6 @@ class ChessGUI:
 
     def is_windows(self):
         return os.name == 'nt'
-    
-    
-    def close_engine(self):
-        self.engine.quit()
-
 
     def whose_turn(self):
         return chess.WHITE if self.board.turn else chess.BLACK
@@ -647,6 +416,11 @@ class ChessGUI:
     def switchp(self, player):
         return chess.WHITE if player == chess.BLACK else chess.BLACK
 
+
+    def softmax(self, x):
+        """Adjust values of x such that sum(x)=1, allowing interpretation as probability"""
+        e_x = np.exp(x - np.max(x))
+        return e_x / e_x.sum(axis=0)
 
     def features(self, move):
         player = self.whose_turn()
