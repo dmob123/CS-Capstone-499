@@ -227,39 +227,10 @@ class ChessGUI:
         white_elo_label1.grid(row=10, column=1, columnspan=2, sticky="")
         black_elo_label1 = tk.Label(self.master, text=f"Black Evaluation", fg="black")
         black_elo_label1.grid(row=10, column=5, columnspan=2, sticky="")
-        self.black_bar = tk.Scale(self.master, from_=-10000, to=10000, orient="horizontal")
+        self.black_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.black_bar.grid(row=11, column=0, columnspan=4, sticky="ew")
-        self.white_bar = tk.Scale(self.master, from_=-10000, to=10000, orient="horizontal")
+        self.white_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.white_bar.grid(row=11, column=4, columnspan=4, sticky="ew")
-
-
-    def create_increase_font_button(self):  # Create an "increase font" button
-        self.font_size = 8  # Initial font size
-        self.increase_font_button = tk.Button(self.master, text="Increase Font Size", command=self.increase_font)
-        self.increase_font_button.grid(row=11, column=9, columnspan=8, pady=5)
-    
-    def increase_font(self):
-         if self.font_size < 12:    # Set the max size of font to 12
-            self.font_size += 1  # Increase the font size by 1 unit
-            self.update_font_size(self.master)  # Update font size
-
-    def create_decrease_font_button(self):  # Create an "decrease font" button
-        self.font_size = 8  # Initial font size
-        self.increase_font_button = tk.Button(self.master, text="Decrease Font Size", command=self.decrease_font)
-        self.increase_font_button.grid(row=12, column=9, columnspan=8, pady=5)
-    
-    def decrease_font(self):
-         if self.font_size > 6: # Set the min size of font to 6
-            self.font_size -= 1  # Decrease the font size by 1 unit
-            self.update_font_size(self.master)  # Update font size
-
-    def update_font_size(self, widget): # Update font size utilitizing isinstance and widgets, https://www.w3schools.com/python/ref_func_isinstance.asp
-        if isinstance(widget, tk.Text) or isinstance(widget, tk.Label):
-            current_font = widget.cget("font")
-            new_font = (current_font[0], self.font_size)  
-            widget.config(font=new_font)
-        for child in widget.winfo_children():
-            self.update_font_size(child)
 
 
     def on_click(self, row, col):
@@ -282,68 +253,6 @@ class ChessGUI:
                 self.update_evaluation()
                 self.check_game_end()
             self.selected_piece = None
-
-    def explain_fen(self, fen):
-        parts = fen.split(' ')  # Split the FEN string into its components
-        board, turn, castling, en_passant, halfmove, fullmove = parts
-        board_rows = board.split('/')   # Translate the board part of FEN to a more understandable format
-        board_explanation = "Board setup:\n"
-        for row in board_rows:
-            readable_row = row.replace('1', '.').replace('2', '..').replace('3', '...').replace('4', '....').replace('5', '.....').replace('6', '......').replace('7', '.......').replace('8', '........')
-            board_explanation += f"{readable_row}\n"
-        turn_explanation = "White's turn" if turn == 'w' else "Black's turn"    # Explain whose turn it is
-        castling_explanation = "Castling rights: " + (castling if castling != '-' else 'None')  # Explain castling rights
-        en_passant_explanation = "En passant target square: " + (en_passant if en_passant != '-' else 'None')   # Explain en passant target square
-        halfmove_explanation = f"Halfmove clock (for 50-move rule): {halfmove}" # Explain halfmove clock (steps since last capture or pawn move)
-        fullmove_explanation = f"Fullmove number: {fullmove}"   # Explain fullmove number (incremented after Black's turn)
-        explanation = f"{board_explanation}\n{turn_explanation}\n{castling_explanation}\n{en_passant_explanation}\n{halfmove_explanation}\n{fullmove_explanation}"  # Combine all explanations into one string
-        return explanation
-
-    def provide_in_depth_analysis(self):
-        info = self.engine.analyse(self.board, chess.engine.Limit(depth=20))
-        score = info.get("score", None)
-        message = "In-depth Analysis: "
-        if score is not None:
-            cp = score.white().score(mate_score=10000)
-            mate = score.white().mate()
-            if mate is not None:
-                message += f"Checkmate in {mate} moves by {'White' if mate > 0 else 'Black'}.\n"
-            elif cp is not None:
-                adv = abs(cp) / 100.0
-                message += f"{'White' if cp > 0 else 'Black'} has a {adv:.2f} point advantage. "
-                '''
-                as of right now i am giving simplistic general analysis of the game on side as the evaluation bars are 
-                being updated during the game if we can adjust these but it is not a must
-                '''
-            # General Analysis based on score
-            if abs(cp) < 100:
-                message += "The game is relatively balanced. "
-            elif abs(cp) < 300:
-                message += "Slight advantage, consider developing pieces or controlling the center. "
-            else:
-                message += "Significant advantage, look for tactical opportunities or increase pressure. "
-            pawns = self.board.pieces(chess.PAWN, chess.WHITE) | self.board.pieces(chess.PAWN, chess.BLACK) # Pawn Structure Analysis (Simplistic)
-            if len(pawns) < 12:
-                message += "Open pawn structure, consider piece mobility and king safety. "
-            else:
-                message += "Closed pawn structure, consider pawn breaks and space advantage. "
-            # King Safety (Very Simplistic)
-            if self.board.is_checkmate():
-                message += "One of the kings is in checkmate. "
-            elif self.board.is_check():
-                message += "Active check, consider defensive moves. "
-            else:
-                message += "No immediate threats, but always consider king safety. "
-            # Piece Mobility (Simplistic)
-            # Considering the number of legal moves as a proxy for mobility
-            num_legal_moves = len(list(self.board.legal_moves))
-            if num_legal_moves < 20:
-                message += "Limited mobility, consider improving the positioning of your pieces. "
-            else:
-                message += "Good mobility, look for opportunities to exploit. "
-        else:
-            message += "Unable to provide an in-depth analysis at this time."
-        return message
 
     def evaluate_position(self):
         print("Evaluation Started")
@@ -391,6 +300,7 @@ class ChessGUI:
     def update_evaluation(self):    # Updates evaluation
         if not self.board.is_game_over():
             current_evaluation = self.evaluate_position()
+            print(current_evaluation)
             if current_evaluation is not None:
                 self.white_bar.set(current_evaluation)
                 self.black_bar.set(-current_evaluation)
