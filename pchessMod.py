@@ -97,68 +97,68 @@ class ChessGUI:
         label8 = tk.Label(self.master, text=f"1", fg="black")
         label8.grid(row=7, column=8, columnspan=1, sticky="")
     
-    # def place_pieces(self): # Place the pieces along with their images on the board
-    #     piece_images = {
-    #         chess.PAWN: {
+    def place_pieces(self): # Place the pieces along with their images on the board
+        piece_images = {
+            chess.PAWN: {
                 
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
-    #     },
-    #         chess.ROOK: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
-    #     },
-    #         chess.KNIGHT: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
-    #     },
-    #         chess.BISHOP: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))  # User must update path for image
-    #     },
-    #         chess.QUEEN: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
-    #     },
-    #         chess.KING: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
-    #     },
-    # }
-    #     button_width = 32  # Default width of the button
-    #     button_height = 32  # Default height of the button
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
+        },
+            chess.ROOK: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
+        },
+            chess.KNIGHT: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
+        },
+            chess.BISHOP: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))  # User must update path for image
+        },
+            chess.QUEEN: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
+        },
+            chess.KING: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
+        },
+    }
+        button_width = 32  # Default width of the button
+        button_height = 32  # Default height of the button
         
-    #     for square in chess.SQUARES:
-    #         piece = self.board.piece_at(square)
-    #         if piece:
-    #             color = 'white' if piece.color == chess.WHITE else 'black'
-    #             row, col = divmod(square, 8)
-    #             image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
-    #             photo_image = ImageTk.PhotoImage(image)
-    #             button = self.buttons[7 - row][col]
-    #             button.config(image=photo_image)
-    #             button.image = photo_image  
-    #         else:
-    #             row, col = divmod(square, 8)
-    #             button = self.buttons[7 - row][col]
-    #             button.config(image='')  
-    
-
-    def place_pieces(self):
-        piece_symbols = {
-            chess.PAWN: 'P', chess.KNIGHT: 'N', chess.BISHOP: 'B',
-            chess.ROOK: 'R', chess.QUEEN: 'Q', chess.KING: 'K'
-        }
         for square in chess.SQUARES:
             piece = self.board.piece_at(square)
             if piece:
-                symbol = piece_symbols.get(piece.piece_type, '')
                 color = 'white' if piece.color == chess.WHITE else 'black'
                 row, col = divmod(square, 8)
-                self.buttons[row][col].config(text=symbol, fg=color)
+                image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
+                photo_image = ImageTk.PhotoImage(image)
+                button = self.buttons[7 - row][col]
+                button.config(image=photo_image)
+                button.image = photo_image  
             else:
                 row, col = divmod(square, 8)
-                self.buttons[row][col].config(text='', fg='black')
+                button = self.buttons[7 - row][col]
+                button.config(image='')  
+    
+
+    # def place_pieces(self):
+    #     piece_symbols = {
+    #         chess.PAWN: 'P', chess.KNIGHT: 'N', chess.BISHOP: 'B',
+    #         chess.ROOK: 'R', chess.QUEEN: 'Q', chess.KING: 'K'
+    #     }
+    #     for square in chess.SQUARES:
+    #         piece = self.board.piece_at(square)
+    #         if piece:
+    #             symbol = piece_symbols.get(piece.piece_type, '')
+    #             color = 'white' if piece.color == chess.WHITE else 'black'
+    #             row, col = divmod(square, 8)
+    #             self.buttons[row][col].config(text=symbol, fg=color)
+    #         else:
+    #             row, col = divmod(square, 8)
+    #             self.buttons[row][col].config(text='', fg='black')
 
 
 
