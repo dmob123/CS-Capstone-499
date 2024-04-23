@@ -18,18 +18,23 @@ class ChessGUI:
         self.master = master
         self.master.title("Chess")
         self.board = chess.Board()
-        self.engine_path = os.path.abspath('stockfish_win/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')
+        self.engine_path = os.path.abspath('stockfish_win/stockfish-windows-x86-64.exe') if self.is_windows() else os.path.abspath('stockfish/stockfish-ubuntu-x86-64-avx2')       
         self.engine = chess.engine.SimpleEngine.popen_uci(self.engine_path)
         self.selected_piece = None  # Track the currently selected piece
         self.current_player = chess.WHITE  # Track the current player (white starts)
         self.white_elo, self.black_elo = self.prompt_for_elo()  # Prompt for ELO scores
-        self.create_board()
-        self.place_pieces()   
-        self.create_evaluation_bars()     
+        self.white_win_probability, self.black_win_probability = self.calculate_initial_probabilities() # Set the win probability for black and white
         self.display_elo_scores()  # Display ELO scores
-        self.update_evaluation()  # Initial evaluation
         self.button_width = 32  # Initial width of the images
         self.button_height = 32  # Initial height of the images
+        self.create_board() # Create chess board
+        self.side_labels()  # Display side labels
+        self.place_pieces() # Place pieces on the board
+        self.create_evaluation_bars()   # Display evaluation bars
+        self.display_win_probabilities()  # Display initial winning probabilities
+        self.update_evaluation()  # Initial evaluation
+        self.create_increase_image_size_button()    # Display the increase image (chess pieces) button
+        self.create_decrease_image_size_button()    # Display the decrease image (chess pieces) button
         self.piece_values = {
             chess.PAWN: 1,
             chess.KNIGHT: 3,
@@ -39,30 +44,57 @@ class ChessGUI:
             chess.KING: 0
         }
 
-
-    def prompt_for_elo(self):   # Prompt the user for white and black player's ELO scores 
+                
+    def prompt_for_elo(self):   # Prompt the user for white and black player's ELO scores as well as if they are using the color blind mode
         white_elo = simpledialog.askinteger("ELO Score", "Enter White player's ELO score:", parent=self.master)
         black_elo = simpledialog.askinteger("ELO Score", "Enter Black player's ELO score:", parent=self.master)
         return white_elo, black_elo
     
-    def display_elo_scores(self):
-        # Display ELO scores on the game window
-        white_elo_label = tk.Label(self.master, text=f"White ELO: {self.white_elo}", fg="black")
-        white_elo_label.grid(row=9, column=0, columnspan=4, sticky="w")
-        black_elo_label = tk.Label(self.master, text=f"Black ELO: {self.black_elo}", fg="blue")
-        black_elo_label.grid(row=9, column=4, columnspan=4, sticky="e")
 
-    def create_board(self):
+    def calculate_initial_probabilities(self):
+        # Calculate initial winning probabilities based on ELO scores
+        delta_elo = self.white_elo - self.black_elo
+        probability_white_wins = 1 / (1 + 10 ** (delta_elo / -400))
+        probability_black_wins = 1 - probability_white_wins
+        return probability_white_wins, probability_black_wins
+
+    def display_elo_scores(self):   # Display ELO scores on the game window
+        white_elo_label = tk.Label(self.master, text=f"White ELO: {self.white_elo}", fg="black")
+        white_elo_label.grid(row=12, column=1, columnspan=2, sticky="")
+        black_elo_label = tk.Label(self.master, text=f"Black ELO: {self.black_elo}", fg="black")
+        black_elo_label.grid(row=12, column=5, columnspan=2, sticky="")
+
+    def display_win_probabilities(self):    # Display win probabilities
+        self.win_prob_label = tk.Label(self.master, text=f"Win Probability - White: {self.white_win_probability*100:.1f}%, Black: {self.black_win_probability*100:.1f}%", fg="green")
+        self.win_prob_label.grid(row=13, column=1, columnspan=6)
+    
+
+    def update_win_probabilities(self, score):  # Update display after adjustment
+        score_difference = score - 0  # Assuming 0 is the starting score for an even match
+        adjustment_factor = 1 / (1 + math.exp(-score_difference / 400))  # Sigmoid function
+        if self.current_player == chess.WHITE:
+            self.white_win_probability *= adjustment_factor
+        else:
+            self.black_win_probability *= adjustment_factor
+        # Ensure total probability sums to 1
+        total_probability = self.white_win_probability + self.black_win_probability
+        self.white_win_probability /= total_probability
+        self.black_win_probability /= total_probability
+        self.display_win_probabilities()  # Update display after adjustment
+
+    def create_board(self): # Create chess board
         self.buttons = [[None for _ in range(8)] for _ in range(8)]
         for row in range(8):
             for col in range(8):
-                color = "#F0D9B5" if (row + col) % 2 == 0 else "#B58863"
-                button = tk.Button(self.master, bg=color, width=8, height=4,
-                                   command=lambda r=row, c=col: self.on_click(r, c))
-                button.grid(row=row, column=col)
-                self.buttons[row][col] = button
+                color = "#F0D9B5" if (row + col) % 2 != 0 else "#B58863"
+                button = tk.Button(self.master, bg=color, width=14, height=1,
+                    command=lambda r=row, c=col: self.on_click(7-r, c))
+                button.grid(row=7-row, column=col, sticky="nsew") 
+                self.master.grid_rowconfigure(7-row, weight=1)
+                self.master.grid_columnconfigure(col, weight=1)  
+                self.buttons[7-row][col] = button
 
- 
+    
     def side_labels(self):  # Place labels on the side of the chessboard
         labela = tk.Label(self.master, text=f"a", fg="black")
         labela.grid(row=9, column=0, columnspan=1, sticky="")
@@ -97,76 +129,56 @@ class ChessGUI:
         label8 = tk.Label(self.master, text=f"1", fg="black")
         label8.grid(row=7, column=8, columnspan=1, sticky="")
     
-    # def place_pieces(self): # Place the pieces along with their images on the board
-    #     piece_images = {
-    #         chess.PAWN: {
+    def place_pieces(self): # Place the pieces along with their images on the board
+        piece_images = {
+            chess.PAWN: {
                 
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
-    #     },
-    #         chess.ROOK: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
-    #     },
-    #         chess.KNIGHT: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
-    #     },
-    #         chess.BISHOP: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))  # User must update path for image
-    #     },
-    #         chess.QUEEN: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
-    #     },
-    #         chess.KING: {
-    #             chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
-    #             chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
-    #     },
-    # }
-    #     button_width = 32  # Default width of the button
-    #     button_height = 32  # Default height of the button
-        
-    #     for square in chess.SQUARES:
-    #         piece = self.board.piece_at(square)
-    #         if piece:
-    #             color = 'white' if piece.color == chess.WHITE else 'black'
-    #             row, col = divmod(square, 8)
-    #             image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
-    #             photo_image = ImageTk.PhotoImage(image)
-    #             button = self.buttons[7 - row][col]
-    #             button.config(image=photo_image)
-    #             button.image = photo_image  
-    #         else:
-    #             row, col = divmod(square, 8)
-    #             button = self.buttons[7 - row][col]
-    #             button.config(image='')  
-    
-
-    def place_pieces(self):
-        piece_symbols = {
-            chess.PAWN: 'P', chess.KNIGHT: 'N', chess.BISHOP: 'B',
-            chess.ROOK: 'R', chess.QUEEN: 'Q', chess.KING: 'K'
-        }
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))
+        },
+            chess.ROOK: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))
+        },
+            chess.KNIGHT: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))
+        },
+            chess.BISHOP: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))
+        },
+            chess.QUEEN: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))
+        },
+            chess.KING: {
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    
+        },
+    }
+        button_width = 32  # Default width of the button
+        button_height = 32  # Default height of the button
         for square in chess.SQUARES:
             piece = self.board.piece_at(square)
             if piece:
-                symbol = piece_symbols.get(piece.piece_type, '')
                 color = 'white' if piece.color == chess.WHITE else 'black'
                 row, col = divmod(square, 8)
-                self.buttons[row][col].config(text=symbol, fg=color)
+                image = piece_images[piece.piece_type][piece.color].resize((button_width, button_height))
+                photo_image = ImageTk.PhotoImage(image)
+                button = self.buttons[7 - row][col]
+                button.config(image=photo_image)
+                button.image = photo_image  
             else:
                 row, col = divmod(square, 8)
-                self.buttons[row][col].config(text='', fg='black')
-
-
-
+                button = self.buttons[7 - row][col]
+                button.config(image='')  
+    
     def create_increase_image_size_button(self): # Create an "increase image size" button
         self.increase_image_size_button = tk.Button(self.master, text="Increase Image Size", command=self.increase_image_size)
         self.increase_image_size_button.grid(row=13, column=9, columnspan=1, pady=5)
 
-    def increase_image_size(self):
+    def increase_image_size(self):  # Increase the image sizes of the chess pieces
         if self.button_width < 64:  # Set a max width for the images
             self.button_width += 8  # Increase the width of the images
         if self.button_height < 64:  # Set a max height for the image
@@ -177,7 +189,7 @@ class ChessGUI:
         self.increase_image_size_button = tk.Button(self.master, text="Decrease Image Size", command=self.decrease_image_size)
         self.increase_image_size_button.grid(row=14, column=9, columnspan=8, pady=5) 
 
-    def decrease_image_size(self):
+    def decrease_image_size(self):  # Decrease the image sizes of the chess pieces
         if self.button_width > 16 :  # Set a min width for the images
             self.button_width -= 8  # Decrease the width of the images
         if self.button_height > 16:  # Set a min height for the images
@@ -187,30 +199,32 @@ class ChessGUI:
     def update_image_size(self): # Update image size based on the increasement or decreasement of the images
         piece_images = {
             chess.PAWN: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),   # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    # User must update path for image
+                
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))    
         },
             chess.ROOK: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),   # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),  
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))    
         },
             chess.KNIGHT: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")), # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))  # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png")) 
         },
             chess.BISHOP: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")), # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")),
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))  
         },
             chess.QUEEN: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))   # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),  
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))  
         },
             chess.KING: {
-                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   # User must update path for image
-                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    # User must update path for image
+                chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),   
+                chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))
         },
     }
+        
         for square in chess.SQUARES:
             piece = self.board.piece_at(square)
             if piece:
@@ -227,123 +241,29 @@ class ChessGUI:
         white_elo_label1.grid(row=10, column=1, columnspan=2, sticky="")
         black_elo_label1 = tk.Label(self.master, text=f"Black Evaluation", fg="black")
         black_elo_label1.grid(row=10, column=5, columnspan=2, sticky="")
-        self.black_bar = tk.Scale(self.master, from_=-10000, to=10000, orient="horizontal")
+        self.black_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.black_bar.grid(row=11, column=0, columnspan=4, sticky="ew")
-        self.white_bar = tk.Scale(self.master, from_=-10000, to=10000, orient="horizontal")
+        self.white_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.white_bar.grid(row=11, column=4, columnspan=4, sticky="ew")
-
-
-    def create_increase_font_button(self):  # Create an "increase font" button
-        self.font_size = 8  # Initial font size
-        self.increase_font_button = tk.Button(self.master, text="Increase Font Size", command=self.increase_font)
-        self.increase_font_button.grid(row=11, column=9, columnspan=8, pady=5)
     
-    def increase_font(self):
-         if self.font_size < 12:    # Set the max size of font to 12
-            self.font_size += 1  # Increase the font size by 1 unit
-            self.update_font_size(self.master)  # Update font size
-
-    def create_decrease_font_button(self):  # Create an "decrease font" button
-        self.font_size = 8  # Initial font size
-        self.increase_font_button = tk.Button(self.master, text="Decrease Font Size", command=self.decrease_font)
-        self.increase_font_button.grid(row=12, column=9, columnspan=8, pady=5)
-    
-    def decrease_font(self):
-         if self.font_size > 6: # Set the min size of font to 6
-            self.font_size -= 1  # Decrease the font size by 1 unit
-            self.update_font_size(self.master)  # Update font size
-
-    def update_font_size(self, widget): # Update font size utilitizing isinstance and widgets, https://www.w3schools.com/python/ref_func_isinstance.asp
-        if isinstance(widget, tk.Text) or isinstance(widget, tk.Label):
-            current_font = widget.cget("font")
-            new_font = (current_font[0], self.font_size)  
-            widget.config(font=new_font)
-        for child in widget.winfo_children():
-            self.update_font_size(child)
-
-
     def on_click(self, row, col):
+        adjusted_row = 7 - row
+        square = chess.square(col, adjusted_row)
+        piece = self.board.piece_at(square)
         if not self.board.is_game_over():
-            square = chess.square(col, row)
-            piece = self.board.piece_at(square)
-        if self.selected_piece is None and piece and piece.color == self.current_player:
-            self.selected_piece = square  # Select the piece
-        elif self.selected_piece is not None:
-            move = chess.Move(self.selected_piece, square)
-            if move in self.board.legal_moves:
-                # pre_move_evaluation = self.evaluate_position()  # Evaluate before making the move
-                self.board.push(move)  # Make the move
-                # post_move_evaluation = self.evaluate_position()  # Evaluate after making the move
-                # move_quality = self.analyze_move_quality(pre_move_evaluation, post_move_evaluation)  # Analyze move quality
-                # messagebox.showinfo("Move Quality", move_quality)  # Display move quality feedback
+            if self.selected_piece is None and piece and piece.color == self.current_player:
+                self.selected_piece = square  # Select the piece
+            elif self.selected_piece is not None:
+                target_square = chess.square(col, adjusted_row)
+                move = chess.Move(self.selected_piece, target_square)
+                if move in self.board.legal_moves:
+                    self.board.push(move)  # Make the move
+                    self.current_player = not self.current_player
+                    self.place_pieces()
+                    self.update_evaluation()
+                    self.check_game_end()
+                self.selected_piece = None
 
-                self.current_player = not self.current_player
-                self.place_pieces()
-                self.update_evaluation()
-                self.check_game_end()
-            self.selected_piece = None
-
-    def explain_fen(self, fen):
-        parts = fen.split(' ')  # Split the FEN string into its components
-        board, turn, castling, en_passant, halfmove, fullmove = parts
-        board_rows = board.split('/')   # Translate the board part of FEN to a more understandable format
-        board_explanation = "Board setup:\n"
-        for row in board_rows:
-            readable_row = row.replace('1', '.').replace('2', '..').replace('3', '...').replace('4', '....').replace('5', '.....').replace('6', '......').replace('7', '.......').replace('8', '........')
-            board_explanation += f"{readable_row}\n"
-        turn_explanation = "White's turn" if turn == 'w' else "Black's turn"    # Explain whose turn it is
-        castling_explanation = "Castling rights: " + (castling if castling != '-' else 'None')  # Explain castling rights
-        en_passant_explanation = "En passant target square: " + (en_passant if en_passant != '-' else 'None')   # Explain en passant target square
-        halfmove_explanation = f"Halfmove clock (for 50-move rule): {halfmove}" # Explain halfmove clock (steps since last capture or pawn move)
-        fullmove_explanation = f"Fullmove number: {fullmove}"   # Explain fullmove number (incremented after Black's turn)
-        explanation = f"{board_explanation}\n{turn_explanation}\n{castling_explanation}\n{en_passant_explanation}\n{halfmove_explanation}\n{fullmove_explanation}"  # Combine all explanations into one string
-        return explanation
-
-    def provide_in_depth_analysis(self):
-        info = self.engine.analyse(self.board, chess.engine.Limit(depth=20))
-        score = info.get("score", None)
-        message = "In-depth Analysis: "
-        if score is not None:
-            cp = score.white().score(mate_score=10000)
-            mate = score.white().mate()
-            if mate is not None:
-                message += f"Checkmate in {mate} moves by {'White' if mate > 0 else 'Black'}.\n"
-            elif cp is not None:
-                adv = abs(cp) / 100.0
-                message += f"{'White' if cp > 0 else 'Black'} has a {adv:.2f} point advantage. "
-                '''
-                as of right now i am giving simplistic general analysis of the game on side as the evaluation bars are 
-                being updated during the game if we can adjust these but it is not a must
-                '''
-            # General Analysis based on score
-            if abs(cp) < 100:
-                message += "The game is relatively balanced. "
-            elif abs(cp) < 300:
-                message += "Slight advantage, consider developing pieces or controlling the center. "
-            else:
-                message += "Significant advantage, look for tactical opportunities or increase pressure. "
-            pawns = self.board.pieces(chess.PAWN, chess.WHITE) | self.board.pieces(chess.PAWN, chess.BLACK) # Pawn Structure Analysis (Simplistic)
-            if len(pawns) < 12:
-                message += "Open pawn structure, consider piece mobility and king safety. "
-            else:
-                message += "Closed pawn structure, consider pawn breaks and space advantage. "
-            # King Safety (Very Simplistic)
-            if self.board.is_checkmate():
-                message += "One of the kings is in checkmate. "
-            elif self.board.is_check():
-                message += "Active check, consider defensive moves. "
-            else:
-                message += "No immediate threats, but always consider king safety. "
-            # Piece Mobility (Simplistic)
-            # Considering the number of legal moves as a proxy for mobility
-            num_legal_moves = len(list(self.board.legal_moves))
-            if num_legal_moves < 20:
-                message += "Limited mobility, consider improving the positioning of your pieces. "
-            else:
-                message += "Good mobility, look for opportunities to exploit. "
-        else:
-            message += "Unable to provide an in-depth analysis at this time."
-        return message
 
     def evaluate_position(self):
         print("Evaluation Started")
@@ -388,14 +308,17 @@ class ChessGUI:
         print("Evaluation finished")
         return np.dot(pVec, npEvals)
     
+
     def update_evaluation(self):    # Updates evaluation
         if not self.board.is_game_over():
             current_evaluation = self.evaluate_position()
             if current_evaluation is not None:
                 self.white_bar.set(current_evaluation)
                 self.black_bar.set(-current_evaluation)
+                self.update_win_probabilities(current_evaluation)  # Update win probabilities based on current evaluation
 
-    def check_game_end(self):
+
+    def check_game_end(self):   # Check to see if a checkmate was reached or if there can be no moves left (stalemate)
         if self.board.is_checkmate():
             result = "Checkmate. " + ("White wins!" if self.current_player == chess.BLACK else "Black wins!")
             tk.messagebox.showinfo("Game Over", result)
@@ -445,7 +368,6 @@ class ChessGUI:
         self.board.pop()
 
         return [isCapture, isPromotion, material_captured, capturable, sacrifice, material_sacrificed, teval]
-
 
 def main():
     root = tk.Tk()
