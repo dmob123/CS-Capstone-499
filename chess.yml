@@ -1,0 +1,13 @@
+name: chess
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.9
+  - requests
+  - numpy
+  - scikit-learn
+  - pillow
+  - pandas
+  - python-chess
+prefix: /root/miniconda3/envs/chess
