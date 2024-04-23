@@ -135,28 +135,29 @@ class ChessGUI:
                 
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/pawn.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/pawn.png"))
-        },
+            },
             chess.ROOK: {
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/rook.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/rook.png"))
-        },
+            },
             chess.KNIGHT: {
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/knight.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/knight.png"))
-        },
+            },
             chess.BISHOP: {
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/bishop.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/bishop.png"))
-        },
+            },
             chess.QUEEN: {
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/queen.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/queen.png"))
-        },
+            },
             chess.KING: {
                 chess.WHITE: Image.open(os.path.abspath("chess_pieces/white/king.png")),
                 chess.BLACK: Image.open(os.path.abspath("chess_pieces/black/king.png"))    
-        },
-    }
+            },
+        }
+        
         button_width = 32  # Default width of the button
         button_height = 32  # Default height of the button
         for square in chess.SQUARES:
@@ -179,22 +180,22 @@ class ChessGUI:
         self.increase_image_size_button.grid(row=13, column=9, columnspan=1, pady=5)
 
     def increase_image_size(self):  # Increase the image sizes of the chess pieces
-        if self.button_width < 64:  # Set a max width for the images
-            self.button_width += 8  # Increase the width of the images
-        if self.button_height < 64:  # Set a max height for the image
-            self.button_height += 8  # Increase the height of the images
-        self.update_image_size()    # Update the image sizes of the pieces
+        if self.button_width < 64:
+            self.button_width += 8
+        if self.button_height < 64:
+            self.button_height += 8 
+        self.update_image_size() 
 
     def create_decrease_image_size_button(self): # Create a "decrease image size" button
         self.increase_image_size_button = tk.Button(self.master, text="Decrease Image Size", command=self.decrease_image_size)
         self.increase_image_size_button.grid(row=14, column=9, columnspan=8, pady=5) 
 
     def decrease_image_size(self):  # Decrease the image sizes of the chess pieces
-        if self.button_width > 16 :  # Set a min width for the images
-            self.button_width -= 8  # Decrease the width of the images
-        if self.button_height > 16:  # Set a min height for the images
-            self.button_height -= 8  # Decrease the height of the images
-        self.update_image_size()   # Update the image sizes of the pieces
+        if self.button_width > 16 : 
+            self.button_width -= 8 
+        if self.button_height > 16: 
+            self.button_height -= 8  
+        self.update_image_size()   
 
     def update_image_size(self): # Update image size based on the increasement or decreasement of the images
         piece_images = {
@@ -242,7 +243,9 @@ class ChessGUI:
         black_elo_label1 = tk.Label(self.master, text=f"Black Evaluation", fg="black")
         black_elo_label1.grid(row=10, column=5, columnspan=2, sticky="")
         self.black_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
+        self.black_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.black_bar.grid(row=11, column=0, columnspan=4, sticky="ew")
+        self.white_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.white_bar = tk.Scale(self.master, from_=-100, to=100, orient="horizontal", resolution=0.1)
         self.white_bar.grid(row=11, column=4, columnspan=4, sticky="ew")
     
